@@ -1,0 +1,4 @@
+grantedPermissionMap: 
+  '*:*': 
+    - console
+    - 'm*'

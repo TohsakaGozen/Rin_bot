@@ -1,0 +1,17 @@
+# 自定义了R18属性的用户
+customR18Users: {}
+
+# 自定义了R18属性的群
+customR18Groups: 
+  460292097: 0
+# 自定义了撤回时间的用户和对应的值
+customRecallUsers: {}
+
+# 自定义了撤回时间的用户和对应的值
+customRecallGroups: {}
+
+# 自定义了冷却时间的用户和对应的值
+customCooldownUsers: {}
+
+# 自定义了冷却时间的群和对应的值
+customCooldownGroups: {}

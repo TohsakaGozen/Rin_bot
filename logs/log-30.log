@@ -1,0 +1,229 @@
+[92m2022-09-22 19:41:55 I/main: Starting mirai-console...[0m[m
+[92m2022-09-22 19:41:55 I/main: Backend: version 2.12.1, built on 2022-07-31 17:49:27.[0m[m
+[92m2022-09-22 19:41:55 I/main: Frontend Terminal: version 2.12.1, provided by Mamoe Technologies[0m[m
+[92m2022-09-22 19:41:55 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-09-22 19:41:55 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-09-22 19:41:55 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-09-22 19:41:55 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-09-22 19:41:56 I/plugin: Successfully loaded plugin Chat Command v0.5.0[0m[m
+[92m2022-09-22 19:41:56 I/plugin: Successfully loaded plugin Lolicon v6.0.4[0m[m
+[92m2022-09-22 19:41:56 I/plugin: Successfully loaded plugin HRobot v1.0.0[0m[m
+[92m2022-09-22 19:41:56 I/plugin: Successfully loaded plugin iam.xiaoan.RanImage v1.0-SNAPSHOT[0m[m
+[92m2022-09-22 19:41:56 I/plugin: Successfully loaded plugin SuperCourseTimetable v0.4.7[0m[m
+[92m2022-09-22 19:41:56 I/plugin: Successfully loaded plugin MCL Addon v2.0.2[0m[m
+[92m2022-09-22 19:41:56 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-09-22 19:41:56 I/Lolicon: Plugin loaded[0m[m
+[92m2022-09-22 19:41:56 I/HRobot: 正在初始化机器人配置[0m[m
+[92m2022-09-22 19:41:56 I/HRobot: 配置初始化完成[0m[m
+[92m2022-09-22 19:41:56 I/stdout: RobotConfig.customKeyword = {全局关键字=全局关键字回复, #regex#全局正则表达式=回复, 群号=群内关键字: 群内关键字回复, 1109825279={原神=原神怎么你了！, 杰哥=杰哥快教我登dua郎！, 课程表=mirai:image:{75C5DCD8-297A-9352-08E9-DD3FAAE85306}.gif, width=200, height=200, size=1137187, type=GIF, isEmoji=true}}[0m[m
+[91m2022-09-22 19:41:56 W/HRobot: Linked class org.slf4j.impl.StaticLoggerBinder in SCTimetableBot-0.4.7.mirai.jar but plugin not depend on it.[0m[m
+[91m2022-09-22 19:41:56 W/HRobot: Class loading logic may change in feature.[0m[m
+[92m2022-09-22 19:41:56 I/org.reflections.Reflections: Reflections took 47 ms to scan 1 urls, producing 21 keys and 62 values [0m[m
+[92m2022-09-22 19:41:56 I/HRobot: HRobot handlers and filters loading finished, total 15 handlers, 3 inspectors.[0m[m
+[92m2022-09-22 19:41:56 I/stdout: Pattern = true[0m[m
+[92m2022-09-22 19:41:56 I/HRobot: cron task running...[0m[m
+[92m2022-09-22 19:41:56 I/stdout:         ,--,                                                    [0m[m
+[92m2022-09-22 19:41:56 I/stdout:       ,--.'|,-.----.                                    ___     [0m[m
+[92m2022-09-22 19:41:56 I/stdout:    ,--,  | :\    /  \             ,---,               ,--.'|_   [0m[m
+[92m2022-09-22 19:41:56 I/stdout: ,---.'|  : ';   :    \   ,---.  ,---.'|      ,---.    |  | :,'  [0m[m
+[92m2022-09-22 19:41:56 I/stdout: |   | : _' ||   | .\ :  '   ,'\ |   | :     '   ,'\   :  : ' :  [0m[m
+[92m2022-09-22 19:41:56 I/stdout: :   : |.'  |.   : |: | /   /   |:   : :    /   /   |.;__,'  /   [0m[m
+[92m2022-09-22 19:41:56 I/stdout: |   ' '  ; :|   |  \ :.   ; ,. ::     |,-..   ; ,. :|  |   |    [0m[m
+[92m2022-09-22 19:41:56 I/stdout: '   |  .'. ||   : .  /'   | |: :|   : '  |'   | |: ::__,'| :    [0m[m
+[92m2022-09-22 19:41:56 I/stdout: |   | :  | ';   | |  \'   | .; :|   |  / :'   | .; :  '  : |__  [0m[m
+[92m2022-09-22 19:41:56 I/stdout: '   : |  : ;|   | ;\  \   :    |'   : |: ||   :    |  |  | '.'| [0m[m
+[92m2022-09-22 19:41:56 I/stdout: |   | '  ,/ :   ' | \.'\   \  / |   | '/ : \   \  /   ;  :    ; [0m[m
+[92m2022-09-22 19:41:56 I/stdout: ;   : ;--'  :   : :-'   `----'  |   :    |  `----'    |  ,   /  [0m[m
+[92m2022-09-22 19:41:56 I/stdout: |   ,/      |   |.'             /    \  /              ---`-'       [0m[m
+[92m2022-09-22 19:41:56 I/stdout: '---'       `---'               `-'----'                            v3.2.1[0m[m
+[92m2022-09-22 19:41:57 I/stdout: latestVersion = HRobot v3.2.1[0m[m
+[92m2022-09-22 19:41:57 I/HRobot: 当前 HRobot 插件已为最新版[0m[m
+[92m2022-09-22 19:41:57 I/iam.xiaoan.RanImage: Plugin loaded![0m[m
+[92m2022-09-22 19:41:57 I/iam.xiaoan.RanImage: 你好！我是小安！感谢你使用这款随机二次元图片插件！[0m[m
+[92m2022-09-22 19:41:57 I/SuperCourseTimetable: Plugin loaded[0m[m
+[92m2022-09-22 19:41:57 I/com.zaxxer.hikari.HikariDataSource: SCTimetableDB Pool - Starting...[0m[m
+[92m2022-09-22 19:41:57 I/com.zaxxer.hikari.pool.HikariPool: SCTimetableDB Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@4948daec[0m[m
+[92m2022-09-22 19:41:57 I/com.zaxxer.hikari.HikariDataSource: SCTimetableDB Pool - Start completed.[0m[m
+[92m2022-09-22 19:41:57 I/SuperCourseTimetable: Database is connected.[0m[m
+[92m2022-09-22 19:41:57 I/SuperCourseTimetable: Waiting target Bot 2118654642 goes online...[0m[m
+[92m2022-09-22 19:41:57 I/MCL Addon: iTXTech MCL Version: 2.1.1-d66fada[0m[m
+[91m2022-09-22 19:41:57 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用[0m[m
+[92m2022-09-22 19:41:57 I/main: 6 plugin(s) enabled.[0m[m
+[92m2022-09-22 19:41:57 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-09-22 19:41:57 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[92m2022-09-22 19:41:57 I/main: Auto-login 2118654642[0m[m
+[91m2022-09-22 19:41:58 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-09-22 19:42:00 I/Bot.2118654642: Login successful[0m[m
+[92m2022-09-22 19:42:00 I/Bot.2118654642: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-09-22 19:42:00 I/Bot.2118654642: Login successful.[0m[m
+[0m2022-09-22 19:42:00 V/Bot.2118654642: Event: BotOnlineEvent(bot=Bot(2118654642))[0m[m
+[92m2022-09-22 19:42:00 I/Bot.2118654642: Bot login successful.[0m[m
+[92m2022-09-22 19:42:00 I/main: mirai-console started successfully.[0m[m
+[92m2022-09-22 19:42:00 I/org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor[0m[m
+[92m2022-09-22 19:42:00 I/org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: DefaultDispatcher-worker-5[0m[m
+[92m2022-09-22 19:42:00 I/org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl[0m[m
+[92m2022-09-22 19:42:00 I/org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.3.2 created.[0m[m
+[92m2022-09-22 19:42:00 I/org.quartz.simpl.RAMJobStore: RAMJobStore initialized.[0m[m
+[92m2022-09-22 19:42:00 I/org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+[0m[m
+[92m2022-09-22 19:42:00 I/org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'[0m[m
+[92m2022-09-22 19:42:00 I/org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.3.2[0m[m
+[92m2022-09-22 19:42:00 I/org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.[0m[m
+[92m2022-09-22 19:42:00 I/org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.[0m[m
+[92m2022-09-22 19:42:00 I/SuperCourseTimetable: TimeProviderService: Job SemesterUpdater is executed. (semester 1 begins in 2022.)[0m[m
+[92m2022-09-22 19:42:00 I/SuperCourseTimetable: ScheduleListenerService: ScheduleListenerService is started.[0m[m
+[92m2022-09-22 19:42:00 I/SuperCourseTimetable: TimeProviderService: Job SchoolWeekPeriodUpdater is executed.[0m[m
+[92m2022-09-22 19:42:00 I/SuperCourseTimetable: TimeProviderService: TimeProviderServices(TimeProviderService$SemesterUpdaterJob, TimeProviderService$SchoolWeekPeriodUpdaterJob) have started.[0m[m
+[92m2022-09-22 19:42:00 I/SuperCourseTimetable: ScheduleListenerService: Notification distribution job has executed.[0m[m
+[0m2022-09-22 19:43:10 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 涩图[0m[m
+[92m2022-09-22 19:43:10 I/stdout: RobotConfig.enableRobot = true[0m[m
+[91m2022-09-22 19:43:10 W/stderr: java.lang.NullPointerException: Cannot invoke "java.util.Map.put(Object, Object)" because "map" is null[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:69)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:87)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.api.PixivApi.getSeImagePid(PixivApi.java:75)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.ImageShareMessageEventHandler.doParseSeImage(ImageShareMessageEventHandler.java:166)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.ImageShareMessageEventHandler.handleMessageEvent(ImageShareMessageEventHandler.java:76)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:98)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)[0m[m
+[91m2022-09-22 19:43:10 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)[0m[m
+[0m2022-09-22 19:43:11 V/Bot.2118654642: Group(1109825279) <- 意外地失去了与地球上的通信...\n错误原因：Cannot invoke "java.util.Map.put(Object, Object)" because "map" is null[0m[m
+[92m2022-09-22 19:43:20 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 19:43:20 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> llc[0m[m
+[92m2022-09-22 19:43:20 I/HRobot: init bot...[0m[m
+[92m2022-09-22 19:43:20 I/HRobot: 正在提交定期任务...[0m[m
+[92m2022-09-22 19:43:20 I/HRobot: 任务提交成功！[0m[m
+[0m2022-09-22 19:44:25 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:2118654642] 涩图[0m[m
+[92m2022-09-22 19:44:25 I/stdout: RobotConfig.enableRobot = true[0m[m
+[91m2022-09-22 19:44:25 W/stderr: java.lang.NullPointerException: Cannot invoke "java.util.Map.put(Object, Object)" because "map" is null[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:69)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:87)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.api.PixivApi.getSeImagePid(PixivApi.java:75)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.ImageShareMessageEventHandler.doParseSeImage(ImageShareMessageEventHandler.java:166)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.ImageShareMessageEventHandler.handleMessageEvent(ImageShareMessageEventHandler.java:76)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:98)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)[0m[m
+[91m2022-09-22 19:44:25 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)[0m[m
+[0m2022-09-22 19:44:26 V/Bot.2118654642: Group(1109825279) <- 意外地失去了与地球上的通信...\n错误原因：Cannot invoke "java.util.Map.put(Object, Object)" because "map" is null[0m[m
+[0m2022-09-22 19:44:32 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 涩图[0m[m
+[92m2022-09-22 19:44:32 I/stdout: RobotConfig.enableRobot = true[0m[m
+[91m2022-09-22 19:44:33 W/stderr: java.lang.NullPointerException: Cannot invoke "java.util.Map.put(Object, Object)" because "map" is null[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:69)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:87)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.api.PixivApi.getSeImagePid(PixivApi.java:75)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.ImageShareMessageEventHandler.doParseSeImage(ImageShareMessageEventHandler.java:166)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.ImageShareMessageEventHandler.handleMessageEvent(ImageShareMessageEventHandler.java:76)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:98)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)[0m[m
+[91m2022-09-22 19:44:33 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)[0m[m
+[0m2022-09-22 19:44:33 V/Bot.2118654642: Group(1109825279) <- 意外地失去了与地球上的通信...\n错误原因：Cannot invoke "java.util.Map.put(Object, Object)" because "map" is null[0m[m
+[92m2022-09-22 19:44:40 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 19:44:40 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:2118654642] 可恶[0m[m
+[0m2022-09-22 19:44:42 V/Bot.2118654642: Group(1109825279) <- 别这么说[0m[m
+[92m2022-09-22 19:44:55 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 19:44:55 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:quote:[mirai:source:ids=[40035], internalIds=[361803364], from 2118654642 to 1109825279 at 1663847084], content=<not yet initialized>][mirai:at:2118654642] 色图[0m[m
+[0m2022-09-22 19:44:57 V/Bot.2118654642: Group(1109825279) <- 好自己查[0m[m
+[0m2022-09-22 19:45:13 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:quote:[mirai:source:ids=[40037], internalIds=[560951858], from 2118654642 to 1109825279 at 1663847099], content=<not yet initialized>][mirai:at:2118654642] 音乐智障[0m[m
+[92m2022-09-22 19:45:13 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 19:45:15 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=QQMusic, title=智障, summary=请点击右侧按钮播放, jumpUrl=http://y.qq.com/n/yqq/song/003Q7s0m21MgWK.html, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://ws.stream.qqmusic.qq.com/C400003Q7s0m21MgWK.m4a?guid=4220211900&vkey=C8AE25939D3FB1370DC86E3238CC2C3D72D278FA8BB79FDF19842714CEE00688780DE395C34C4EF6AA4B4C5111616F9F6BFC04421E3FD494&uin=&fromtag=123032, brief=[分享]智障)[0m[m
+[0m2022-09-22 19:45:21 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 来一张[0m[m
+[92m2022-09-22 19:45:21 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 19:45:26 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 19:45:26 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:2118654642] 来一张[0m[m
+[0m2022-09-22 19:45:29 V/Bot.2118654642: Group(1109825279) <- 一月份[0m[m
+[0m2022-09-22 19:46:09 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> /location get[0m[m
+[92m2022-09-22 19:46:09 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 19:46:18 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> /location get 东方[0m[m
+[92m2022-09-22 19:46:18 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 19:46:21 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:quote:[mirai:source:ids=[40042], internalIds=[225222718], from 2118654642 to 1109825279 at 1663847131], content=<not yet initialized>][mirai:at:2118654642] 你怎么看待叙利亚局势[0m[m
+[92m2022-09-22 19:46:21 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 19:46:23 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:2118654642] /location get 东方[0m[m
+[92m2022-09-22 19:46:23 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 19:46:24 V/Bot.2118654642: Group(1109825279) <- 想怎么看就怎么看[0m[m
+[0m2022-09-22 19:46:26 V/Bot.2118654642: Group(1109825279) <- 神奇[0m[m
+[92m2022-09-22 19:46:55 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 19:46:55 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> 【【补档】没学上，被网暴，随便吧】 https://www.bilibili.com/video/BV1h24y1d7ye?share_source=copy_web&vd_source=6156c70e21091e293525709797c34c1d[0m[m
+[92m2022-09-22 19:47:17 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 19:47:17 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> 我真的蚌埠住啦[0m[m
+[92m2022-09-22 19:47:20 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 19:47:20 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> 涩图[0m[m
+[91m2022-09-22 19:47:21 W/stderr: java.lang.NullPointerException: Cannot invoke "java.util.Map.put(Object, Object)" because "map" is null[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:69)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:87)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.api.PixivApi.getSeImagePid(PixivApi.java:75)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.ImageShareMessageEventHandler.doParseSeImage(ImageShareMessageEventHandler.java:166)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.ImageShareMessageEventHandler.handleMessageEvent(ImageShareMessageEventHandler.java:76)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:98)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)[0m[m
+[91m2022-09-22 19:47:21 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)[0m[m
+[0m2022-09-22 19:47:21 V/Bot.2118654642: Group(460292097) <- 意外地失去了与地球上的通信...\n错误原因：Cannot invoke "java.util.Map.put(Object, Object)" because "map" is null[0m[m
+[92m2022-09-22 19:47:28 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 19:47:28 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> [mirai:image:{FA9D4E11-3936-C6FF-4A4E-B498ADBE738D}.jpg, width=960, height=725, size=25516, type=JPG, isEmoji=true][0m[m
+[92m2022-09-22 19:47:48 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 19:47:48 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 额[0m[m
+[0m2022-09-22 19:48:21 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> /location help[0m[m
+[92m2022-09-22 19:48:21 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 19:48:39 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> /lolicon help[0m[m
+[92m2022-09-22 19:48:39 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 19:48:54 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> lolicon get[0m[m
+[92m2022-09-22 19:48:54 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 19:49:02 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> [mirai:at:2118654642] /lolicon help[0m[m
+[92m2022-09-22 19:49:02 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 19:49:05 V/Bot.2118654642: Group(460292097) <- 发的什么呀你，乱打的吧[0m[m

@@ -1,0 +1,650 @@
+[0m2022-09-22 15:12:20 V/Net 1679124358: No server list cached.[0m
+[92m2022-09-22 15:12:20 I/Net 1679124358: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-09-22 15:12:21 I/Net 1679124358: Successfully fetched ecdh public key from server.[0m
+[0m2022-09-22 15:12:21 V/Net 1679124358: Send: wtlogin.login[0m
+[0m2022-09-22 15:12:21 V/Net 1679124358: Recv: wtlogin.login[0m
+[0m2022-09-22 15:14:20 V/Net 1679124358: Send: wtlogin.login[0m
+[0m2022-09-22 15:14:20 V/Net 1679124358: Recv: wtlogin.login[0m
+[0m2022-09-22 15:14:20 V/Net 1679124358: Send: wtlogin.login[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: wtlogin.login[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: StatSvc.register(online)[0m
+[92m2022-09-22 15:14:21 I/Net 1679124358: Server time updated, serverTime: 1663830863, diff: 2ms=0.002s[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: StatSvc.register[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: No BdhSession cache[0m
+[92m2022-09-22 15:14:21 I/Net 1679124358: Syncing friend message history...[0m
+[92m2022-09-22 15:14:21 I/Net 1679124358: Start loading friend list...[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-09-22 15:14:21 I/Net 1679124358: Start loading stranger list...[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: OidbSvc.0x496[0m
+[92m2022-09-22 15:14:21 I/Net 1679124358: Start loading group list...[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: OidbSvc.0x5d2_0[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-09-22 15:14:21 I/Net 1679124358: Successfully loaded stranger list: 1 in total[0m
+[92m2022-09-22 15:14:21 I/Net 1679124358: Online OtherClients: DESKTOP-5V3RPE7(WINDOWS)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.getFriendGroupList[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Loading friend list: 150/205[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Loading friend list: 205/205[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.getFriendGroupList[0m
+[92m2022-09-22 15:14:21 I/Net 1679124358: Successfully loaded friend list: 205 in total[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[92m2022-09-22 15:14:21 I/Net 1679124358: Syncing friend message history: Success.[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:21 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:22 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-09-22 15:14:23 V/Net 1679124358: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-09-22 15:14:24 V/Net 1679124358: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-09-22 15:14:24 I/Net 1679124358: Successfully loaded group list: 99 in total.[0m
+[92m2022-09-22 15:14:24 I/Net 1679124358: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-09-22 15:14:24 I/Net 1679124358: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-09-22 15:14:24 V/Net 1679124358: Saving bdh session to cache[0m
+[0m2022-09-22 15:14:24 V/Net 1679124358: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-09-22 15:14:24 V/Net 1679124358: Recv: ConfigPushSvc.PushReq[0m
+[91m2022-09-22 15:16:21 W/Net 1679124358: net.mamoe.mirai.internal.network.impl.netty.ForceOfflineException: 你的QQ号于15:16在【V1981A】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。
+net.mamoe.mirai.internal.network.impl.netty.ForceOfflineException: 你的QQ号于15:16在【V1981A】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.receive.MessageSvcPushForceOffline.handle(MessageSvc.PushForceOffline.kt:35)
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.receive.MessageSvcPushForceOffline.handle(MessageSvc.PushForceOffline.kt:25)
+	at net.mamoe.mirai.internal.network.components.CallPacketFactoryPacketHandler.handlePacket(PacketHandler.kt:110)
+	at net.mamoe.mirai.internal.network.components.PacketHandlerChain.handlePacket(PacketHandler.kt:42)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invokeSuspend(NetworkHandlerSupport.kt:90)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:88)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$send$1.invokeSuspend(NettyNetworkHandler.kt:192)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[0m2022-09-22 15:16:21 V/Net 1679124358: Recv: MessageSvc.PushForceOffline[0m
+[0m2022-09-22 15:16:21 V/Net 1679124358: No server list cached.[0m
+[92m2022-09-22 15:16:21 I/Net 1679124358: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-09-22 15:16:22 I/Net 1679124358: Successfully fetched ecdh public key from server.[0m
+[0m2022-09-22 15:16:22 V/Net 1679124358: Send: wtlogin.login[0m
+[0m2022-09-22 15:16:22 V/Net 1679124358: Recv: wtlogin.login[0m
+[0m2022-09-22 15:16:22 V/Net 1679124358: Send: wtlogin.login[0m
+[0m2022-09-22 15:16:22 V/Net 1679124358: Recv: wtlogin.login[0m
+[0m2022-09-22 15:16:22 V/Net 1679124358: Send: StatSvc.register(online)[0m
+[92m2022-09-22 15:16:22 I/Net 1679124358: Server time updated, serverTime: 1663830985, diff: 3ms=0.003s[0m
+[0m2022-09-22 15:16:22 V/Net 1679124358: Recv: StatSvc.register[0m
+[92m2022-09-22 15:16:22 I/Net 1679124358: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-09-22 15:16:22 I/Net 1679124358: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-09-22 15:16:25 V/Net 1679124358: Saving bdh session to cache[0m
+[0m2022-09-22 15:16:25 V/Net 1679124358: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-09-22 15:16:25 V/Net 1679124358: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-09-22 15:16:39 V/Net 1679124358: Send: StatSvc.register(offline)[0m
+[0m2022-09-22 15:45:00 V/Net 1679124358: No server list cached.[0m
+[92m2022-09-22 15:45:00 I/Net 1679124358: ECDH key is valid.[0m
+[0m2022-09-22 15:45:00 V/Net 1679124358: Send: wtlogin.exchange_emp[0m
+[0m2022-09-22 15:45:00 V/Net 1679124358: Recv: wtlogin.exchange_emp[0m
+[0m2022-09-22 15:45:00 V/Net 1679124358: Send: StatSvc.register(online)[0m
+[92m2022-09-22 15:45:00 I/Net 1679124358: Server time updated, serverTime: 1663832702, diff: 2ms=0.002s[0m
+[0m2022-09-22 15:45:00 V/Net 1679124358: Recv: StatSvc.register[0m
+[0m2022-09-22 15:45:00 V/Net 1679124358: Loading BdhSession from cache file[0m
+[92m2022-09-22 15:45:00 I/Net 1679124358: Syncing friend message history...[0m
+[92m2022-09-22 15:45:00 I/Net 1679124358: Start loading stranger list...[0m
+[92m2022-09-22 15:45:00 I/Net 1679124358: Start loading friend list...[0m
+[0m2022-09-22 15:45:00 V/Net 1679124358: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-09-22 15:45:00 V/Net 1679124358: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-09-22 15:45:00 V/Net 1679124358: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-09-22 15:45:00 V/Net 1679124358: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-09-22 15:45:00 V/Net 1679124358: Recv: MessageSvc.PushForceOffline[0m
+[91m2022-09-22 15:45:00 W/Net 1679124358: An exception was thrown during initialization process of Bot 1679124358. Trying to ignore the error and continue logging in...
+StateSwitchingException(old=StateLoading, new=StateClosed, cause=net.mamoe.mirai.internal.network.impl.netty.ForceOfflineException: 你的QQ号于15:16在【V1981A】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:302)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.close(NettyNetworkHandler.kt:422)
+	at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.close(SelectorNetworkHandler.kt:87)
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.receive.MessageSvcPushForceOffline.handle(MessageSvc.PushForceOffline.kt:35)
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.receive.MessageSvcPushForceOffline.handle(MessageSvc.PushForceOffline.kt:25)
+	at net.mamoe.mirai.internal.network.components.CallPacketFactoryPacketHandler.handlePacket(PacketHandler.kt:110)
+	at net.mamoe.mirai.internal.network.components.PacketHandlerChain.handlePacket(PacketHandler.kt:42)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invokeSuspend(NetworkHandlerSupport.kt:90)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:88)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$send$1.invokeSuspend(NettyNetworkHandler.kt:192)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: net.mamoe.mirai.internal.network.impl.netty.ForceOfflineException: 你的QQ号于15:16在【V1981A】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。
+	... 25 more
+	Suppressed: java.util.concurrent.CancellationException: NetworkHandler closed
+		at kotlinx.coroutines.ExceptionsKt.CancellationException(Exceptions.kt:22)
+		at kotlinx.coroutines.JobKt__JobKt.cancel(Job.kt:596)
+		at kotlinx.coroutines.JobKt.cancel(Unknown Source)
+		at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.close(NetworkHandlerSupport.kt:61)
+		at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.close(NettyNetworkHandler.kt:205)
+		at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.close(SelectorNetworkHandler.kt:87)
+		... 25 more
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.internal.network.impl.netty.ForceOfflineException: 你的QQ号于15:16在【V1981A】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。]
+[0m
+[91m2022-09-22 15:45:00 W/Net 1679124358: An exception was thrown during initialization process of Bot 1679124358. Trying to ignore the error and continue logging in...
+StateSwitchingException(old=StateLoading, new=StateClosed, cause=net.mamoe.mirai.internal.network.impl.netty.ForceOfflineException: 你的QQ号于15:16在【V1981A】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:302)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.close(NettyNetworkHandler.kt:422)
+	at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.close(SelectorNetworkHandler.kt:87)
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.receive.MessageSvcPushForceOffline.handle(MessageSvc.PushForceOffline.kt:35)
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.receive.MessageSvcPushForceOffline.handle(MessageSvc.PushForceOffline.kt:25)
+	at net.mamoe.mirai.internal.network.components.CallPacketFactoryPacketHandler.handlePacket(PacketHandler.kt:110)
+	at net.mamoe.mirai.internal.network.components.PacketHandlerChain.handlePacket(PacketHandler.kt:42)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invokeSuspend(NetworkHandlerSupport.kt:90)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:88)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$send$1.invokeSuspend(NettyNetworkHandler.kt:192)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: net.mamoe.mirai.internal.network.impl.netty.ForceOfflineException: 你的QQ号于15:16在【V1981A】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。
+	... 25 more
+	Suppressed: java.util.concurrent.CancellationException: NetworkHandler closed
+		at kotlinx.coroutines.ExceptionsKt.CancellationException(Exceptions.kt:22)
+		at kotlinx.coroutines.JobKt__JobKt.cancel(Job.kt:596)
+		at kotlinx.coroutines.JobKt.cancel(Unknown Source)
+		at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.close(NetworkHandlerSupport.kt:61)
+		at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.close(NettyNetworkHandler.kt:205)
+		at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.close(SelectorNetworkHandler.kt:87)
+		... 25 more
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.internal.network.impl.netty.ForceOfflineException: 你的QQ号于15:16在【V1981A】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。]
+[0m
+[31m2022-09-22 15:45:00 E/Net 1679124358: Exception in coroutine 'unnamed'
+net.mamoe.mirai.internal.network.impl.netty.ForceOfflineException: 你的QQ号于15:16在【V1981A】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.receive.MessageSvcPushForceOffline.handle(MessageSvc.PushForceOffline.kt:35)
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.receive.MessageSvcPushForceOffline.handle(MessageSvc.PushForceOffline.kt:25)
+	at net.mamoe.mirai.internal.network.components.CallPacketFactoryPacketHandler.handlePacket(PacketHandler.kt:110)
+	at net.mamoe.mirai.internal.network.components.PacketHandlerChain.handlePacket(PacketHandler.kt:42)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invokeSuspend(NetworkHandlerSupport.kt:90)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:88)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$send$1.invokeSuspend(NettyNetworkHandler.kt:192)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	Suppressed: java.util.concurrent.CancellationException: NetworkHandler closed
+		at kotlinx.coroutines.ExceptionsKt.CancellationException(Exceptions.kt:22)
+		at kotlinx.coroutines.JobKt__JobKt.cancel(Job.kt:596)
+		at kotlinx.coroutines.JobKt.cancel(Unknown Source)
+		at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.close(NetworkHandlerSupport.kt:61)
+		at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.close(NettyNetworkHandler.kt:205)
+		at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.close(SelectorNetworkHandler.kt:87)
+		... 25 more
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.internal.network.impl.netty.ForceOfflineException: 你的QQ号于15:16在【V1981A】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。]
+[0m
+[31m2022-09-22 15:45:00 E/Net 1679124358: Exception in coroutine 'BotInitProcessor.init'
+java.lang.IllegalStateException: Exception in attached Job 'BotInitProcessor.init'
+	at net.mamoe.mirai.internal.network.handler.state.JobAttachStateObserver$stateChanged0$1.invokeSuspend(JobAttachStateObserver.kt:40)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: net.mamoe.mirai.internal.network.impl.netty.ForceOfflineException: 你的QQ号于15:16在【V1981A】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.receive.MessageSvcPushForceOffline.handle(MessageSvc.PushForceOffline.kt:35)
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.receive.MessageSvcPushForceOffline.handle(MessageSvc.PushForceOffline.kt:25)
+	at net.mamoe.mirai.internal.network.components.CallPacketFactoryPacketHandler.handlePacket(PacketHandler.kt:110)
+	at net.mamoe.mirai.internal.network.components.PacketHandlerChain.handlePacket(PacketHandler.kt:42)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invokeSuspend(NetworkHandlerSupport.kt:90)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:88)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$send$1.invokeSuspend(NettyNetworkHandler.kt:192)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	Suppressed: java.util.concurrent.CancellationException: NetworkHandler closed
+		at kotlinx.coroutines.ExceptionsKt.CancellationException(Exceptions.kt:22)
+		at kotlinx.coroutines.JobKt__JobKt.cancel(Job.kt:596)
+		at kotlinx.coroutines.JobKt.cancel(Unknown Source)
+		at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.close(NetworkHandlerSupport.kt:61)
+		at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.close(NettyNetworkHandler.kt:205)
+		at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.close(SelectorNetworkHandler.kt:87)
+		... 25 more
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.internal.network.impl.netty.ForceOfflineException: 你的QQ号于15:16在【V1981A】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。]
+	Suppressed: StateSwitchingException(old=StateLoading, new=StateClosed, cause=net.mamoe.mirai.internal.network.impl.netty.ForceOfflineException: 你的QQ号于15:16在【V1981A】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。)
+		at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:302)
+		at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.close(NettyNetworkHandler.kt:422)
+		at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.close(SelectorNetworkHandler.kt:87)
+		... 25 more
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.internal.network.impl.netty.ForceOfflineException: 你的QQ号于15:16在【V1981A】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。]
+[0m

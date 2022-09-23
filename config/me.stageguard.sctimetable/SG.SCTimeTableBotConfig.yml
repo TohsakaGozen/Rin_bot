@@ -1,0 +1,22 @@
+# 用于工作的BOT的QQ号
+qq: 2118654642
+# 默认提前多长时间提醒(单位：分钟)。
+# 此值会在用户第一次被添加进数据库时设置给这个用户。
+# 注意：如果你修改了这个值，在修改之前已经被设置的用户和自己设定值的用户不会受到影响。
+advancedTipTime: 15
+# 使用的数据库类型，支持 MySQL / MariaDB / SQLite
+# 填 `mysql` 表示使用 MySQL 或 MariaDB。
+# 填 `sqlite` 表示使用 SQLite。
+# 填其他字符为无效选项。
+# 当使用其中一个数据库类型时，另一个数据库配置不会生效。
+database: mysql
+# MySQL / MariaDB 数据库配置。
+mysqlConfig: 
+  address: localhost
+  user: root
+  password: tohsaka666
+  table: sctimetabledb
+  maximumPoolSize: 10
+# SQLite 数据库配置。
+sqliteConfig: 
+  file: sctimetable.db

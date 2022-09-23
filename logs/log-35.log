@@ -1,0 +1,96 @@
+[92m2022-09-22 20:31:07 I/main: Starting mirai-console...[0m[m
+[92m2022-09-22 20:31:07 I/main: Backend: version 2.12.1, built on 2022-07-31 17:49:27.[0m[m
+[92m2022-09-22 20:31:07 I/main: Frontend Terminal: version 2.12.1, provided by Mamoe Technologies[0m[m
+[92m2022-09-22 20:31:07 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-09-22 20:31:07 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-09-22 20:31:07 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-09-22 20:31:07 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-09-22 20:31:10 I/plugin: Successfully loaded plugin Chat Command v0.5.0[0m[m
+[92m2022-09-22 20:31:10 I/plugin: Successfully loaded plugin Lolicon v6.0.4[0m[m
+[92m2022-09-22 20:31:10 I/plugin: Successfully loaded plugin HRobot v1.0.0[0m[m
+[92m2022-09-22 20:31:10 I/plugin: Successfully loaded plugin iam.xiaoan.RanImage v1.0-SNAPSHOT[0m[m
+[92m2022-09-22 20:31:10 I/plugin: Successfully loaded plugin SuperCourseTimetable v0.4.7[0m[m
+[92m2022-09-22 20:31:10 I/plugin: Successfully loaded plugin MCL Addon v2.0.2[0m[m
+[92m2022-09-22 20:31:10 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-09-22 20:31:12 I/Lolicon: Plugin loaded[0m[m
+[92m2022-09-22 20:31:13 I/HRobot: 正在初始化机器人配置[0m[m
+[92m2022-09-22 20:31:13 I/HRobot: 配置初始化完成[0m[m
+[92m2022-09-22 20:31:13 I/stdout: RobotConfig.customKeyword = {全局关键字=全局关键字回复, #regex#全局正则表达式=回复, 群号=群内关键字: 群内关键字回复, 1109825279={原神=原神怎么你了！, 杰哥=杰哥快教我登dua郎！, 课程表=mirai:image:{75C5DCD8-297A-9352-08E9-DD3FAAE85306}.gif, width=200, height=200, size=1137187, type=GIF, isEmoji=true}}[0m[m
+[91m2022-09-22 20:31:13 W/HRobot: Linked class org.slf4j.impl.StaticLoggerBinder in SCTimetableBot-0.4.7.mirai.jar but plugin not depend on it.[0m[m
+[91m2022-09-22 20:31:13 W/HRobot: Class loading logic may change in feature.[0m[m
+[92m2022-09-22 20:31:13 I/org.reflections.Reflections: Reflections took 63 ms to scan 1 urls, producing 21 keys and 62 values [0m[m
+[92m2022-09-22 20:31:13 I/HRobot: HRobot handlers and filters loading finished, total 15 handlers, 3 inspectors.[0m[m
+[92m2022-09-22 20:31:13 I/stdout: Pattern = true[0m[m
+[92m2022-09-22 20:31:13 I/HRobot: cron task running...[0m[m
+[92m2022-09-22 20:31:13 I/stdout:         ,--,                                                    [0m[m
+[92m2022-09-22 20:31:13 I/stdout:       ,--.'|,-.----.                                    ___     [0m[m
+[92m2022-09-22 20:31:13 I/stdout:    ,--,  | :\    /  \             ,---,               ,--.'|_   [0m[m
+[92m2022-09-22 20:31:13 I/stdout: ,---.'|  : ';   :    \   ,---.  ,---.'|      ,---.    |  | :,'  [0m[m
+[92m2022-09-22 20:31:13 I/stdout: |   | : _' ||   | .\ :  '   ,'\ |   | :     '   ,'\   :  : ' :  [0m[m
+[92m2022-09-22 20:31:13 I/stdout: :   : |.'  |.   : |: | /   /   |:   : :    /   /   |.;__,'  /   [0m[m
+[92m2022-09-22 20:31:13 I/stdout: |   ' '  ; :|   |  \ :.   ; ,. ::     |,-..   ; ,. :|  |   |    [0m[m
+[92m2022-09-22 20:31:13 I/stdout: '   |  .'. ||   : .  /'   | |: :|   : '  |'   | |: ::__,'| :    [0m[m
+[92m2022-09-22 20:31:13 I/stdout: |   | :  | ';   | |  \'   | .; :|   |  / :'   | .; :  '  : |__  [0m[m
+[92m2022-09-22 20:31:13 I/stdout: '   : |  : ;|   | ;\  \   :    |'   : |: ||   :    |  |  | '.'| [0m[m
+[92m2022-09-22 20:31:13 I/stdout: |   | '  ,/ :   ' | \.'\   \  / |   | '/ : \   \  /   ;  :    ; [0m[m
+[92m2022-09-22 20:31:13 I/stdout: ;   : ;--'  :   : :-'   `----'  |   :    |  `----'    |  ,   /  [0m[m
+[92m2022-09-22 20:31:13 I/stdout: |   ,/      |   |.'             /    \  /              ---`-'       [0m[m
+[92m2022-09-22 20:31:13 I/stdout: '---'       `---'               `-'----'                            v3.2.1[0m[m
+[92m2022-09-22 20:31:14 I/stdout: latestVersion = HRobot v3.2.1[0m[m
+[92m2022-09-22 20:31:14 I/HRobot: 当前 HRobot 插件已为最新版[0m[m
+[92m2022-09-22 20:31:14 I/iam.xiaoan.RanImage: Plugin loaded![0m[m
+[92m2022-09-22 20:31:14 I/iam.xiaoan.RanImage: 你好！我是小安！感谢你使用这款随机二次元图片插件！[0m[m
+[92m2022-09-22 20:31:14 I/SuperCourseTimetable: Plugin loaded[0m[m
+[92m2022-09-22 20:31:14 I/com.zaxxer.hikari.HikariDataSource: SCTimetableDB Pool - Starting...[0m[m
+[92m2022-09-22 20:31:14 I/com.zaxxer.hikari.pool.HikariPool: SCTimetableDB Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@34549979[0m[m
+[92m2022-09-22 20:31:14 I/com.zaxxer.hikari.HikariDataSource: SCTimetableDB Pool - Start completed.[0m[m
+[92m2022-09-22 20:31:14 I/SuperCourseTimetable: Database is connected.[0m[m
+[92m2022-09-22 20:31:15 I/SuperCourseTimetable: Waiting target Bot 2118654642 goes online...[0m[m
+[92m2022-09-22 20:31:15 I/MCL Addon: iTXTech MCL Version: 2.1.1-d66fada[0m[m
+[91m2022-09-22 20:31:15 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用[0m[m
+[92m2022-09-22 20:31:15 I/main: 6 plugin(s) enabled.[0m[m
+[92m2022-09-22 20:31:15 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-09-22 20:31:15 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[92m2022-09-22 20:31:15 I/main: Auto-login 2118654642[0m[m
+[91m2022-09-22 20:31:15 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-09-22 20:31:17 I/Bot.2118654642: Login successful[0m[m
+[92m2022-09-22 20:31:17 I/Bot.2118654642: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-09-22 20:31:17 I/Bot.2118654642: Login successful.[0m[m
+[0m2022-09-22 20:31:18 V/Bot.2118654642: Event: BotOnlineEvent(bot=Bot(2118654642))[0m[m
+[92m2022-09-22 20:31:18 I/Bot.2118654642: Bot login successful.[0m[m
+[92m2022-09-22 20:31:18 I/main: mirai-console started successfully.[0m[m
+[92m2022-09-22 20:31:18 I/org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor[0m[m
+[92m2022-09-22 20:31:18 I/org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: DefaultDispatcher-worker-5[0m[m
+[92m2022-09-22 20:31:18 I/org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl[0m[m
+[92m2022-09-22 20:31:18 I/org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.3.2 created.[0m[m
+[92m2022-09-22 20:31:18 I/org.quartz.simpl.RAMJobStore: RAMJobStore initialized.[0m[m
+[92m2022-09-22 20:31:18 I/org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+[0m[m
+[92m2022-09-22 20:31:18 I/org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'[0m[m
+[92m2022-09-22 20:31:18 I/org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.3.2[0m[m
+[92m2022-09-22 20:31:18 I/org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.[0m[m
+[92m2022-09-22 20:31:18 I/org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.[0m[m
+[92m2022-09-22 20:31:18 I/SuperCourseTimetable: ScheduleListenerService: ScheduleListenerService is started.[0m[m
+[92m2022-09-22 20:31:18 I/SuperCourseTimetable: TimeProviderService: Job SemesterUpdater is executed. (semester 1 begins in 2022.)[0m[m
+[92m2022-09-22 20:31:18 I/SuperCourseTimetable: TimeProviderService: Job SchoolWeekPeriodUpdater is executed.[0m[m
+[92m2022-09-22 20:31:18 I/SuperCourseTimetable: TimeProviderService: TimeProviderServices(TimeProviderService$SemesterUpdaterJob, TimeProviderService$SchoolWeekPeriodUpdaterJob) have started.[0m[m
+[92m2022-09-22 20:31:18 I/SuperCourseTimetable: ScheduleListenerService: Notification distribution job has executed.[0m[m
+[0m2022-09-22 20:31:20 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> rin get[0m[m
+[92m2022-09-22 20:31:20 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 20:31:20 I/HRobot: init bot...[0m[m
+[92m2022-09-22 20:31:20 I/HRobot: 正在提交定期任务...[0m[m
+[92m2022-09-22 20:31:20 I/HRobot: 任务提交成功！[0m[m
+[92m2022-09-22 20:31:20 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 20:31:20 V/Bot.2118654642: Group(460292097) <- [mirai:quote:[mirai:source:ids=[2394], internalIds=[216017085], from group 1679124358 to 460292097 at 1663849882], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 20:31:22 I/Lolicon: {"error":"","data":[{"pid":98129051,"p":0,"uid":576926,"title":"大黒天ちゃん1号＆2号","author":"ぐりぐり","r18":false,"width":867,"height":1227,"tags":["R-18","FGO","大黒天(Fate)","Daikokuten (Fate)","裸エプロン","裸体围裙","尻神様","尻神样","褐色","小麦色","Fate/GrandOrder"],"ext":"png","uploadDate":1651750870000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2022/05/05/20/41/10/98129051_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 20:31:22 V/Bot.2118654642: Group(460292097) <- 标题: 大黒天ちゃん1号＆2号\n作者: ぐりぐり (uid: 576926)\n标签: [R-18, FGO, 大黒天(Fate), Daikokuten (Fate), 裸エプロン, 裸体围裙, 尻神様, 尻神样, 褐色, 小麦色, Fate/GrandOrder]\n链接: https://pixiv.net/artworks/98129051\n代理链接：https://i.pixiv.re/img-master/img/2022/05/05/20/41/10/98129051_p0_master1200.jpg[0m[m
+[0m2022-09-22 20:31:29 V/Bot.2118654642: Group(460292097) <- [mirai:flash:{BF469401-A057-B09A-395B-0A03FDCE39EE}.jpg][0m[m
+[92m2022-09-22 20:31:29 I/Lolicon: Group(460292097)进入冷却[0m[m
+[92m2022-09-22 20:31:30 I/Lolicon: Group(460292097)NOTIFICATION已撤回[0m[m
+[92m2022-09-22 20:31:34 I/Lolicon: Group(460292097)已冷却[0m[m

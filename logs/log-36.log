@@ -1,0 +1,803 @@
+[92m2022-09-22 20:32:21 I/main: Starting mirai-console...[0m[m
+[92m2022-09-22 20:32:21 I/main: Backend: version 2.12.1, built on 2022-07-31 17:49:27.[0m[m
+[92m2022-09-22 20:32:21 I/main: Frontend Terminal: version 2.12.1, provided by Mamoe Technologies[0m[m
+[92m2022-09-22 20:32:21 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-09-22 20:32:21 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-09-22 20:32:21 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-09-22 20:32:21 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-09-22 20:32:22 I/plugin: Successfully loaded plugin Chat Command v0.5.0[0m[m
+[92m2022-09-22 20:32:22 I/plugin: Successfully loaded plugin Lolicon v6.0.4[0m[m
+[92m2022-09-22 20:32:22 I/plugin: Successfully loaded plugin HRobot v1.0.0[0m[m
+[92m2022-09-22 20:32:22 I/plugin: Successfully loaded plugin iam.xiaoan.RanImage v1.0-SNAPSHOT[0m[m
+[92m2022-09-22 20:32:22 I/plugin: Successfully loaded plugin SuperCourseTimetable v0.4.7[0m[m
+[92m2022-09-22 20:32:22 I/plugin: Successfully loaded plugin MCL Addon v2.0.2[0m[m
+[92m2022-09-22 20:32:22 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-09-22 20:32:22 I/Lolicon: Plugin loaded[0m[m
+[92m2022-09-22 20:32:22 I/HRobot: 正在初始化机器人配置[0m[m
+[92m2022-09-22 20:32:22 I/HRobot: 配置初始化完成[0m[m
+[92m2022-09-22 20:32:22 I/stdout: RobotConfig.customKeyword = {全局关键字=全局关键字回复, #regex#全局正则表达式=回复, 群号=群内关键字: 群内关键字回复, 1109825279={原神=原神怎么你了！, 杰哥=杰哥快教我登dua郎！, 课程表=mirai:image:{75C5DCD8-297A-9352-08E9-DD3FAAE85306}.gif, width=200, height=200, size=1137187, type=GIF, isEmoji=true}}[0m[m
+[91m2022-09-22 20:32:22 W/HRobot: Linked class org.slf4j.impl.StaticLoggerBinder in SCTimetableBot-0.4.7.mirai.jar but plugin not depend on it.[0m[m
+[91m2022-09-22 20:32:22 W/HRobot: Class loading logic may change in feature.[0m[m
+[92m2022-09-22 20:32:22 I/org.reflections.Reflections: Reflections took 31 ms to scan 1 urls, producing 21 keys and 62 values [0m[m
+[92m2022-09-22 20:32:22 I/HRobot: HRobot handlers and filters loading finished, total 15 handlers, 3 inspectors.[0m[m
+[92m2022-09-22 20:32:22 I/stdout: Pattern = true[0m[m
+[92m2022-09-22 20:32:22 I/HRobot: cron task running...[0m[m
+[92m2022-09-22 20:32:22 I/stdout:         ,--,                                                    [0m[m
+[92m2022-09-22 20:32:22 I/stdout:       ,--.'|,-.----.                                    ___     [0m[m
+[92m2022-09-22 20:32:22 I/stdout:    ,--,  | :\    /  \             ,---,               ,--.'|_   [0m[m
+[92m2022-09-22 20:32:22 I/stdout: ,---.'|  : ';   :    \   ,---.  ,---.'|      ,---.    |  | :,'  [0m[m
+[92m2022-09-22 20:32:22 I/stdout: |   | : _' ||   | .\ :  '   ,'\ |   | :     '   ,'\   :  : ' :  [0m[m
+[92m2022-09-22 20:32:22 I/stdout: :   : |.'  |.   : |: | /   /   |:   : :    /   /   |.;__,'  /   [0m[m
+[92m2022-09-22 20:32:22 I/stdout: |   ' '  ; :|   |  \ :.   ; ,. ::     |,-..   ; ,. :|  |   |    [0m[m
+[92m2022-09-22 20:32:22 I/stdout: '   |  .'. ||   : .  /'   | |: :|   : '  |'   | |: ::__,'| :    [0m[m
+[92m2022-09-22 20:32:22 I/stdout: |   | :  | ';   | |  \'   | .; :|   |  / :'   | .; :  '  : |__  [0m[m
+[92m2022-09-22 20:32:22 I/stdout: '   : |  : ;|   | ;\  \   :    |'   : |: ||   :    |  |  | '.'| [0m[m
+[92m2022-09-22 20:32:22 I/stdout: |   | '  ,/ :   ' | \.'\   \  / |   | '/ : \   \  /   ;  :    ; [0m[m
+[92m2022-09-22 20:32:22 I/stdout: ;   : ;--'  :   : :-'   `----'  |   :    |  `----'    |  ,   /  [0m[m
+[92m2022-09-22 20:32:22 I/stdout: |   ,/      |   |.'             /    \  /              ---`-'       [0m[m
+[92m2022-09-22 20:32:22 I/stdout: '---'       `---'               `-'----'                            v3.2.1[0m[m
+[92m2022-09-22 20:32:23 I/stdout: latestVersion = HRobot v3.2.1[0m[m
+[92m2022-09-22 20:32:23 I/HRobot: 当前 HRobot 插件已为最新版[0m[m
+[92m2022-09-22 20:32:23 I/iam.xiaoan.RanImage: Plugin loaded![0m[m
+[92m2022-09-22 20:32:23 I/iam.xiaoan.RanImage: 你好！我是小安！感谢你使用这款随机二次元图片插件！[0m[m
+[92m2022-09-22 20:32:23 I/SuperCourseTimetable: Plugin loaded[0m[m
+[92m2022-09-22 20:32:23 I/com.zaxxer.hikari.HikariDataSource: SCTimetableDB Pool - Starting...[0m[m
+[92m2022-09-22 20:32:23 I/com.zaxxer.hikari.pool.HikariPool: SCTimetableDB Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@7de3206d[0m[m
+[92m2022-09-22 20:32:23 I/com.zaxxer.hikari.HikariDataSource: SCTimetableDB Pool - Start completed.[0m[m
+[92m2022-09-22 20:32:23 I/SuperCourseTimetable: Database is connected.[0m[m
+[92m2022-09-22 20:32:23 I/SuperCourseTimetable: Waiting target Bot 2118654642 goes online...[0m[m
+[92m2022-09-22 20:32:23 I/MCL Addon: iTXTech MCL Version: 2.1.1-d66fada[0m[m
+[91m2022-09-22 20:32:23 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用[0m[m
+[92m2022-09-22 20:32:23 I/main: 6 plugin(s) enabled.[0m[m
+[92m2022-09-22 20:32:23 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-09-22 20:32:23 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[92m2022-09-22 20:32:23 I/main: Auto-login 2118654642[0m[m
+[91m2022-09-22 20:32:24 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-09-22 20:32:25 I/Bot.2118654642: Login successful[0m[m
+[92m2022-09-22 20:32:25 I/Bot.2118654642: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-09-22 20:32:25 I/Bot.2118654642: Login successful.[0m[m
+[0m2022-09-22 20:32:26 V/Bot.2118654642: Event: BotOnlineEvent(bot=Bot(2118654642))[0m[m
+[92m2022-09-22 20:32:26 I/Bot.2118654642: Bot login successful.[0m[m
+[92m2022-09-22 20:32:26 I/main: mirai-console started successfully.[0m[m
+[92m2022-09-22 20:32:26 I/org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor[0m[m
+[92m2022-09-22 20:32:26 I/org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: DefaultDispatcher-worker-4[0m[m
+[92m2022-09-22 20:32:26 I/org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl[0m[m
+[92m2022-09-22 20:32:26 I/org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.3.2 created.[0m[m
+[92m2022-09-22 20:32:26 I/org.quartz.simpl.RAMJobStore: RAMJobStore initialized.[0m[m
+[92m2022-09-22 20:32:26 I/org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+[0m[m
+[92m2022-09-22 20:32:26 I/org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'[0m[m
+[92m2022-09-22 20:32:26 I/org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.3.2[0m[m
+[92m2022-09-22 20:32:26 I/org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.[0m[m
+[92m2022-09-22 20:32:26 I/org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.[0m[m
+[92m2022-09-22 20:32:26 I/SuperCourseTimetable: ScheduleListenerService: ScheduleListenerService is started.[0m[m
+[92m2022-09-22 20:32:26 I/SuperCourseTimetable: TimeProviderService: Job SemesterUpdater is executed. (semester 1 begins in 2022.)[0m[m
+[92m2022-09-22 20:32:26 I/SuperCourseTimetable: TimeProviderService: Job SchoolWeekPeriodUpdater is executed.[0m[m
+[92m2022-09-22 20:32:26 I/SuperCourseTimetable: TimeProviderService: TimeProviderServices(TimeProviderService$SemesterUpdaterJob, TimeProviderService$SchoolWeekPeriodUpdaterJob) have started.[0m[m
+[92m2022-09-22 20:32:26 I/SuperCourseTimetable: ScheduleListenerService: Notification distribution job has executed.[0m[m
+[0m2022-09-22 20:32:34 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> rin get[0m[m
+[92m2022-09-22 20:32:34 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 20:32:34 I/HRobot: init bot...[0m[m
+[92m2022-09-22 20:32:34 I/HRobot: 正在提交定期任务...[0m[m
+[92m2022-09-22 20:32:34 I/HRobot: 任务提交成功！[0m[m
+[92m2022-09-22 20:32:34 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 20:32:34 V/Bot.2118654642: Group(460292097) <- [mirai:quote:[mirai:source:ids=[2397], internalIds=[1499492653], from group 1679124358 to 460292097 at 1663849956], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 20:32:36 I/Lolicon: {"error":"","data":[{"pid":95768622,"p":0,"uid":28168618,"title":"喜多川さん","author":"モロロス","r18":false,"width":1086,"height":1535,"tags":["その着せ替え人形は恋をする","更衣人偶坠入爱河","着せ恋","喜多川海夢","Marin Kitagawa","水着","泳装"],"ext":"jpg","uploadDate":1643104699000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2022/01/25/18/58/19/95768622_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 20:32:36 V/Bot.2118654642: Group(460292097) <- 标题: 喜多川さん\n作者: モロロス (uid: 28168618)\n标签: [その着せ替え人形は恋をする, 更衣人偶坠入爱河, 着せ恋, 喜多川海夢, Marin Kitagawa, 水着, 泳装]\n链接: https://pixiv.net/artworks/95768622\n代理链接：https://i.pixiv.re/img-master/img/2022/01/25/18/58/19/95768622_p0_master1200.jpg[0m[m
+[0m2022-09-22 20:32:41 V/Bot.2118654642: Group(460292097) <- [mirai:image:{E33841B9-E830-29D0-4B30-41890580215F}.jpg, width=849, height=1200, size=400422, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 20:32:41 I/Lolicon: Group(460292097)进入冷却[0m[m
+[92m2022-09-22 20:32:41 I/Lolicon: Group(460292097)NOTIFICATION已撤回[0m[m
+[92m2022-09-22 20:32:46 I/Lolicon: Group(460292097)已冷却[0m[m
+[0m2022-09-22 20:32:56 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 有涩图了[0m[m
+[92m2022-09-22 20:32:56 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:33:01 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> rin get[0m[m
+[92m2022-09-22 20:33:01 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 20:33:01 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 20:33:01 V/Bot.2118654642: Group(1109825279) <- [mirai:quote:[mirai:source:ids=[40094], internalIds=[1131500126], from group 1679124358 to 1109825279 at 1663849983], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 20:33:02 I/Lolicon: {"error":"","data":[{"pid":64117920,"p":0,"uid":52852,"title":"c92表紙絵","author":"小鳥遊 啓","r18":false,"width":800,"height":800,"tags":["艦これ","舰C","島風","岛风","天津風","amatsukaze","水着艦娘","泳装舰娘","艦隊これくしょん","舰队collection","島津風","Shimakaze/Amatsukaze","まったく、駆逐艦は最高だぜ!!","驱逐舰真是太棒了！","尻神様","尻神样","ハイビスカス","扶桑花"],"ext":"jpg","uploadDate":1501341005000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2017/07/30/00/10/05/64117920_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 20:33:02 V/Bot.2118654642: Group(1109825279) <- 标题: c92表紙絵\n作者: 小鳥遊 啓 (uid: 52852)\n标签: [艦これ, 舰C, 島風, 岛风, 天津風, amatsukaze, 水着艦娘, 泳装舰娘, 艦隊これくしょん, 舰队collection, 島津風, Shimakaze/Amatsukaze, まったく、駆逐艦は最高だぜ!!, 驱逐舰真是太棒了！, 尻神様, 尻神样, ハイビスカス, 扶桑花]\n链接: https://pixiv.net/artworks/64117920\n代理链接：https://i.pixiv.re/img-master/img/2017/07/30/00/10/05/64117920_p0_master1200.jpg[0m[m
+[0m2022-09-22 20:33:06 V/Bot.2118654642: Group(1109825279) <- [mirai:image:{F3D2A032-A8EA-CC95-F252-CD8330E343DB}.jpg, width=800, height=800, size=474429, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 20:33:06 I/Lolicon: Group(1109825279)进入冷却[0m[m
+[92m2022-09-22 20:33:07 I/Lolicon: Group(1109825279)NOTIFICATION已撤回[0m[m
+[92m2022-09-22 20:33:11 I/Lolicon: Group(1109825279)已冷却[0m[m
+[0m2022-09-22 20:33:24 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 还可以开启是否r18[0m[m
+[92m2022-09-22 20:33:24 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:33:30 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 开了我怕群要遭[0m[m
+[92m2022-09-22 20:33:30 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 20:33:36 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:33:36 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [热化了]请使用最新版手机QQ体验新功能[0m[m
+[0m2022-09-22 20:33:56 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 涩图[0m[m
+[92m2022-09-22 20:33:56 I/stdout: RobotConfig.enableRobot = true[0m[m
+[91m2022-09-22 20:33:57 W/stderr: java.lang.NullPointerException: Cannot invoke "java.util.Map.put(Object, Object)" because "map" is null[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:69)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:87)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.api.PixivApi.getSeImagePid(PixivApi.java:75)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.ImageShareMessageEventHandler.doParseSeImage(ImageShareMessageEventHandler.java:166)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.ImageShareMessageEventHandler.handleMessageEvent(ImageShareMessageEventHandler.java:76)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:98)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)[0m[m
+[91m2022-09-22 20:33:57 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)[0m[m
+[0m2022-09-22 20:33:57 V/Bot.2118654642: Group(1109825279) <- 意外地失去了与地球上的通信...\n错误原因：Cannot invoke "java.util.Map.put(Object, Object)" because "map" is null[0m[m
+[0m2022-09-22 20:33:58 V/Bot.2118654642: Group(1109825279) <- 参数不匹配, 你是否想执行: \n(/)lolicon adv <json>    (参数不足)\n(/)lolicon 高级 <json>    (参数不足)\n(/)lolicon get [tags]    (参数不足)\n(/)lolicon 来一张 [tags]    (参数不足)\n(/)lolicon set <property> <value>    (参数不足)\n(/)lolicon 设置 <property> <value>    (参数不足)[0m[m
+[0m2022-09-22 20:34:13 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> rin get[0m[m
+[92m2022-09-22 20:34:13 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 20:34:13 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 20:34:14 V/Bot.2118654642: Group(1109825279) <- [mirai:quote:[mirai:source:ids=[40104], internalIds=[512104354], from group 1679124358 to 1109825279 at 1663850056], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 20:34:14 I/Lolicon: {"error":"","data":[{"pid":77803793,"p":0,"uid":3569577,"title":"タイツレムりん","author":"がおう","r18":false,"width":663,"height":900,"tags":["Re:ゼロから始める異世界生活","Re:从零开始的异世界生活","レム(リゼロ)","雷姆 (Re:Zero)","はいてない","真空","ブラジャー","胸罩","魅惑の谷間","魅惑的乳沟","黒タイツ","黑裤袜","裾上げタイツ脱ぎ","裤袜半脱","下着","内衣","ソックス足裏","着袜足底"],"ext":"jpg","uploadDate":1573658240000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2019/11/14/00/17/20/77803793_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 20:34:15 V/Bot.2118654642: Group(1109825279) <- 标题: タイツレムりん\n作者: がおう (uid: 3569577)\n标签: [Re:ゼロから始める異世界生活, Re:从零开始的异世界生活, レム(リゼロ), 雷姆 (Re:Zero), はいてない, 真空, ブラジャー, 胸罩, 魅惑の谷間, 魅惑的乳沟, 黒タイツ, 黑裤袜, 裾上げタイツ脱ぎ, 裤袜半脱, 下着, 内衣, ソックス足裏, 着袜足底]\n链接: https://pixiv.net/artworks/77803793\n代理链接：https://i.pixiv.re/img-master/img/2019/11/14/00/17/20/77803793_p0_master1200.jpg[0m[m
+[0m2022-09-22 20:34:18 V/Bot.2118654642: Group(1109825279) <- [mirai:image:{A5648AB7-A4E5-9763-EA79-3183858BE2C9}.jpg, width=663, height=900, size=315964, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 20:34:18 I/Lolicon: Group(1109825279)进入冷却[0m[m
+[92m2022-09-22 20:34:18 I/Lolicon: Group(1109825279)NOTIFICATION已撤回[0m[m
+[92m2022-09-22 20:34:23 I/Lolicon: Group(1109825279)已冷却[0m[m
+[0m2022-09-22 20:34:26 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [舔屏]请使用最新版手机QQ体验新功能[0m[m
+[92m2022-09-22 20:34:26 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:34:52 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> 我表妹她们25号都开学了[0m[m
+[92m2022-09-22 20:34:52 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:35:02 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> 日嘛我们还不通知[0m[m
+[92m2022-09-22 20:35:02 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:35:05 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 我们可是带学生[0m[m
+[92m2022-09-22 20:35:05 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 20:35:19 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:35:19 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 拖到最后不是常事[0m[m
+[92m2022-09-22 20:35:36 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:35:36 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> 她们大一新生[0m[m
+[92m2022-09-22 20:36:02 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:36:02 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:image:{ECA4EE43-1963-702E-6ECB-28E54018DB25}.gif, width=300, height=300, size=27428, type=GIF, isEmoji=true][0m[m
+[92m2022-09-22 20:36:06 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:36:06 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> [mirai:image:{0DF63ACA-5527-8F31-4A77-C5A1FA646FB2}.gif, width=300, height=300, size=119761, type=GIF, isEmoji=false][0m[m
+[92m2022-09-22 20:36:16 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:36:16 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 没事，都差不多[0m[m
+[0m2022-09-22 20:36:24 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 25号过去也是封校[0m[m
+[92m2022-09-22 20:36:24 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 20:36:31 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:36:31 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 国庆都出不去[0m[m
+[0m2022-09-22 20:36:43 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 10.5号蛮好歹国庆能出去[汪汪][0m[m
+[92m2022-09-22 20:36:43 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:37:02 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> 涩图[0m[m
+[0m2022-09-22 20:37:11 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> rin get[0m[m
+[0m2022-09-22 20:37:21 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> 😊我们不应该也是进去直接封嘛[0m[m
+[92m2022-09-22 20:37:21 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:38:00 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:marketface:209590,[阴险]][0m[m
+[92m2022-09-22 20:38:00 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:43:24 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> rin get[0m[m
+[92m2022-09-22 20:43:24 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 20:43:24 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 20:43:25 V/Bot.2118654642: Group(460292097) <- [mirai:quote:[mirai:source:ids=[2401], internalIds=[961584382], from group 1679124358 to 460292097 at 1663850607], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 20:43:26 I/Lolicon: {"error":"","data":[{"pid":92272158,"p":0,"uid":2415507,"title":"Summer 2021","author":"マンドリル","r18":false,"width":1000,"height":1254,"tags":["少女","young girl","女の子","女孩子","海辺","海边","ビキニ","比基尼","水着獅子王","泳装狮子王","夏","夏天","剥ぎ取りたいパンツ","让人想脱掉的内裤","鼠蹊部","groin"],"ext":"png","uploadDate":1629959180000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2021/08/26/15/26/20/92272158_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 20:43:26 V/Bot.2118654642: Group(460292097) <- 标题: Summer 2021\n作者: マンドリル (uid: 2415507)\n标签: [少女, young girl, 女の子, 女孩子, 海辺, 海边, ビキニ, 比基尼, 水着獅子王, 泳装狮子王, 夏, 夏天, 剥ぎ取りたいパンツ, 让人想脱掉的内裤, 鼠蹊部, groin]\n链接: https://pixiv.net/artworks/92272158\n代理链接：https://i.pixiv.re/img-master/img/2021/08/26/15/26/20/92272158_p0_master1200.jpg[0m[m
+[0m2022-09-22 20:43:33 V/Bot.2118654642: Group(460292097) <- [mirai:image:{3CC4380C-EF6A-04E6-3115-528F5F073268}.jpg, width=957, height=1200, size=1472891, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 20:43:33 I/Lolicon: Group(460292097)进入冷却[0m[m
+[92m2022-09-22 20:43:33 I/Lolicon: Group(460292097)NOTIFICATION已撤回[0m[m
+[92m2022-09-22 20:43:38 I/Lolicon: Group(460292097)已冷却[0m[m
+[0m2022-09-22 20:45:52 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:quote:[mirai:source:ids=[40106], internalIds=[1716168252], from 2118654642 to 1109825279 at 1663850057], content=<not yet initialized>][mirai:at:2118654642]  真搞黄是吧[0m[m
+[92m2022-09-22 20:45:52 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:45:55 V/Bot.2118654642: Group(1109825279) <- 嗯啊[0m[m
+[0m2022-09-22 20:46:56 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:at:2118654642] ntr本子[0m[m
+[92m2022-09-22 20:46:56 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:46:58 V/Bot.2118654642: Group(1109825279) <- 我不知道啦＞＜[0m[m
+[0m2022-09-22 20:47:04 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 求用[0m[m
+[92m2022-09-22 20:47:04 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:48:26 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> [mirai:at:2118654642] 音乐孤勇者[0m[m
+[92m2022-09-22 20:48:26 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:48:28 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=NeteaseCloudMusic, title=孤勇者, summary=请点击右侧按钮播放, jumpUrl=http://music.163.com/#/song?id=1901371647, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://m801.music.126.net/20220922211330/8a2c76f0cb82c1577c5b75fcead96dfb/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14096429529/2bea/211b/0672/43be1ec076b8d7d7dc457549274e1d5f.mp3, brief=[分享]孤勇者)[0m[m
+[92m2022-09-22 20:53:14 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:53:14 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:quote:[mirai:source:ids=[40125], internalIds=[648551310], from 2118654642 to 1109825279 at 1663850821], content=<not yet initialized>][mirai:at:2118654642] 涩图[0m[m
+[91m2022-09-22 20:53:14 W/stderr: java.lang.NullPointerException: Cannot invoke "java.util.Map.put(Object, Object)" because "map" is null[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:69)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:87)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.api.PixivApi.getSeImagePid(PixivApi.java:75)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.ImageShareMessageEventHandler.doParseSeImage(ImageShareMessageEventHandler.java:166)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.ImageShareMessageEventHandler.handleMessageEvent(ImageShareMessageEventHandler.java:76)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:98)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)[0m[m
+[91m2022-09-22 20:53:14 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)[0m[m
+[0m2022-09-22 20:53:15 V/Bot.2118654642: Group(1109825279) <- 意外地失去了与地球上的通信...\n错误原因：Cannot invoke "java.util.Map.put(Object, Object)" because "map" is null[0m[m
+[0m2022-09-22 20:55:08 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:quote:[mirai:source:ids=[40130], internalIds=[1385829260], from 2118654642 to 1109825279 at 1663851197], content=<not yet initialized>][mirai:at:2118654642] ikun[0m[m
+[92m2022-09-22 20:55:08 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:55:12 V/Bot.2118654642: Group(1109825279) <- 无聊！打几个实用点的字出来聊行不[0m[m
+[0m2022-09-22 20:58:19 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:quote:[mirai:source:ids=[40129], internalIds=[575860360], from 3074139791 to 1109825279 at 1663851196], content=<not yet initialized>][mirai:at:3074139791] 涩图指令是[0m[m
+[92m2022-09-22 20:58:19 I/stdout: RobotConfig.enableRobot = true[0m[m
+[91m2022-09-22 20:58:19 W/stderr: java.lang.NullPointerException: Cannot invoke "java.util.Map.put(Object, Object)" because "map" is null[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:69)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:87)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.api.PixivApi.getSeImagePid(PixivApi.java:75)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.ImageShareMessageEventHandler.doParseSeImage(ImageShareMessageEventHandler.java:166)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.ImageShareMessageEventHandler.handleMessageEvent(ImageShareMessageEventHandler.java:76)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:98)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)[0m[m
+[91m2022-09-22 20:58:19 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)[0m[m
+[0m2022-09-22 20:58:20 V/Bot.2118654642: Group(1109825279) <- 意外地失去了与地球上的通信...\n错误原因：Cannot invoke "java.util.Map.put(Object, Object)" because "map" is null[0m[m
+[0m2022-09-22 20:58:28 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> rin get[0m[m
+[92m2022-09-22 20:58:28 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 20:58:28 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 20:58:28 V/Bot.2118654642: Group(1109825279) <- [mirai:quote:[mirai:source:ids=[40135], internalIds=[632909783], from group 1679124358 to 1109825279 at 1663851510], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 20:58:30 I/Lolicon: {"error":"","data":[{"pid":90250651,"p":0,"uid":3940309,"title":"…変態","author":"テレビ","r18":false,"width":1563,"height":2473,"tags":["バーチャルYouTuber","虚拟主播","女の子","女孩子","宝鐘マリン","Houshou Marine","ホロライブ","Hololive"],"ext":"jpg","uploadDate":1622540050000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2021/06/01/18/34/10/90250651_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 20:58:30 V/Bot.2118654642: Group(1109825279) <- 标题: …変態\n作者: テレビ (uid: 3940309)\n标签: [バーチャルYouTuber, 虚拟主播, 女の子, 女孩子, 宝鐘マリン, Houshou Marine, ホロライブ, Hololive]\n链接: https://pixiv.net/artworks/90250651\n代理链接：https://i.pixiv.re/img-master/img/2021/06/01/18/34/10/90250651_p0_master1200.jpg[0m[m
+[0m2022-09-22 20:58:35 V/Bot.2118654642: Group(1109825279) <- [mirai:image:{DEB497C0-7D31-F490-2349-E23C84EA482C}.jpg, width=759, height=1200, size=313072, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 20:58:35 I/Lolicon: Group(1109825279)进入冷却[0m[m
+[92m2022-09-22 20:58:35 I/Lolicon: Group(1109825279)NOTIFICATION已撤回[0m[m
+[92m2022-09-22 20:58:40 I/Lolicon: Group(1109825279)已冷却[0m[m
+[92m2022-09-22 20:58:47 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:58:47 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 我超，玛利亚[0m[m
+[92m2022-09-22 20:59:27 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:59:27 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:quote:[mirai:source:ids=[40137], internalIds=[1059879852], from 2118654642 to 1109825279 at 1663851513], content=<not yet initialized>][mirai:at:2118654642] rin get[0m[m
+[0m2022-09-22 20:59:30 V/Bot.2118654642: Group(1109825279) <- [睡][0m[m
+[92m2022-09-22 20:59:35 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:59:35 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 不要@[0m[m
+[92m2022-09-22 20:59:42 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:59:42 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 这是个全局指令[0m[m
+[92m2022-09-22 20:59:44 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:59:44 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> rin get[0m[m
+[92m2022-09-22 20:59:44 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 20:59:45 V/Bot.2118654642: Group(1109825279) <- [mirai:quote:[mirai:source:ids=[40144], internalIds=[697544985], from group 3074139791 to 1109825279 at 1663851587], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 20:59:45 I/Lolicon: {"error":"","data":[{"pid":89450171,"p":0,"uid":1098889,"title":"ロキシー （ディズィーver）","author":"タクロヲ","r18":false,"width":1013,"height":1433,"tags":["女の子","女孩子","ロリ","萝莉","ロキシー・ミグルディア","洛琪希·米格路迪亚","無職転生","Mushoku Tensei","ギルティギア","罪恶装备","ディズィー","迪兹","おっぱい","欧派","ネタバレ注意","剧透注意","コスプレ","cosplay"],"ext":"png","uploadDate":1619610867000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2021/04/28/20/54/27/89450171_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 20:59:46 V/Bot.2118654642: Group(1109825279) <- 标题: ロキシー （ディズィーver）\n作者: タクロヲ (uid: 1098889)\n标签: [女の子, 女孩子, ロリ, 萝莉, ロキシー・ミグルディア, 洛琪希·米格路迪亚, 無職転生, Mushoku Tensei, ギルティギア, 罪恶装备, ディズィー, 迪兹, おっぱい, 欧派, ネタバレ注意, 剧透注意, コスプレ, cosplay]\n链接: https://pixiv.net/artworks/89450171\n代理链接：https://i.pixiv.re/img-master/img/2021/04/28/20/54/27/89450171_p0_master1200.jpg[0m[m
+[0m2022-09-22 20:59:52 V/Bot.2118654642: Group(1109825279) <- [mirai:image:{F03C25E1-62FD-9382-5BFA-849F1AFA4CBB}.jpg, width=849, height=1200, size=771934, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 20:59:52 I/Lolicon: Group(1109825279)进入冷却[0m[m
+[92m2022-09-22 20:59:52 I/Lolicon: Group(1109825279)NOTIFICATION已撤回[0m[m
+[92m2022-09-22 20:59:57 I/Lolicon: Group(1109825279)已冷却[0m[m
+[92m2022-09-22 21:00:30 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:00:30 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 这无职转生一点都不洛琪希[0m[m
+[92m2022-09-22 21:00:44 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:00:44 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 这么涩[表情][0m[m
+[92m2022-09-22 21:00:46 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:00:46 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> rin get[0m[m
+[92m2022-09-22 21:00:46 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 21:00:46 V/Bot.2118654642: Group(1109825279) <- [mirai:quote:[mirai:source:ids=[40149], internalIds=[1711815850], from group 3074139791 to 1109825279 at 1663851648], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 21:00:47 I/Lolicon: {"error":"","data":[{"pid":97206025,"p":0,"uid":17438312,"title":"喜多川海夢","author":"Saruei","r18":false,"width":1000,"height":1779,"tags":["marin","kitagawa","marinkitagawa","shibari","schooluniform","喜多川海夢","Marin Kitagawa","女の子","女孩子","その着せ替え人形は恋をする","更衣人偶坠入爱河","制服","uniform","緊縛","紧缚"],"ext":"png","uploadDate":1648345553000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2022/03/27/10/45/53/97206025_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 21:00:47 V/Bot.2118654642: Group(1109825279) <- 标题: 喜多川海夢\n作者: Saruei (uid: 17438312)\n标签: [marin, kitagawa, marinkitagawa, shibari, schooluniform, 喜多川海夢, Marin Kitagawa, 女の子, 女孩子, その着せ替え人形は恋をする, 更衣人偶坠入爱河, 制服, uniform, 緊縛, 紧缚]\n链接: https://pixiv.net/artworks/97206025\n代理链接：https://i.pixiv.re/img-master/img/2022/03/27/10/45/53/97206025_p0_master1200.jpg[0m[m
+[0m2022-09-22 21:00:53 V/Bot.2118654642: Group(1109825279) <- [mirai:image:{5B7A9FAB-1BC4-9D61-4FF9-29323F400493}.jpg, width=675, height=1200, size=721628, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 21:00:53 I/Lolicon: Group(1109825279)进入冷却[0m[m
+[92m2022-09-22 21:00:53 I/Lolicon: Group(1109825279)NOTIFICATION已撤回[0m[m
+[92m2022-09-22 21:00:58 I/Lolicon: Group(1109825279)已冷却[0m[m
+[92m2022-09-22 21:01:14 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:01:14 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> rin get[0m[m
+[92m2022-09-22 21:01:14 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 21:01:15 V/Bot.2118654642: Group(1109825279) <- [mirai:quote:[mirai:source:ids=[40152], internalIds=[1074262810], from group 3074139791 to 1109825279 at 1663851676], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 21:01:15 I/Lolicon: {"error":"","data":[{"pid":70066886,"p":0,"uid":593960,"title":"暇つぶし","author":"TEDDY","r18":false,"width":786,"height":1000,"tags":["switch","FGO","Fate/GrandOrder","沖田総司(Fate)","冲田总司（Fate）","織田信長(Fate)","织田信长（Fate）","茶々(Fate)","茶茶（Fate）"],"ext":"jpg","uploadDate":1533617970000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2018/08/07/13/59/30/70066886_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 21:01:15 V/Bot.2118654642: Group(1109825279) <- 标题: 暇つぶし\n作者: TEDDY (uid: 593960)\n标签: [switch, FGO, Fate/GrandOrder, 沖田総司(Fate), 冲田总司（Fate）, 織田信長(Fate), 织田信长（Fate）, 茶々(Fate), 茶茶（Fate）]\n链接: https://pixiv.net/artworks/70066886\n代理链接：https://i.pixiv.re/img-master/img/2018/08/07/13/59/30/70066886_p0_master1200.jpg[0m[m
+[0m2022-09-22 21:01:19 V/Bot.2118654642: Group(1109825279) <- [mirai:image:{4726DA9A-BA41-F35F-ED9B-18F018F78814}.jpg, width=786, height=1000, size=337740, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 21:01:19 I/Lolicon: Group(1109825279)进入冷却[0m[m
+[92m2022-09-22 21:01:20 I/Lolicon: Group(1109825279)NOTIFICATION已撤回[0m[m
+[92m2022-09-22 21:01:24 I/Lolicon: Group(1109825279)已冷却[0m[m
+[92m2022-09-22 21:02:22 I/HRobot: cron task running...[0m[m
+[0m2022-09-22 21:02:25 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 我超 冲田[0m[m
+[92m2022-09-22 21:02:25 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 21:02:39 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:02:39 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 还可以开启r18权限[0m[m
+[92m2022-09-22 21:02:42 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:02:42 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [热化了]请使用最新版手机QQ体验新功能[0m[m
+[92m2022-09-22 21:03:17 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:03:17 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> rin set ？[0m[m
+[0m2022-09-22 21:03:17 V/Bot.2118654642: Group(1109825279) <- 参数不匹配, 你是否想执行: \n(/)lolicon set <property> <value>    (参数不足)[0m[m
+[0m2022-09-22 21:06:07 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:image:{F9224E94-1528-BE1A-7BA5-34437A4936E8}.jpg, width=1920, height=1080, size=252143, type=PNG, isEmoji=false][0m[m
+[92m2022-09-22 21:06:07 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:06:33 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 直接恕瑞玛[0m[m
+[92m2022-09-22 21:06:33 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 21:07:23 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:07:23 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 你们这边寄了[0m[m
+[0m2022-09-22 21:07:26 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 全是ap[0m[m
+[92m2022-09-22 21:07:26 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 21:07:29 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:07:29 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 打勾八[0m[m
+[0m2022-09-22 21:07:41 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 寒冰估计也是poko流的[0m[m
+[92m2022-09-22 21:07:41 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:07:52 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 我直接一推五[0m[m
+[92m2022-09-22 21:07:52 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:07:53 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 乱杀[0m[m
+[92m2022-09-22 21:07:53 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 21:08:03 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:08:03 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 雪球接闪现[0m[m
+[92m2022-09-22 21:08:07 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:08:07 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 你漂移会不会哦[汪汪][0m[m
+[92m2022-09-22 21:08:08 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:08:08 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 嘎嘎乱杀[0m[m
+[92m2022-09-22 21:08:13 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:08:13 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 我试看看[0m[m
+[92m2022-09-22 21:08:18 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:08:18 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> wqe[0m[m
+[92m2022-09-22 21:08:22 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:08:22 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> weq[0m[m
+[0m2022-09-22 21:08:25 V/Bot.2118654642: Event: GroupRecall(bot=Bot(2118654642), authorId=1679124358, messageIds=[40173], messageInternalIds=[213114262], messageTime=1663852100, operator=NormalMember(1679124358), group=Group(1109825279), author=NormalMember(1679124358))[0m[m
+[92m2022-09-22 21:08:43 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:08:43 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 看我操作一会发战绩[0m[m
+[92m2022-09-22 21:08:58 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:08:58 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [汪汪][0m[m
+[92m2022-09-22 21:09:05 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:09:05 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 全是脆皮[0m[m
+[92m2022-09-22 21:10:14 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:10:14 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 丢丢怪局[0m[m
+[0m2022-09-22 21:15:03 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> rin get[0m[m
+[92m2022-09-22 21:15:03 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 21:15:03 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 21:15:03 V/Bot.2118654642: Group(460292097) <- [mirai:quote:[mirai:source:ids=[2405], internalIds=[600480550], from group 1679124358 to 460292097 at 1663852505], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 21:15:05 I/Lolicon: {"error":"","data":[{"pid":79240271,"p":0,"uid":2793583,"title":"グラブル姉弟ログ11","author":"リング","r18":false,"width":900,"height":1273,"tags":["R-18","グランブルーファンタジー","碧蓝幻想","カトエセ","カトル","Quatre","エッセル","Esser","ソーン","Song","フラウ","Flowey","ビカラ","Vikala","フラウ(グラブル)","Fraux (Granblue)"],"ext":"png","uploadDate":1580636124000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2020/02/02/18/35/24/79240271_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 21:15:05 V/Bot.2118654642: Group(460292097) <- 标题: グラブル姉弟ログ11\n作者: リング (uid: 2793583)\n标签: [R-18, グランブルーファンタジー, 碧蓝幻想, カトエセ, カトル, Quatre, エッセル, Esser, ソーン, Song, フラウ, Flowey, ビカラ, Vikala, フラウ(グラブル), Fraux (Granblue)]\n链接: https://pixiv.net/artworks/79240271\n代理链接：https://i.pixiv.re/img-master/img/2020/02/02/18/35/24/79240271_p0_master1200.jpg[0m[m
+[0m2022-09-22 21:15:11 V/Bot.2118654642: Group(460292097) <- [mirai:image:{79D93FB7-C9F7-2C64-2AA6-4635CE364EF0}.jpg, width=849, height=1200, size=693607, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 21:15:11 I/Lolicon: Group(460292097)进入冷却[0m[m
+[92m2022-09-22 21:15:11 I/Lolicon: Group(460292097)NOTIFICATION已撤回[0m[m
+[92m2022-09-22 21:15:16 I/Lolicon: Group(460292097)已冷却[0m[m
+[92m2022-09-22 21:15:42 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:15:42 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> set r18[0m[m
+[0m2022-09-22 21:15:50 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> rin set r18[0m[m
+[92m2022-09-22 21:15:50 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:15:50 V/Bot.2118654642: Group(460292097) <- 参数不匹配, 你是否想执行: \n(/)lolicon set <property> <value>    (参数不足)[0m[m
+[92m2022-09-22 21:16:21 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:16:21 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> rin set r18 1[0m[m
+[92m2022-09-22 21:16:21 I/Lolicon: set R18 to 1[0m[m
+[0m2022-09-22 21:16:21 V/Bot.2118654642: Group(460292097) <- 设置成功[0m[m
+[0m2022-09-22 21:16:28 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> rin get[0m[m
+[92m2022-09-22 21:16:28 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 21:16:28 I/Lolicon: request body: {"r18":1,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 21:16:29 V/Bot.2118654642: Group(460292097) <- [mirai:quote:[mirai:source:ids=[2414], internalIds=[1371961861], from group 1679124358 to 460292097 at 1663852591], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 21:16:29 I/Lolicon: {"error":"","data":[{"pid":85485929,"p":0,"uid":2767285,"title":"ぴーす (skeb)","author":"またろ","r18":true,"width":1475,"height":1753,"tags":["R-18","Skeb","VRChat","事後","事后","乳首ローター","バイブ","震动","片足パンツ","单腿挂着内裤","おしっこ","撒尿"],"ext":"png","uploadDate":1604589380000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2020/11/06/00/16/20/85485929_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 21:16:29 V/Bot.2118654642: Group(460292097) <- 标题: ぴーす (skeb)\n作者: またろ (uid: 2767285)\n标签: [R-18, Skeb, VRChat, 事後, 事后, 乳首ローター, バイブ, 震动, 片足パンツ, 单腿挂着内裤, おしっこ, 撒尿]\n链接: https://pixiv.net/artworks/85485929\n代理链接：https://i.pixiv.re/img-master/img/2020/11/06/00/16/20/85485929_p0_master1200.jpg[0m[m
+[0m2022-09-22 21:16:36 V/Bot.2118654642: Group(460292097) <- [mirai:image:{E442B8F2-1646-DD59-77D4-5650EC7E8018}.jpg, width=1010, height=1200, size=872337, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 21:16:36 I/Lolicon: Group(460292097)进入冷却[0m[m
+[92m2022-09-22 21:16:36 I/Lolicon: Group(460292097)NOTIFICATION已撤回[0m[m
+[92m2022-09-22 21:16:41 I/Lolicon: Group(460292097)已冷却[0m[m
+[92m2022-09-22 21:16:49 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:16:49 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> rin get[0m[m
+[92m2022-09-22 21:16:49 I/Lolicon: request body: {"r18":1,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 21:16:49 V/Bot.2118654642: Group(460292097) <- [mirai:quote:[mirai:source:ids=[2417], internalIds=[875865307], from group 1679124358 to 460292097 at 1663852611], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 21:16:50 I/Lolicon: {"error":"","data":[{"pid":71344138,"p":0,"uid":176236,"title":"あかりちゃん","author":"さわやか鮫肌","r18":true,"width":1089,"height":1240,"tags":["R-18","VOICEROID","紲星あかり","绁星灯","舐め回したい穴","想舔到不行的穴","アナルくぱぁ","肛门露出","愛液","爱液","KENZEN","手マンオナニー","揉みしだきたい乳","诱人把玩的乳房"],"ext":"png","uploadDate":1540470700000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2018/10/25/21/31/40/71344138_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 21:16:50 V/Bot.2118654642: Group(460292097) <- 标题: あかりちゃん\n作者: さわやか鮫肌 (uid: 176236)\n标签: [R-18, VOICEROID, 紲星あかり, 绁星灯, 舐め回したい穴, 想舔到不行的穴, アナルくぱぁ, 肛门露出, 愛液, 爱液, KENZEN, 手マンオナニー, 揉みしだきたい乳, 诱人把玩的乳房]\n链接: https://pixiv.net/artworks/71344138\n代理链接：https://i.pixiv.re/img-master/img/2018/10/25/21/31/40/71344138_p0_master1200.jpg[0m[m
+[0m2022-09-22 21:16:57 V/Bot.2118654642: Group(460292097) <- [mirai:image:{604CAA40-85DC-56BB-65B4-660C872305B4}.jpg, width=1054, height=1200, size=637972, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 21:16:57 I/Lolicon: Group(460292097)进入冷却[0m[m
+[92m2022-09-22 21:16:57 I/Lolicon: Group(460292097)NOTIFICATION已撤回[0m[m
+[92m2022-09-22 21:17:02 I/Lolicon: Group(460292097)已冷却[0m[m
+[0m2022-09-22 21:17:18 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> rin get[0m[m
+[92m2022-09-22 21:17:18 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 21:17:18 I/Lolicon: request body: {"r18":1,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 21:17:18 V/Bot.2118654642: Group(460292097) <- [mirai:quote:[mirai:source:ids=[2420], internalIds=[537220033], from group 1679124358 to 460292097 at 1663852640], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 21:17:19 I/Lolicon: {"error":"","data":[{"pid":76656529,"p":1,"uid":16540321,"title":"(´^｀)。","author":"Pew_Pew","r18":true,"width":750,"height":1050,"tags":["R-18","pokemon","kasumi","カスミ","小霞","ポケモン","精灵宝可梦","女の子","女孩子","D_on"],"ext":"png","uploadDate":1567788034000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2019/09/07/01/40/34/76656529_p1_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 21:17:19 V/Bot.2118654642: Group(460292097) <- 标题: (´^｀)。\n作者: Pew_Pew (uid: 16540321)\n标签: [R-18, pokemon, kasumi, カスミ, 小霞, ポケモン, 精灵宝可梦, 女の子, 女孩子, D_on]\n链接: https://pixiv.net/artworks/76656529\n代理链接：https://i.pixiv.re/img-master/img/2019/09/07/01/40/34/76656529_p1_master1200.jpg[0m[m
+[0m2022-09-22 21:17:25 V/Bot.2118654642: Group(460292097) <- [mirai:image:{B78E095B-5410-8981-A996-7DA9B3237895}.jpg, width=750, height=1050, size=401986, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 21:17:25 I/Lolicon: Group(460292097)进入冷却[0m[m
+[92m2022-09-22 21:17:25 I/Lolicon: Group(460292097)NOTIFICATION已撤回[0m[m
+[92m2022-09-22 21:17:30 I/Lolicon: Group(460292097)已冷却[0m[m
+[0m2022-09-22 21:17:50 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> rin set r18 0[0m[m
+[92m2022-09-22 21:17:50 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 21:17:50 I/Lolicon: set R18 to 0[0m[m
+[0m2022-09-22 21:17:51 V/Bot.2118654642: Group(460292097) <- 设置成功[0m[m
+[0m2022-09-22 21:17:58 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> rin get[0m[m
+[92m2022-09-22 21:17:58 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 21:17:58 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 21:17:58 V/Bot.2118654642: Group(460292097) <- [mirai:quote:[mirai:source:ids=[2425], internalIds=[54612885], from group 1679124358 to 460292097 at 1663852680], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 21:17:59 I/Lolicon: {"error":"","data":[{"pid":61504182,"p":0,"uid":4357590,"title":"英明にいさまをゆーわくしよう♪","author":"ゆゆまつ","r18":false,"width":800,"height":800,"tags":["女の子","女孩子","TW","金髪","金发","メイド服","女仆装","下着","内衣","ガーターベルト","吊袜带","たくしあげ","掀起裙子","ぱんつ","胖次"],"ext":"jpg","uploadDate":1487335000000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2017/02/17/21/36/40/61504182_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 21:17:59 V/Bot.2118654642: Group(460292097) <- 标题: 英明にいさまをゆーわくしよう♪\n作者: ゆゆまつ (uid: 4357590)\n标签: [女の子, 女孩子, TW, 金髪, 金发, メイド服, 女仆装, 下着, 内衣, ガーターベルト, 吊袜带, たくしあげ, 掀起裙子, ぱんつ, 胖次]\n链接: https://pixiv.net/artworks/61504182\n代理链接：https://i.pixiv.re/img-master/img/2017/02/17/21/36/40/61504182_p0_master1200.jpg[0m[m
+[0m2022-09-22 21:18:03 V/Bot.2118654642: Group(460292097) <- [mirai:image:{3220098A-2595-4C6B-A958-C41F8C9E85F2}.jpg, width=800, height=800, size=417407, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 21:18:03 I/Lolicon: Group(460292097)进入冷却[0m[m
+[92m2022-09-22 21:18:03 I/Lolicon: Group(460292097)NOTIFICATION已撤回[0m[m
+[92m2022-09-22 21:18:08 I/Lolicon: Group(460292097)已冷却[0m[m
+[92m2022-09-22 21:32:22 I/HRobot: cron task running...[0m[m
+[0m2022-09-22 21:33:09 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> rin get[0m[m
+[92m2022-09-22 21:33:09 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 21:33:09 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 21:33:09 V/Bot.2118654642: Group(460292097) <- [mirai:quote:[mirai:source:ids=[2429], internalIds=[777789889], from group 1679124358 to 460292097 at 1663853592], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 21:33:11 I/Lolicon: {"error":"","data":[{"pid":75878555,"p":0,"uid":1218811,"title":"Siberian forest cat","author":"きのこむし🍄二日目め23A","r18":false,"width":1000,"height":1379,"tags":["オリジナル","原创","女の子","女孩子","猫耳","cat ears","ネコミミ","cat ear","ケモミミ","兽耳","ビキニ","比基尼","C96","ツインテール","双马尾","尻神様","尻神样"],"ext":"png","uploadDate":1563894007000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2019/07/24/00/00/07/75878555_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 21:33:11 V/Bot.2118654642: Group(460292097) <- 标题: Siberian forest cat\n作者: きのこむし🍄二日目め23A (uid: 1218811)\n标签: [オリジナル, 原创, 女の子, 女孩子, 猫耳, cat ears, ネコミミ, cat ear, ケモミミ, 兽耳, ビキニ, 比基尼, C96, ツインテール, 双马尾, 尻神様, 尻神样]\n链接: https://pixiv.net/artworks/75878555\n代理链接：https://i.pixiv.re/img-master/img/2019/07/24/00/00/07/75878555_p0_master1200.jpg[0m[m
+[0m2022-09-22 21:33:19 V/Bot.2118654642: Group(460292097) <- [mirai:image:{D4C77D06-CD8A-1561-2A63-7B51CB253288}.jpg, width=871, height=1200, size=810241, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 21:33:19 I/Lolicon: Group(460292097)进入冷却[0m[m
+[92m2022-09-22 21:33:19 I/Lolicon: Group(460292097)NOTIFICATION已撤回[0m[m
+[92m2022-09-22 21:33:24 I/Lolicon: Group(460292097)已冷却[0m[m
+[0m2022-09-22 21:34:05 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 就我们gov八班[0m[m
+[92m2022-09-22 21:34:05 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:34:18 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 改成学号姓名[0m[m
+[92m2022-09-22 21:34:18 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:34:20 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 了[0m[m
+[92m2022-09-22 21:34:20 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 21:40:22 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:40:22 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:image:{DBCCFFDB-1E92-CE1B-6E37-2F8FC9735697}.jpg, width=1920, height=1080, size=153424, type=PNG, isEmoji=false][0m[m
+[0m2022-09-22 21:40:35 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:image:{2F197835-5D24-32F1-A8F7-8F1B42CF1E7E}.jpg, width=1920, height=1080, size=180507, type=PNG, isEmoji=false]惜败[0m[m
+[92m2022-09-22 21:40:35 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 21:40:53 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:40:53 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 这么溜[0m[m
+[92m2022-09-22 21:41:00 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:41:00 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 八万多伤[0m[m
+[0m2022-09-22 21:42:03 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 不应该是wqe嘛[0m[m
+[92m2022-09-22 21:42:03 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:44:46 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> wqe不是漂移[0m[m
+[92m2022-09-22 21:44:46 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 21:44:49 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:44:49 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> weq才是[0m[m
+[0m2022-09-22 21:45:12 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 先e，在e的途中q[0m[m
+[92m2022-09-22 21:45:12 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 21:46:26 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:46:26 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 1[0m[m
+[92m2022-09-22 21:51:23 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:51:23 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 尴尬😅[0m[m
+[92m2022-09-22 21:51:58 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:51:58 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:at:2118654642] 过来找日[0m[m
+[0m2022-09-22 21:52:01 V/Bot.2118654642: Group(1109825279) <- 这就给您滚过去！[0m[m
+[0m2022-09-22 21:52:07 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 直播图片好模糊[0m[m
+[92m2022-09-22 21:52:07 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:52:10 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 看不清[0m[m
+[92m2022-09-22 21:52:10 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:52:32 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:image:{32B6520A-E1E3-C658-4C53-D1816DB339C6}.jpg, width=1920, height=1080, size=148261, type=PNG, isEmoji=false][0m[m
+[92m2022-09-22 21:52:32 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:53:20 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 你们不边听边写哦[0m[m
+[92m2022-09-22 21:53:20 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 21:54:24 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:54:24 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 会记笔记[0m[m
+[92m2022-09-22 21:54:28 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:54:28 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 这么认真[0m[m
+[92m2022-09-22 21:54:30 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:54:30 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 网址在哪[0m[m
+[0m2022-09-22 21:54:49 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 我直接保存了[0m[m
+[92m2022-09-22 21:54:49 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:54:50 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 其他那些填不填啊[0m[m
+[92m2022-09-22 21:54:50 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 21:54:55 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:54:55 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 寄几把刺激[0m[m
+[0m2022-09-22 21:54:56 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 不填[0m[m
+[92m2022-09-22 21:54:56 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 21:54:57 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:54:57 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 笔记[0m[m
+[0m2022-09-22 21:55:06 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 叫什么网站[0m[m
+[92m2022-09-22 21:55:06 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 21:55:08 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:55:08 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 直接搜四川啥啥啥就行[0m[m
+[92m2022-09-22 21:55:15 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:55:15 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 四川学生资助[0m[m
+[0m2022-09-22 21:55:26 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 我都弄好了[0m[m
+[92m2022-09-22 21:55:26 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 21:55:32 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:55:32 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [冷汗][0m[m
+[92m2022-09-22 21:55:36 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 21:55:36 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:image:{EDA8AAA1-367D-CE6C-B88F-1C4D86E72A27}.png, width=1920, height=1080, size=726014, type=PNG, isEmoji=false][0m[m
+[0m2022-09-22 22:00:32 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 密码不对[0m[m
+[92m2022-09-22 22:00:32 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 22:00:39 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:00:39 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 忘了[0m[m
+[0m2022-09-22 22:00:46 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 好像没绑定邮箱[0m[m
+[92m2022-09-22 22:00:46 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:01:13 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 初始密码是身份证后6位嘛[0m[m
+[92m2022-09-22 22:01:13 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 22:01:34 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:01:34 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 详细地址这些填不填啊[0m[m
+[92m2022-09-22 22:02:22 I/HRobot: cron task running...[0m[m
+[0m2022-09-22 22:02:46 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:quote:[mirai:source:ids=[40209], internalIds=[1811800086], from 1794522691 to 1109825279 at 1663854928], content=<not yet initialized>][mirai:at:1794522691] 看哈你的那个表[0m[m
+[92m2022-09-22 22:02:46 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 22:03:12 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:03:12 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 是不是除了打红色星号的都不填啊[0m[m
+[92m2022-09-22 22:04:44 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:04:44 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 对[0m[m
+[92m2022-09-22 22:05:00 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:05:00 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 只有必填的填[0m[m
+[92m2022-09-22 22:05:38 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:05:38 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:image:{42E1E31E-0E8A-6B1C-2E35-38F8DDA36F26}.jpg, width=1920, height=1440, size=161041, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 22:05:46 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:05:46 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:quote:[mirai:source:ids=[40220], internalIds=[496827401], from 1794522691 to 1109825279 at 1663855502], content=<not yet initialized>][mirai:at:1794522691] 这样就可以交了吧[0m[m
+[0m2022-09-22 22:06:51 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 完啦[0m[m
+[92m2022-09-22 22:06:51 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:06:54 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 密码改不了[0m[m
+[92m2022-09-22 22:06:54 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:07:02 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 邮箱收不到验证码[0m[m
+[92m2022-09-22 22:07:02 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 22:07:04 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:07:04 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 啥子改不了[0m[m
+[92m2022-09-22 22:07:25 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:07:25 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 我都没用邮箱..[0m[m
+[92m2022-09-22 22:07:35 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:07:35 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 密码不正确[0m[m
+[92m2022-09-22 22:07:40 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:07:40 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 我忘了密码是啥子[0m[m
+[92m2022-09-22 22:08:03 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:08:03 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 找老师重置密码[0m[m
+[0m2022-09-22 22:10:51 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:3074139791] 快说[0m[m
+[92m2022-09-22 22:10:51 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 22:10:51 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:10:51 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:quote:[mirai:source:ids=[40221], internalIds=[1268370875], from 1679124358 to 1109825279 at 1663855541], content=<not yet initialized>][mirai:at:1679124358] 家庭困难一个都不选哦[0m[m
+[0m2022-09-22 22:11:23 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:quote:[mirai:source:ids=[40232], internalIds=[433274060], from 1794522691 to 1109825279 at 1663855853], content=<not yet initialized>][mirai:at:1794522691] 所以到底选不选[表情][0m[m
+[92m2022-09-22 22:11:23 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:11:39 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 你选低收入家庭[0m[m
+[92m2022-09-22 22:11:39 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 22:11:44 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:11:44 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 只选这一个[0m[m
+[92m2022-09-22 22:12:11 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:12:11 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:quote:[mirai:source:ids=[40229], internalIds=[209315525], from 3074139791 to 1109825279 at 1663855663], content=<not yet initialized>][mirai:at:3074139791] 我也记不得 但是浏览器记得[0m[m
+[92m2022-09-22 22:12:14 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:12:14 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [冷汗][0m[m
+[0m2022-09-22 22:12:28 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 额[0m[m
+[92m2022-09-22 22:12:28 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:12:30 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 厉害[0m[m
+[92m2022-09-22 22:12:30 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:12:37 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 我基本不叫浏览器保存[0m[m
+[92m2022-09-22 22:12:37 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 22:12:38 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:12:38 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 其它的是都直接不填（默认的）还是都填否[0m[m
+[92m2022-09-22 22:12:44 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:12:44 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 我这记性[0m[m
+[92m2022-09-22 22:12:46 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:12:46 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 不填[0m[m
+[0m2022-09-22 22:12:56 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:at:1679124358] 刚才不听是吧[0m[m
+[92m2022-09-22 22:12:56 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 22:13:12 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:13:12 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 刚才打杨晃了[0m[m
+[0m2022-09-22 22:13:15 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [我想开了]请使用最新版手机QQ体验新功能[0m[m
+[92m2022-09-22 22:13:15 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 22:13:32 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:13:32 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 那就直接这样保存了蛤[0m[m
+[92m2022-09-22 22:13:37 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:13:37 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 嗯呢[0m[m
+[92m2022-09-22 22:13:57 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:13:57 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 晨勃[0m[m
+[92m2022-09-22 22:14:00 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:14:00 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 这名字[0m[m
+[92m2022-09-22 22:14:13 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:14:13 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 金人哥还不说？[0m[m
+[0m2022-09-22 22:14:20 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:at:3074139791] [0m[m
+[92m2022-09-22 22:14:20 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:14:37 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 我qq说了[0m[m
+[92m2022-09-22 22:14:37 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:15:26 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 腾讯会议能不能退了[0m[m
+[92m2022-09-22 22:15:26 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:15:29 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:3074139791] 会议聊天说呀[0m[m
+[92m2022-09-22 22:15:29 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 22:15:43 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:15:43 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:image:{B3F34B83-4E99-7BB4-CC6A-7E8BB17E4B41}.gif, width=93, height=88, size=4460, type=GIF, isEmoji=false][0m[m
+[92m2022-09-22 22:16:16 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:16:16 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:image:{A0188BC5-0A78-17A1-2AAC-83C3D5CAFBAF}.gif, width=300, height=300, size=149250, type=GIF, isEmoji=false][0m[m
+[92m2022-09-22 22:16:29 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:16:29 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 芜湖[0m[m
+[0m2022-09-22 22:16:34 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 金人哥被点了[0m[m
+[92m2022-09-22 22:16:34 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:17:45 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 等于说我的是错的[0m[m
+[92m2022-09-22 22:17:45 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 22:17:50 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:17:50 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 还是等不起[0m[m
+[92m2022-09-22 22:17:55 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:17:55 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 是后六位噻[0m[m
+[0m2022-09-22 22:18:35 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 老师还没弄好[0m[m
+[92m2022-09-22 22:18:35 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:19:00 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 为什么[0m[m
+[92m2022-09-22 22:19:00 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 22:19:27 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:19:27 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 重新一个个弄的[0m[m
+[0m2022-09-22 22:19:29 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 才演哦[0m[m
+[92m2022-09-22 22:19:29 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 22:19:36 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:19:36 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 刚刚弄成21级了[0m[m
+[92m2022-09-22 22:20:00 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:20:00 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [仔细分析]请使用最新版手机QQ体验新功能[0m[m
+[0m2022-09-22 22:20:38 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 我来尝试一波密码[0m[m
+[92m2022-09-22 22:20:38 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 22:20:50 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:20:50 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 印象中的都试哈[0m[m
+[0m2022-09-22 22:21:00 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 涩图时间到[0m[m
+[92m2022-09-22 22:21:00 I/stdout: RobotConfig.enableRobot = true[0m[m
+[91m2022-09-22 22:21:01 W/stderr: java.lang.NullPointerException: Cannot invoke "java.util.Map.put(Object, Object)" because "map" is null[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:69)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:87)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.api.PixivApi.getSeImagePid(PixivApi.java:75)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.ImageShareMessageEventHandler.doParseSeImage(ImageShareMessageEventHandler.java:166)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.ImageShareMessageEventHandler.handleMessageEvent(ImageShareMessageEventHandler.java:76)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:98)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)[0m[m
+[91m2022-09-22 22:21:01 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)[0m[m
+[0m2022-09-22 22:21:01 V/Bot.2118654642: Group(1109825279) <- 意外地失去了与地球上的通信...\n错误原因：Cannot invoke "java.util.Map.put(Object, Object)" because "map" is null[0m[m
+[92m2022-09-22 22:21:07 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:21:07 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> rin get[0m[m
+[92m2022-09-22 22:21:07 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 22:21:08 V/Bot.2118654642: Group(1109825279) <- [mirai:quote:[mirai:source:ids=[40273], internalIds=[777128730], from group 1679124358 to 1109825279 at 1663856470], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 22:21:09 I/Lolicon: {"error":"","data":[{"pid":58312940,"p":0,"uid":76712,"title":"駆逐艦 電 \"寄生体艤装\"　侵蝕率：90％　","author":"左藤空気","r18":false,"width":1350,"height":1906,"tags":["R-18","艦隊これくしょん","舰队collection","艦これ","舰C","電","Inazuma","電(艦隊これくしょん)","Inazuma (Kantai Collection)","悪堕ち","黑化","寄生","parasitism","長手袋","长手套","キャメルトゥ","camel toe"],"ext":"jpg","uploadDate":1470582009000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2016/08/08/00/00/09/58312940_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 22:21:09 V/Bot.2118654642: Group(1109825279) <- 标题: 駆逐艦 電 "寄生体艤装"　侵蝕率：90％　\n作者: 左藤空気 (uid: 76712)\n标签: [R-18, 艦隊これくしょん, 舰队collection, 艦これ, 舰C, 電, Inazuma, 電(艦隊これくしょん), Inazuma (Kantai Collection), 悪堕ち, 黑化, 寄生, parasitism, 長手袋, 长手套, キャメルトゥ, camel toe]\n链接: https://pixiv.net/artworks/58312940\n代理链接：https://i.pixiv.re/img-master/img/2016/08/08/00/00/09/58312940_p0_master1200.jpg[0m[m
+[0m2022-09-22 22:21:19 V/Bot.2118654642: Group(1109825279) <- [mirai:image:{F99D6485-9A6F-75EA-4C5B-FF3553AB2E02}.jpg, width=850, height=1200, size=777016, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 22:21:19 I/Lolicon: Group(1109825279)进入冷却[0m[m
+[92m2022-09-22 22:21:19 I/Lolicon: Group(1109825279)NOTIFICATION已撤回[0m[m
+[92m2022-09-22 22:21:24 I/Lolicon: Group(1109825279)已冷却[0m[m
+[0m2022-09-22 22:21:41 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> rin get[0m[m
+[92m2022-09-22 22:21:41 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 22:21:41 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 22:21:41 V/Bot.2118654642: Group(1109825279) <- [mirai:quote:[mirai:source:ids=[40276], internalIds=[1130515160], from group 1679124358 to 1109825279 at 1663856503], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 22:21:42 I/Lolicon: {"error":"","data":[{"pid":90123715,"p":0,"uid":53295786,"title":"アカリちゃん","author":"るみこ","r18":false,"width":1254,"height":1771,"tags":["アカリ","Akali","プリコネR","公主连结","アカリ(プリコネ)","茜里（公主连结）","プリンセスコネクト!Re:Dive","公主连结Re:Dive","※中学生です","※ It's a junior high student","※13歳です","ロリ巨乳","巨乳萝莉","お前のような中学生がいるか","これ絶対入ってるよね","这绝对插进去了吧"],"ext":"jpg","uploadDate":1622075081000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2021/05/27/09/24/41/90123715_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 22:21:42 V/Bot.2118654642: Group(1109825279) <- 标题: アカリちゃん\n作者: るみこ (uid: 53295786)\n标签: [アカリ, Akali, プリコネR, 公主连结, アカリ(プリコネ), 茜里（公主连结）, プリンセスコネクト!Re:Dive, 公主连结Re:Dive, ※中学生です, ※ It's a junior high student, ※13歳です, ロリ巨乳, 巨乳萝莉, お前のような中学生がいるか, これ絶対入ってるよね, 这绝对插进去了吧]\n链接: https://pixiv.net/artworks/90123715\n代理链接：https://i.pixiv.re/img-master/img/2021/05/27/09/24/41/90123715_p0_master1200.jpg[0m[m
+[91m2022-09-22 22:21:47 W/Lolicon: Exception in executing command `[mirai:source:ids=[40276], internalIds=[1130515160], from group 1679124358 to 1109825279 at 1663856503]rin get`
+net.mamoe.mirai.contact.SendMessageFailedException: Failed sending message to Group(1109825279), reason=GROUP_CHAT_LIMITED
+	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.sendSinglePacket(GeneralMessageSenderProtocol.kt:139)
+	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.access$sendSinglePacket(GeneralMessageSenderProtocol.kt:46)
+	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender$sendSinglePacket$1.invokeSuspend(GeneralMessageSenderProtocol.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[0m2022-09-22 22:23:27 V/Bot.2118654642: Event: GroupRecall(bot=Bot(2118654642), authorId=2118654642, messageIds=[40278], messageInternalIds=[934411832], messageTime=1663856505, operator=NormalMember(1679124358), group=Group(1109825279), author=NormalMember(2118654642))[0m[m
+[0m2022-09-22 22:23:31 V/Bot.2118654642: Event: GroupRecall(bot=Bot(2118654642), authorId=2118654642, messageIds=[40277], messageInternalIds=[1391506407], messageTime=1663856504, operator=NormalMember(1679124358), group=Group(1109825279), author=NormalMember(2118654642))[0m[m
+[0m2022-09-22 22:23:57 V/Bot.2118654642: Event: GroupRecall(bot=Bot(2118654642), authorId=2118654642, messageIds=[40275], messageInternalIds=[483114985], messageTime=1663856472, operator=NormalMember(1679124358), group=Group(1109825279), author=NormalMember(2118654642))[0m[m
+[0m2022-09-22 22:23:59 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 什么[0m[m
+[92m2022-09-22 22:23:59 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:24:04 V/Bot.2118654642: Event: GroupRecall(bot=Bot(2118654642), authorId=3074139791, messageIds=[40279], messageInternalIds=[467547084], messageTime=1663856642, operator=NormalMember(3074139791), group=Group(1109825279), author=NormalMember(3074139791))[0m[m
+[0m2022-09-22 22:24:39 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> rin get[0m[m
+[92m2022-09-22 22:24:39 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 22:24:39 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 22:24:39 V/Bot.2118654642: Group(1109825279) <- [mirai:quote:[mirai:source:ids=[40280], internalIds=[1900396372], from group 3074139791 to 1109825279 at 1663856681], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 22:24:40 I/Lolicon: {"error":"","data":[{"pid":90916009,"p":0,"uid":46651075,"title":"一番くじのコス","author":"ななし","r18":false,"width":718,"height":1043,"tags":["やはり俺の青春ラブコメはまちがっている。","果然我的青春恋爱喜剧搞错了。","俺ガイル","春物","由比ヶ浜結衣","Yui Yuigahama","一色いろは","一色彩羽","比企谷小町","Komachi Hikigaya","雪ノ下雪乃","雪之下雪乃"],"ext":"png","uploadDate":1625048357000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2021/06/30/19/19/17/90916009_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 22:24:40 V/Bot.2118654642: Group(1109825279) <- 标题: 一番くじのコス\n作者: ななし (uid: 46651075)\n标签: [やはり俺の青春ラブコメはまちがっている。, 果然我的青春恋爱喜剧搞错了。, 俺ガイル, 春物, 由比ヶ浜結衣, Yui Yuigahama, 一色いろは, 一色彩羽, 比企谷小町, Komachi Hikigaya, 雪ノ下雪乃, 雪之下雪乃]\n链接: https://pixiv.net/artworks/90916009\n代理链接：https://i.pixiv.re/img-master/img/2021/06/30/19/19/17/90916009_p0_master1200.jpg[0m[m
+[0m2022-09-22 22:24:45 V/Bot.2118654642: Group(1109825279) <- [mirai:image:{AC230C0F-BED8-F891-C1BB-FA9AF1CA08C3}.jpg, width=718, height=1043, size=748054, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 22:24:45 I/Lolicon: Group(1109825279)进入冷却[0m[m
+[92m2022-09-22 22:24:46 I/Lolicon: Group(1109825279)NOTIFICATION已撤回[0m[m
+[92m2022-09-22 22:24:51 I/Lolicon: Group(1109825279)已冷却[0m[m
+[0m2022-09-22 22:25:03 V/Bot.2118654642: Event: GroupRecall(bot=Bot(2118654642), authorId=2118654642, messageIds=[40283], messageInternalIds=[822397435], messageTime=1663856688, operator=NormalMember(3074139791), group=Group(1109825279), author=NormalMember(2118654642))[0m[m
+[0m2022-09-22 22:25:08 V/Bot.2118654642: Event: GroupRecall(bot=Bot(2118654642), authorId=2118654642, messageIds=[40282], messageInternalIds=[384519543], messageTime=1663856682, operator=NormalMember(3074139791), group=Group(1109825279), author=NormalMember(2118654642))[0m[m
+[0m2022-09-22 22:25:18 V/Bot.2118654642: Event: GroupRecall(bot=Bot(2118654642), authorId=3074139791, messageIds=[40280], messageInternalIds=[1900396372], messageTime=1663856681, operator=NormalMember(3074139791), group=Group(1109825279), author=NormalMember(3074139791))[0m[m
+[92m2022-09-22 22:26:24 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:26:24 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:image:{33E78719-7BA6-EF4E-C98B-20D3C7D1D1A2}.jpg, width=1920, height=1080, size=90819, type=PNG, isEmoji=false][0m[m
+[0m2022-09-22 22:26:28 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> 后天课程[0m[m
+[0m2022-09-22 22:26:36 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 好多都要求这门那门什么大小写[0m[m
+[92m2022-09-22 22:26:36 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:26:38 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> 课程表[0m[m
+[0m2022-09-22 22:26:40 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 根本记不住[0m[m
+[92m2022-09-22 22:26:40 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:26:43 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> 今日课程[0m[m
+[0m2022-09-22 22:26:43 V/Bot.2118654642: Friend(1679124358) <- 1. 图形与图像处理Ⅱ(8:30到10:05)在四川大学锦江学院 7-306\n2. HTML5应用开发(14:25到16:05)在四川大学锦江学院 2-501\n3. Android基础应用开发(16:25到18:00)在四川大学锦江学院 2-501[0m[m
+[92m2022-09-22 22:27:12 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:27:12 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 我浏览器自动记[0m[m
+[92m2022-09-22 22:27:16 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:27:16 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [我想开了]请使用最新版手机QQ体验新功能[0m[m
+[92m2022-09-22 22:27:33 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:27:33 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> rin get[0m[m
+[92m2022-09-22 22:27:33 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 22:27:33 V/Bot.2118654642: Group(460292097) <- [mirai:quote:[mirai:source:ids=[2433], internalIds=[1852103224], from group 1679124358 to 460292097 at 1663856856], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 22:27:34 I/Lolicon: {"error":"","data":[{"pid":94162371,"p":0,"uid":26690900,"title":"KIARA手办原画","author":"BIGxixi","r18":false,"width":1500,"height":1502,"tags":["女の子","女孩子","白タイツ","白裤袜","獣耳","兽耳","Kiara","狮子","lion"],"ext":"jpg","uploadDate":1636988709000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2021/11/16/00/05/09/94162371_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 22:27:34 V/Bot.2118654642: Group(460292097) <- 标题: KIARA手办原画\n作者: BIGxixi (uid: 26690900)\n标签: [女の子, 女孩子, 白タイツ, 白裤袜, 獣耳, 兽耳, Kiara, 狮子, lion]\n链接: https://pixiv.net/artworks/94162371\n代理链接：https://i.pixiv.re/img-master/img/2021/11/16/00/05/09/94162371_p0_master1200.jpg[0m[m
+[0m2022-09-22 22:27:40 V/Bot.2118654642: Group(460292097) <- [mirai:image:{2255C778-E69B-18CD-D24A-8CFA449B8DA4}.jpg, width=1199, height=1200, size=873040, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 22:27:40 I/Lolicon: Group(460292097)进入冷却[0m[m
+[92m2022-09-22 22:27:40 I/Lolicon: Group(460292097)NOTIFICATION已撤回[0m[m
+[92m2022-09-22 22:27:45 I/Lolicon: Group(460292097)已冷却[0m[m
+[92m2022-09-22 22:27:57 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:27:57 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> 备忘录记起嘛[0m[m
+[0m2022-09-22 22:28:25 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 可以[0m[m
+[92m2022-09-22 22:28:25 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:30:08 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 机器人rin要睡觉了，大家还有什么话要对rin说的吗[可怜][0m[m
+[92m2022-09-22 22:30:08 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:30:48 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 莫得[0m[m
+[92m2022-09-22 22:30:48 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 22:30:59 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:30:59 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:2118654642] 那就拜拜了[0m[m
+[0m2022-09-22 22:31:02 V/Bot.2118654642: Group(1109825279) <- 拜拜~[0m[m
+[92m2022-09-22 22:31:20 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:31:20 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:quote:[mirai:source:ids=[40294], internalIds=[1583324271], from 2118654642 to 1109825279 at 1663857064], content=<not yet initialized>][mirai:at:2118654642] 晚安巴卡巴卡！[0m[m
+[0m2022-09-22 22:31:23 V/Bot.2118654642: Group(1109825279) <- 88，要想我哦[0m[m
+[0m2022-09-22 22:31:31 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 最后来份涩图[表情][0m[m
+[92m2022-09-22 22:31:31 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:31:37 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> rin get[0m[m
+[92m2022-09-22 22:31:37 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 22:31:37 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 22:31:37 V/Bot.2118654642: Group(1109825279) <- [mirai:quote:[mirai:source:ids=[40298], internalIds=[928437284], from group 1679124358 to 1109825279 at 1663857099], content=rin get]正在获取图片...[0m[m
+[31m2022-09-22 22:31:47 E/Lolicon: io.ktor.client.network.sockets.SocketTimeoutException: Socket timeout has expired [url=https://api.lolicon.app/setu/v2, socket_timeout=unknown] ms
+io.ktor.client.network.sockets.SocketTimeoutException: Socket timeout has expired [url=https://api.lolicon.app/setu/v2, socket_timeout=unknown] ms
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//io.ktor.client.plugins.HttpTimeoutKt.SocketTimeoutException(HttpTimeout.kt:235)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//io.ktor.client.engine.okhttp.OkUtilsKt.mapOkHttpException(OkUtils.kt:79)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//io.ktor.client.engine.okhttp.OkUtilsKt.access$mapOkHttpException(OkUtils.kt:1)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//io.ktor.client.engine.okhttp.OkHttpCallback.onFailure(OkUtils.kt:39)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:525)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketTimeoutException: timeout
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http2.Http2Stream$StreamTimeout.newTimeoutException(Http2Stream.kt:675)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http2.Http2Stream$StreamTimeout.exitAndThrowIfTimedOut(Http2Stream.kt:684)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http2.Http2Stream.takeHeaders(Http2Stream.kt:143)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http2.Http2ExchangeCodec.readResponseHeaders(Http2ExchangeCodec.kt:96)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.connection.Exchange.readResponseHeaders(Exchange.kt:106)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.kt:79)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:34)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:517)
+	... 3 more
+[0m[m
+[0m2022-09-22 22:31:58 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 宕机了草[0m[m
+[92m2022-09-22 22:31:58 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 22:32:04 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> rin get[0m[m
+[92m2022-09-22 22:32:04 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 22:32:04 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 22:32:04 V/Bot.2118654642: Group(1109825279) <- [mirai:quote:[mirai:source:ids=[40301], internalIds=[644066579], from group 1679124358 to 1109825279 at 1663857126], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 22:32:06 I/Lolicon: {"error":"","data":[{"pid":58609261,"p":0,"uid":55398,"title":"NEMUI","author":"はれんちとめこ","r18":false,"width":725,"height":1024,"tags":["オリジナル","原创","エルフ耳","精灵耳","エルフ","精灵","悪魔っ娘","恶魔娘","CLIPSTUDIOPAINT","おへそ","肚脐"],"ext":"png","uploadDate":1471942965000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2016/08/23/18/02/45/58609261_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 22:32:06 V/Bot.2118654642: Group(1109825279) <- 标题: NEMUI\n作者: はれんちとめこ (uid: 55398)\n标签: [オリジナル, 原创, エルフ耳, 精灵耳, エルフ, 精灵, 悪魔っ娘, 恶魔娘, CLIPSTUDIOPAINT, おへそ, 肚脐]\n链接: https://pixiv.net/artworks/58609261\n代理链接：https://i.pixiv.re/img-master/img/2016/08/23/18/02/45/58609261_p0_master1200.jpg[0m[m
+[31m2022-09-22 22:32:16 E/Lolicon: io.ktor.client.network.sockets.SocketTimeoutException: Socket timeout has expired [url=https://i.pixiv.re/img-master/img/2016/08/23/18/02/45/58609261_p0_master1200.jpg, socket_timeout=unknown] ms
+io.ktor.client.network.sockets.SocketTimeoutException: Socket timeout has expired [url=https://i.pixiv.re/img-master/img/2016/08/23/18/02/45/58609261_p0_master1200.jpg, socket_timeout=unknown] ms
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//io.ktor.client.plugins.HttpTimeoutKt.SocketTimeoutException(HttpTimeout.kt:235)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//io.ktor.client.engine.okhttp.OkUtilsKt.mapOkHttpException(OkUtils.kt:79)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//io.ktor.client.engine.okhttp.OkUtilsKt.access$mapOkHttpException(OkUtils.kt:1)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//io.ktor.client.engine.okhttp.OkHttpCallback.onFailure(OkUtils.kt:39)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:525)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketTimeoutException: timeout
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http2.Http2Stream$StreamTimeout.newTimeoutException(Http2Stream.kt:675)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http2.Http2Stream$StreamTimeout.exitAndThrowIfTimedOut(Http2Stream.kt:684)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http2.Http2Stream.takeHeaders(Http2Stream.kt:143)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http2.Http2ExchangeCodec.readResponseHeaders(Http2ExchangeCodec.kt:96)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.connection.Exchange.readResponseHeaders(Exchange.kt:106)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.kt:79)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:34)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201)
+	at mirai-console-lolicon-6.0.4.mirai2.jar[private]//okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:517)
+	... 3 more
+[0m[m
+[0m2022-09-22 22:32:16 V/Bot.2118654642: Group(1109825279) <- 网络连接失败/超时或图片已被删除，之后再试试吧[0m[m
+[92m2022-09-22 22:32:22 I/HRobot: cron task running...[0m[m
+[0m2022-09-22 22:32:29 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:marketface:209590,[生气]][0m[m
+[92m2022-09-22 22:32:29 I/stdout: RobotConfig.enableRobot = true[0m[m

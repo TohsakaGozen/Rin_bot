@@ -1,0 +1,40 @@
+[92m2022-09-22 16:03:40 I/main: Starting mirai-console...[0m[m
+[92m2022-09-22 16:03:40 I/main: Backend: version 2.12.1, built on 2022-07-31 17:49:27.[0m[m
+[92m2022-09-22 16:03:40 I/main: Frontend Terminal: version 2.12.1, provided by Mamoe Technologies[0m[m
+[92m2022-09-22 16:03:40 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-09-22 16:03:41 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-09-22 16:03:41 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-09-22 16:03:41 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-09-22 16:03:41 I/plugin: Successfully loaded plugin iam.xiaoan.RanImage v1.0-SNAPSHOT[0m[m
+[92m2022-09-22 16:03:41 I/plugin: Successfully loaded plugin MCL Addon v2.0.2[0m[m
+[92m2022-09-22 16:03:41 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-09-22 16:03:41 I/iam.xiaoan.RanImage: Plugin loaded![0m[m
+[92m2022-09-22 16:03:41 I/iam.xiaoan.RanImage: 你好！我是小安！感谢你使用这款随机二次元图片插件！[0m[m
+[92m2022-09-22 16:03:41 I/MCL Addon: iTXTech MCL Version: 2.1.1-d66fada[0m[m
+[91m2022-09-22 16:03:41 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用[0m[m
+[92m2022-09-22 16:03:41 I/main: 2 plugin(s) enabled.[0m[m
+[92m2022-09-22 16:03:41 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-09-22 16:03:41 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[92m2022-09-22 16:03:41 I/main: Auto-login 2118654642[0m[m
+[91m2022-09-22 16:03:41 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-09-22 16:03:42 I/Bot.2118654642: Loaded account secrets from local cache.[0m[m
+[92m2022-09-22 16:03:42 I/Bot.2118654642: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-09-22 16:03:42 I/Bot.2118654642: Login successful.[0m[m
+[0m2022-09-22 16:03:43 V/Bot.2118654642: Event: BotOnlineEvent(bot=Bot(2118654642))[0m[m
+[92m2022-09-22 16:03:43 I/Bot.2118654642: Bot login successful.[0m[m
+[92m2022-09-22 16:03:43 I/main: mirai-console started successfully.[0m[m
+[0m2022-09-22 16:03:49 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 来点壁纸[0m[m
+[0m2022-09-22 16:03:52 V/Bot.2118654642: Group(1109825279) <- [mirai:at:1679124358][mirai:image:{0EFF0FCD-278E-FAE5-E80F-771662E53F7C}.jpg, width=1920, height=1080, size=412791, type=JPG, isEmoji=false][0m[m
+[0m2022-09-22 16:04:15 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:image:{5A6804FA-9B08-3B10-8CAB-74435B28EB21}.jpg, width=300, height=200, size=17656, type=JPG, isEmoji=true][0m[m
+[0m2022-09-22 16:05:19 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> 什么自问自答[0m[m
+[0m2022-09-22 16:06:08 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 机器人好吧[0m[m
+[0m2022-09-22 16:06:14 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 来点壁纸[0m[m
+[0m2022-09-22 16:06:18 V/Bot.2118654642: Group(1109825279) <- [mirai:at:1679124358][mirai:image:{93905212-ED12-2548-844B-5D1581169C84}.jpg, width=1920, height=1080, size=2217163, type=JPG, isEmoji=false][0m[m
+[0m2022-09-22 16:06:25 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 虽然现在就一个功能[0m[m
+[0m2022-09-22 16:06:56 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 我叫唤它听不听[0m[m
+[0m2022-09-22 16:07:55 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 也听[0m[m
+[0m2022-09-22 16:08:08 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 现在只有一个 来点壁纸 的关键词[0m[m
+[0m2022-09-22 16:08:20 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 来点色图[0m[m
+[0m2022-09-22 16:08:28 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 你看 它不听[0m[m
+[0m2022-09-22 16:08:35 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:image:{842F3756-3B8E-F41E-6A41-28C020F55A7F}.jpg, width=720, height=719, size=24816, type=JPG, isEmoji=true][0m[m
+[0m2022-09-22 16:08:45 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:marketface:209590,][0m[m

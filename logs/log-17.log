@@ -1,0 +1,1296 @@
+[92m2022-09-22 17:08:23 I/main: Starting mirai-console...[0m[m
+[92m2022-09-22 17:08:23 I/main: Backend: version 2.12.1, built on 2022-07-31 17:49:27.[0m[m
+[92m2022-09-22 17:08:23 I/main: Frontend Terminal: version 2.12.1, provided by Mamoe Technologies[0m[m
+[92m2022-09-22 17:08:23 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-09-22 17:08:24 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-09-22 17:08:24 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-09-22 17:08:24 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-09-22 17:08:24 I/plugin: Successfully loaded plugin HRobot v1.0.0[0m[m
+[92m2022-09-22 17:08:24 I/plugin: Successfully loaded plugin iam.xiaoan.RanImage v1.0-SNAPSHOT[0m[m
+[92m2022-09-22 17:08:24 I/plugin: Successfully loaded plugin SuperCourseTimetable v0.4.7[0m[m
+[92m2022-09-22 17:08:24 I/plugin: Successfully loaded plugin MCL Addon v2.0.2[0m[m
+[92m2022-09-22 17:08:24 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-09-22 17:08:24 I/HRobot: 正在初始化机器人配置[0m[m
+[92m2022-09-22 17:08:24 I/HRobot: 配置初始化完成[0m[m
+[92m2022-09-22 17:08:24 I/stdout: RobotConfig.customKeyword = {全局关键字=全局关键字回复, #regex#全局正则表达式=回复, 群号=群内关键字: 群内关键字回复, 903025723={牛批=[mirai:face:317][mirai:face:317][mirai:face:317]}}[0m[m
+[91m2022-09-22 17:08:24 W/HRobot: Linked class org.slf4j.impl.StaticLoggerBinder in SCTimetableBot-0.4.7.mirai.jar but plugin not depend on it.[0m[m
+[91m2022-09-22 17:08:24 W/HRobot: Class loading logic may change in feature.[0m[m
+[92m2022-09-22 17:08:24 I/org.reflections.Reflections: Reflections took 47 ms to scan 1 urls, producing 21 keys and 62 values [0m[m
+[92m2022-09-22 17:08:24 I/HRobot: HRobot handlers and filters loading finished, total 15 handlers, 3 inspectors.[0m[m
+[92m2022-09-22 17:08:24 I/stdout: Pattern = true[0m[m
+[92m2022-09-22 17:08:24 I/HRobot: cron task running...[0m[m
+[92m2022-09-22 17:08:24 I/stdout:         ,--,                                                    [0m[m
+[92m2022-09-22 17:08:24 I/stdout:       ,--.'|,-.----.                                    ___     [0m[m
+[92m2022-09-22 17:08:24 I/stdout:    ,--,  | :\    /  \             ,---,               ,--.'|_   [0m[m
+[92m2022-09-22 17:08:24 I/stdout: ,---.'|  : ';   :    \   ,---.  ,---.'|      ,---.    |  | :,'  [0m[m
+[92m2022-09-22 17:08:24 I/stdout: |   | : _' ||   | .\ :  '   ,'\ |   | :     '   ,'\   :  : ' :  [0m[m
+[92m2022-09-22 17:08:24 I/stdout: :   : |.'  |.   : |: | /   /   |:   : :    /   /   |.;__,'  /   [0m[m
+[92m2022-09-22 17:08:24 I/stdout: |   ' '  ; :|   |  \ :.   ; ,. ::     |,-..   ; ,. :|  |   |    [0m[m
+[92m2022-09-22 17:08:24 I/stdout: '   |  .'. ||   : .  /'   | |: :|   : '  |'   | |: ::__,'| :    [0m[m
+[92m2022-09-22 17:08:24 I/stdout: |   | :  | ';   | |  \'   | .; :|   |  / :'   | .; :  '  : |__  [0m[m
+[92m2022-09-22 17:08:24 I/stdout: '   : |  : ;|   | ;\  \   :    |'   : |: ||   :    |  |  | '.'| [0m[m
+[92m2022-09-22 17:08:24 I/stdout: |   | '  ,/ :   ' | \.'\   \  / |   | '/ : \   \  /   ;  :    ; [0m[m
+[92m2022-09-22 17:08:24 I/stdout: ;   : ;--'  :   : :-'   `----'  |   :    |  `----'    |  ,   /  [0m[m
+[92m2022-09-22 17:08:24 I/stdout: |   ,/      |   |.'             /    \  /              ---`-'       [0m[m
+[92m2022-09-22 17:08:24 I/stdout: '---'       `---'               `-'----'                            v3.2.1[0m[m
+[92m2022-09-22 17:08:25 I/stdout: latestVersion = HRobot v3.2.1[0m[m
+[92m2022-09-22 17:08:25 I/HRobot: 当前 HRobot 插件已为最新版[0m[m
+[92m2022-09-22 17:08:25 I/iam.xiaoan.RanImage: Plugin loaded![0m[m
+[92m2022-09-22 17:08:25 I/iam.xiaoan.RanImage: 你好！我是小安！感谢你使用这款随机二次元图片插件！[0m[m
+[92m2022-09-22 17:08:25 I/SuperCourseTimetable: Plugin loaded[0m[m
+[92m2022-09-22 17:08:25 I/com.zaxxer.hikari.HikariDataSource: SCTimetableDB Pool - Starting...[0m[m
+[92m2022-09-22 17:08:25 I/com.zaxxer.hikari.pool.HikariPool: SCTimetableDB Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d69d288[0m[m
+[92m2022-09-22 17:08:25 I/com.zaxxer.hikari.HikariDataSource: SCTimetableDB Pool - Start completed.[0m[m
+[92m2022-09-22 17:08:25 I/SuperCourseTimetable: Database is connected.[0m[m
+[92m2022-09-22 17:08:25 I/SuperCourseTimetable: Waiting target Bot 2118654642 goes online...[0m[m
+[92m2022-09-22 17:08:25 I/MCL Addon: iTXTech MCL Version: 2.1.1-d66fada[0m[m
+[91m2022-09-22 17:08:25 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用[0m[m
+[92m2022-09-22 17:08:25 I/main: 4 plugin(s) enabled.[0m[m
+[92m2022-09-22 17:08:25 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-09-22 17:08:25 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[92m2022-09-22 17:08:25 I/main: Auto-login 2118654642[0m[m
+[91m2022-09-22 17:08:26 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-09-22 17:08:27 I/Bot.2118654642: Login successful[0m[m
+[92m2022-09-22 17:08:27 I/Bot.2118654642: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-09-22 17:08:28 I/Bot.2118654642: Login successful.[0m[m
+[0m2022-09-22 17:08:28 V/Bot.2118654642: Event: BotOnlineEvent(bot=Bot(2118654642))[0m[m
+[92m2022-09-22 17:08:28 I/Bot.2118654642: Bot login successful.[0m[m
+[92m2022-09-22 17:08:28 I/main: mirai-console started successfully.[0m[m
+[92m2022-09-22 17:08:28 I/org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor[0m[m
+[92m2022-09-22 17:08:28 I/org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: DefaultDispatcher-worker-1[0m[m
+[92m2022-09-22 17:08:28 I/org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl[0m[m
+[92m2022-09-22 17:08:28 I/org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.3.2 created.[0m[m
+[92m2022-09-22 17:08:28 I/org.quartz.simpl.RAMJobStore: RAMJobStore initialized.[0m[m
+[92m2022-09-22 17:08:28 I/org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+[0m[m
+[92m2022-09-22 17:08:28 I/org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'[0m[m
+[92m2022-09-22 17:08:28 I/org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.3.2[0m[m
+[92m2022-09-22 17:08:28 I/org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.[0m[m
+[92m2022-09-22 17:08:28 I/org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.[0m[m
+[92m2022-09-22 17:08:28 I/SuperCourseTimetable: ScheduleListenerService: ScheduleListenerService is started.[0m[m
+[92m2022-09-22 17:08:28 I/SuperCourseTimetable: TimeProviderService: Job SemesterUpdater is executed. (semester 1 begins in 2022.)[0m[m
+[92m2022-09-22 17:08:28 I/SuperCourseTimetable: ScheduleListenerService: Notification distribution job has executed.[0m[m
+[92m2022-09-22 17:08:28 I/SuperCourseTimetable: TimeProviderService: Job SchoolWeekPeriodUpdater is executed.[0m[m
+[92m2022-09-22 17:08:28 I/SuperCourseTimetable: TimeProviderService: TimeProviderServices(TimeProviderService$SemesterUpdaterJob, TimeProviderService$SchoolWeekPeriodUpdaterJob) have started.[0m[m
+[92m2022-09-22 17:09:29 I/Bot.2118654642: Loaded account secrets from local cache.[0m[m
+[92m2022-09-22 17:09:29 I/Bot.2118654642: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-09-22 17:09:29 I/Bot.2118654642: Login successful.[0m[m
+[0m2022-09-22 17:09:34 V/Bot.2118654642: Event: BotOfflineEvent.Dropped(bot=Bot(2118654642), cause=NettyChannelException(message=null, cause=null), reconnect=true)[0m[m
+[91m2022-09-22 17:09:34 W/Bot.2118654642: Connection lost, reconnecting... (NettyChannelException(message=null, cause=null))[0m[m
+[91m2022-09-22 17:09:34 W/Bot.2118654642: Connection lost, reconnecting... (NettyChannelException(message=null, cause=null))[0m[m
+[92m2022-09-22 17:09:34 I/Bot.2118654642: Saved account secrets to local cache for fast login.[0m[m
+[0m2022-09-22 17:09:34 V/Bot.2118654642: Event: BotOnlineEvent(bot=Bot(2118654642))[0m[m
+[92m2022-09-22 17:09:34 I/Bot.2118654642: Bot login successful.[0m[m
+[92m2022-09-22 17:09:34 I/Bot.2118654642: Login successful.[0m[m
+[0m2022-09-22 17:09:34 V/Bot.2118654642: Event: BotOnlineEvent(bot=Bot(2118654642))[0m[m
+[0m2022-09-22 17:09:34 V/Bot.2118654642: Event: BotReloginEvent(bot=Bot(2118654642), cause=null)[0m[m
+[92m2022-09-22 17:09:34 I/Bot.2118654642: Reconnected successfully in 0.243s.[0m[m
+[92m2022-09-22 17:09:34 I/Bot.2118654642: Reconnected successfully in 0.243s.[0m[m
+[0m2022-09-22 17:10:13 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> 啊啊[0m[m
+[92m2022-09-22 17:10:13 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:10:13 I/HRobot: init bot...[0m[m
+[92m2022-09-22 17:10:13 I/HRobot: 正在提交定期任务...[0m[m
+[92m2022-09-22 17:10:13 I/HRobot: 任务提交成功！[0m[m
+[0m2022-09-22 17:10:23 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> 今天课程[0m[m
+[92m2022-09-22 17:10:23 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:10:40 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:10:40 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> [mirai:at:2118654642] 今天课程[0m[m
+[0m2022-09-22 17:10:46 V/Bot.2118654642: Group(460292097) <- 天气好晴朗[0m[m
+[0m2022-09-22 17:11:00 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> 今天课表[0m[m
+[92m2022-09-22 17:11:00 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:12:07 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> [mirai:at:3074139791] 幻塔没人写，找不到复制的[0m[m
+[92m2022-09-22 17:12:07 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:12:23 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:12:23 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:image:{4D00E9FD-B7B1-7BC8-C37F-9B2CC25E8F7C}.gif, width=60, height=67, size=2095, type=GIF, isEmoji=false][0m[m
+[0m2022-09-22 17:12:23 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> 原神随便就找到了[0m[m
+[92m2022-09-22 17:12:23 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:13:15 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:13:15 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> 这狗巴笔记本打开这软件一节课了，就是打不开[0m[m
+[0m2022-09-22 17:13:19 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [撇嘴][0m[m
+[92m2022-09-22 17:13:19 I/stdout: RobotConfig.enableRobot = true[0m[m
+[91m2022-09-22 17:13:35 W/console: 未知指令: /class, 输入 ? 获取帮助[0m[m
+[0m2022-09-22 17:14:58 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> 今天课程[0m[m
+[92m2022-09-22 17:14:58 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:15:08 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:15:08 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:image:{30F429BE-7B64-D5AF-E95B-107CC4D5D602}.jpg, width=1920, height=1080, size=187944, type=PNG, isEmoji=false][mirai:image:{2AFDD480-32B5-719B-CA3B-556766CA17B8}.jpg, width=1920, height=1080, size=157863, type=PNG, isEmoji=false][0m[m
+[0m2022-09-22 17:15:12 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 这样是不是就弄起了[0m[m
+[92m2022-09-22 17:15:12 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:15:33 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> 修改提前提醒时间[0m[m
+[92m2022-09-22 17:15:33 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:17:33 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> 同步时间表[0m[m
+[92m2022-09-22 17:17:33 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:19:46 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:19:46 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> 应该是[0m[m
+[0m2022-09-22 17:20:04 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> 登录超级课程表[0m[m
+[92m2022-09-22 17:20:04 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:20:25 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> 登录超级课表[0m[m
+[92m2022-09-22 17:20:25 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:21:17 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> 帮助[0m[m
+[92m2022-09-22 17:21:17 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:21:18 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:21:18 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 这gov八联模拟器会扯拐[0m[m
+[0m2022-09-22 17:21:23 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> ？[0m[m
+[92m2022-09-22 17:21:23 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:21:28 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> 帮助[0m[m
+[0m2022-09-22 17:21:29 V/Bot.2118654642: Friend(1679124358) <- 欢迎使用 超级课表课程提醒QQ机器人。\n它可以在你下一节课上课前提醒你这节课的信息，避免你错过课程。\n指令：\n  "登录超级课表" - 使用密码登录你的超课表账户\n  "查看时间表" - 查看本校的作息时间表\n  "修改时间表" - 修改本校的作息时间表\n  "同步课程" - 手动从超级课表同步你的课程\n  "今(明)日课程" - 查看你今(明)天的所有课程信息\n  "周X课程" - 查看你周X的所有课程信息\n  "怎么用/帮助" - 显示这条信息\n  "修改密码" - 修改记录在机器人数据库中的密码\n  "删除用户" - 删除你的记录在机器人数据库中的信息，并停止课程提醒服务。\n  "修改提前提醒时间" - 修改上课提前多长时间提醒\n  "状态" - 查看超级课表课程提醒QQ机器人的运行情况\n\n注意：当前处于初代测试阶段。[0m[m
+[0m2022-09-22 17:21:40 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> 登录超级课表[0m[m
+[0m2022-09-22 17:21:40 V/Bot.2118654642: Friend(1679124358) <- 请输入超级课表账号[0m[m
+[92m2022-09-22 17:21:41 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:21:41 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 夜魔囊开好用[0m[m
+[0m2022-09-22 17:21:46 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> 18181487399[0m[m
+[0m2022-09-22 17:21:46 V/Bot.2118654642: Friend(1679124358) <- 请输入超级课表密码\n注意：若用手机验证码登录的超级课表，请先在超级课表app设置账号密码[0m[m
+[0m2022-09-22 17:22:17 V/Bot.2118654642: Friend(1679124358) <- 太长时间未输入，请重新登录[0m[m
+[0m2022-09-22 17:22:46 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:image:{361BCBE8-CFFF-0922-EDC7-C9068C3FF76E}.gif, width=352, height=300, size=81755, type=GIF, isEmoji=false][0m[m
+[92m2022-09-22 17:22:46 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:22:53 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> 登录超级课表[0m[m
+[0m2022-09-22 17:22:53 V/Bot.2118654642: Friend(1679124358) <- 请输入超级课表账号[0m[m
+[92m2022-09-22 17:22:56 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:22:56 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> [mirai:image:{A0ADF586-8C12-97C9-37D3-B3FE3814FB0F}.jpg, width=610, height=1056, size=103548, type=PNG, isEmoji=false][0m[m
+[0m2022-09-22 17:22:57 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> 18181487399[0m[m
+[0m2022-09-22 17:22:58 V/Bot.2118654642: Friend(1679124358) <- 请输入超级课表密码\n注意：若用手机验证码登录的超级课表，请先在超级课表app设置账号密码[0m[m
+[0m2022-09-22 17:23:05 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> lh6611000[0m[m
+[0m2022-09-22 17:23:05 V/Bot.2118654642: Friend(1679124358) <- 正在登录。。。[0m[m
+[92m2022-09-22 17:23:05 I/SuperCourseTimetable: RequestHandlerService: Handle Request: LoginRequest(qq=1679124358,account=18181487399,password=*********)[0m[m
+[92m2022-09-22 17:23:05 I/SuperCourseTimetable: RequestHandlerService: User 1679124358 login successful.[0m[m
+[92m2022-09-22 17:23:06 I/SuperCourseTimetable: RequestHandlerService: Handle Request: InternalSyncCourseRequestViaCookieData(qq=1679124358,cookie=LoginCookieData(jSessionId=41B25D2E80326465E5720598B7B60939-memcached1, serverId=9217963584572a0b5dfb2a5a7565ba75|1663838588|1663838588))[0m[m
+[92m2022-09-22 17:23:06 I/SuperCourseTimetable: RequestHandlerService: Sync user 1679124358's courses successfully.[0m[m
+[92m2022-09-22 17:23:06 I/SuperCourseTimetable: ScheduleListenerService: ScheduleListenerService.restartUserNotification(qq=1679124358)[0m[m
+[91m2022-09-22 17:23:06 W/SuperCourseTimetable: ScheduleListenerService: Timetable in 2022:1 of school 150082 is not found![0m[m
+[92m2022-09-22 17:23:06 I/SuperCourseTimetable: RequestHandlerService: Handle Request: SyncSchoolTimetableRequest(qq=1679124358,newTimetable=<syncFromServer>,forceUpdate=false,alsoSyncCourses=false)[0m[m
+[0m2022-09-22 17:23:06 V/Bot.2118654642: Friend(1679124358) <- 登录成功，正在同步你的课程。。。[0m[m
+[92m2022-09-22 17:23:06 I/SuperCourseTimetable: TimeProviderService: Job SchoolWeekPeriodUpdater is executed.[0m[m
+[92m2022-09-22 17:23:06 I/SuperCourseTimetable: RequestHandlerService: Sync timetable from server for 1679124358's school successfully.[0m[m
+[92m2022-09-22 17:23:06 I/SuperCourseTimetable: RequestHandlerService: Handle Request: SyncSchoolWeekPeriodRequest(qq=1679124358, currentWeek=1)[0m[m
+[92m2022-09-22 17:23:06 I/SuperCourseTimetable: TimeProviderService: Job SchoolWeekPeriodUpdater is executed.[0m[m
+[92m2022-09-22 17:23:06 I/SuperCourseTimetable: ScheduleListenerService: onChangeSchoolWeekPeriod(schoolId=150082)[0m[m
+[92m2022-09-22 17:23:06 I/SuperCourseTimetable: RequestHandlerService: Sync school week period for user 1679124358's school successfully, currentWeek=1.[0m[m
+[0m2022-09-22 17:23:06 V/Bot.2118654642: Friend(1679124358) <- 课程同步成功！\n你将在每节课上课前 15 分钟收到课程提醒。\n可以发送"今日课程"查看今天的课程，发送"查看时间表"查看本校的时间表，\n或者发送"修改提前提醒时间"来修改课程提醒时间。[0m[m
+[0m2022-09-22 17:23:06 V/Bot.2118654642: Friend(1679124358) <- 成功从服务器同步学校的时间表信息。\n注意：这是首次同步您的学校时间表，若当前周数有误，请发送"修改时间表"修改。[0m[m
+[0m2022-09-22 17:23:06 V/Bot.2118654642: Friend(1679124358) <- 成功修改 2022 学年第 1 学期的周数为第 1 周。[0m[m
+[92m2022-09-22 17:23:34 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:23:34 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 可以[0m[m
+[0m2022-09-22 17:23:40 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> 修改时间表[0m[m
+[0m2022-09-22 17:23:40 V/Bot.2118654642: Friend(1679124358) <- 确认要修改 四川大学锦江学院 的时间表吗\n注意：修改时间表将会影响到本校所有用户，在修改前请确保时间表确实有误！\n若你不知道当前时间表数据，发送"查看时间表"查看。\n发送"确认"继续修改，否则取消修改。[0m[m
+[0m2022-09-22 17:23:50 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 可莉背景太重了[0m[m
+[92m2022-09-22 17:23:50 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:23:51 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> 确认[0m[m
+[0m2022-09-22 17:23:52 V/Bot.2118654642: Friend(1679124358) <- 要修改当前周数还是时间表？\n发送 "周数" 或 "时间表" 决定[0m[m
+[0m2022-09-22 17:23:54 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 字不清楚了[0m[m
+[92m2022-09-22 17:23:54 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:23:58 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> 周数[0m[m
+[0m2022-09-22 17:23:58 V/Bot.2118654642: Friend(1679124358) <- 正在修改当前周数\n请输入一个数字表示当前周数[0m[m
+[0m2022-09-22 17:24:03 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> 3[0m[m
+[92m2022-09-22 17:24:03 I/SuperCourseTimetable: RequestHandlerService: Handle Request: SyncSchoolWeekPeriodRequest(qq=1679124358, currentWeek=3)[0m[m
+[92m2022-09-22 17:24:03 I/SuperCourseTimetable: TimeProviderService: Job SchoolWeekPeriodUpdater is executed.[0m[m
+[92m2022-09-22 17:24:03 I/SuperCourseTimetable: RequestHandlerService: Sync school week period for user 1679124358's school successfully, currentWeek=3.[0m[m
+[92m2022-09-22 17:24:03 I/SuperCourseTimetable: ScheduleListenerService: onChangeSchoolWeekPeriod(schoolId=150082)[0m[m
+[0m2022-09-22 17:24:03 V/Bot.2118654642: Friend(1679124358) <- 成功修改 2022 学年第 1 学期的周数为第 3 周。[0m[m
+[0m2022-09-22 17:24:08 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> 今日课程[0m[m
+[0m2022-09-22 17:24:08 V/Bot.2118654642: Friend(1679124358) <- 1. 图形与图像处理Ⅱ(8:10到9:50)在四川大学锦江学院 7-306\n2. HTML5应用开发(13:40到15:20)在四川大学锦江学院 2-501\n3. Android基础应用开发(15:30到17:10)在四川大学锦江学院 2-501[0m[m
+[92m2022-09-22 17:24:16 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:24:16 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> 我在找怎么修改字体[0m[m
+[92m2022-09-22 17:24:18 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:24:18 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 应该可以淡化[0m[m
+[92m2022-09-22 17:24:28 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:24:28 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:image:{19DAC57F-1120-BF89-C9FF-D36857FE960D}.jpg, width=150, height=150, size=6468, type=JPG, isEmoji=true][0m[m
+[92m2022-09-22 17:24:44 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:24:44 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> [mirai:at:2118654642] 今日课程[0m[m
+[0m2022-09-22 17:24:47 V/Bot.2118654642: Group(460292097) <- 有咩事打三條狗![0m[m
+[92m2022-09-22 17:24:58 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:24:58 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> 今日课程[0m[m
+[0m2022-09-22 17:29:20 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(Temp 3074139791) -> 课程表[0m[m
+[0m2022-09-22 17:29:48 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> 课程表[0m[m
+[0m2022-09-22 17:29:52 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> 今日课程[0m[m
+[0m2022-09-22 17:29:53 V/Bot.2118654642: Friend(1679124358) <- 1. 图形与图像处理Ⅱ(8:10到9:50)在四川大学锦江学院 7-306\n2. HTML5应用开发(13:40到15:20)在四川大学锦江学院 2-501\n3. Android基础应用开发(15:30到17:10)在四川大学锦江学院 2-501[0m[m
+[0m2022-09-22 17:30:03 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(Temp 3074139791) -> 今日课程[0m[m
+[0m2022-09-22 17:30:36 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> 😓淡化不了[0m[m
+[92m2022-09-22 17:30:36 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:31:14 V/Bot.2118654642: Event: NewFriendRequestEvent(bot=Bot(2118654642), eventId=1663839076000000, message=Kingの王, fromId=3074139791, fromGroupId=1109825279, fromNick=怪兽之王哥斯拉)[0m[m
+[0m2022-09-22 17:31:14 V/Bot.2118654642: Event: FriendAddEvent(friend=Friend(3074139791))[0m[m
+[0m2022-09-22 17:31:19 V/Bot.2118654642: Event: OtherClientOnlineEvent(client=OtherClient(bot=2118654642,deviceName=DESKTOP-5V3RPE7,platform=WINDOWS), kind=MOBILE_PC_QQ)[0m[m
+[0m2022-09-22 17:31:20 V/Bot.2118654642: Friend(3074139791) <- 欢迎使用 超级课表课程提醒机器人。\n发送 "怎么用"/"帮助" 获取使用方法。[0m[m
+[0m2022-09-22 17:31:22 V/Bot.2118654642: 怪兽之王哥斯拉(3074139791) -> 课程表[0m[m
+[0m2022-09-22 17:31:28 V/Bot.2118654642: 怪兽之王哥斯拉(3074139791) -> 今日课程[0m[m
+[0m2022-09-22 17:31:28 V/Bot.2118654642: Friend(3074139791) <- 你还没有登录超级课表，无法查看今日课程[0m[m
+[92m2022-09-22 17:31:46 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:31:46 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> 改字体要加一个新文件，不想搞了[0m[m
+[92m2022-09-22 17:31:47 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:31:47 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 图片淡化[0m[m
+[0m2022-09-22 17:31:52 V/Bot.2118654642: 怪兽之王哥斯拉(3074139791)[SYNC] <- 直接登我的号[0m[m
+[92m2022-09-22 17:31:57 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:31:57 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> [mirai:at:3074139791] 交图片还是Word？[0m[m
+[0m2022-09-22 17:32:04 V/Bot.2118654642: 怪兽之王哥斯拉(3074139791)[SYNC] <- 发送帮助[0m[m
+[0m2022-09-22 17:32:05 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 你插入之前把它淡化[0m[m
+[92m2022-09-22 17:32:05 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:34:45 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 别个弄得好高级哦[0m[m
+[92m2022-09-22 17:34:45 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:34:51 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:34:51 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 我都不会插入图片[0m[m
+[92m2022-09-22 17:35:01 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:35:01 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> 你搜一下嘛[0m[m
+[0m2022-09-22 17:36:27 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 简直都是巴卡[0m[m
+[92m2022-09-22 17:36:27 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:36:32 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:36:32 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:image:{77FBFADB-DB0A-868E-AABA-E2881DCAB3EB}.gif, width=384, height=384, size=3827654, type=GIF, isEmoji=true][0m[m
+[92m2022-09-22 17:38:24 I/HRobot: cron task running...[0m[m
+[0m2022-09-22 17:38:39 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 哈人[0m[m
+[92m2022-09-22 17:38:39 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:39:18 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:39:18 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> 遭了，交原神上去[0m[m
+[0m2022-09-22 17:40:20 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 救命[0m[m
+[92m2022-09-22 17:40:20 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:40:28 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 谁给我来张图片[0m[m
+[92m2022-09-22 17:40:28 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:40:31 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:40:31 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 万一点到我[0m[m
+[0m2022-09-22 17:40:35 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 我好交[0m[m
+[92m2022-09-22 17:40:35 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:40:38 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 我在弄机器人[0m[m
+[92m2022-09-22 17:40:38 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:40:48 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [流泪][0m[m
+[92m2022-09-22 17:40:48 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:42:19 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:42:19 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 这么[0m[m
+[92m2022-09-22 17:42:23 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:42:23 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 。。。、[0m[m
+[0m2022-09-22 17:42:25 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 哈哈哈[0m[m
+[92m2022-09-22 17:42:25 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:42:25 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 买彩票[0m[m
+[92m2022-09-22 17:42:25 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:42:35 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 我给你？[0m[m
+[92m2022-09-22 17:42:35 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:42:47 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:42:47 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 上面有我的[0m[m
+[0m2022-09-22 17:43:14 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 我超[0m[m
+[92m2022-09-22 17:43:14 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:43:34 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 捏妈妈的[0m[m
+[92m2022-09-22 17:43:34 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:43:38 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:43:38 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:image:{A2816102-AF3B-84FB-D732-FA1E48B10B59}.gif, width=500, height=500, size=502451, type=GIF, isEmoji=true][0m[m
+[0m2022-09-22 17:43:48 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 等哈抽到我的就安逸了[0m[m
+[92m2022-09-22 17:43:48 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:43:59 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 他念到何冰的就晓得我要遭了[0m[m
+[92m2022-09-22 17:43:59 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:44:01 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:44:01 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 等会拿嘻嘻的去交[0m[m
+[0m2022-09-22 17:44:09 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 因为我就在何冰的下面[0m[m
+[92m2022-09-22 17:44:09 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:44:15 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:44:15 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:marketface:209590,][0m[m
+[92m2022-09-22 17:44:29 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:44:29 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> [mirai:at:1679124358] 你用我的原神塞[0m[m
+[0m2022-09-22 17:44:44 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 那属实不敢[0m[m
+[92m2022-09-22 17:44:44 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:44:53 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 班里玩原的挺多的[0m[m
+[92m2022-09-22 17:44:53 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:45:07 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 小金人把图片文字改一下[0m[m
+[92m2022-09-22 17:45:07 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:45:14 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:45:14 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> [mirai:image:{9C909BC2-1404-6AE0-BA2D-03FB89F8F396}.jpg, width=656, height=1022, size=71299, type=PNG, isEmoji=false][0m[m
+[0m2022-09-22 17:45:15 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:3074139791][0m[m
+[92m2022-09-22 17:45:15 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:45:23 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 牛的[0m[m
+[92m2022-09-22 17:45:23 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:48:01 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 小黑子出来了[0m[m
+[92m2022-09-22 17:48:01 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:48:55 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:3031215597] fsf我寝室有两本[牛气冲天][0m[m
+[92m2022-09-22 17:48:55 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:49:34 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:49:34 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> 会花钱[0m[m
+[0m2022-09-22 17:50:00 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> 什么有钱人[0m[m
+[92m2022-09-22 17:50:00 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:50:36 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:50:36 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 打折买的[0m[m
+[92m2022-09-22 17:50:48 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:50:48 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 买了两年都没看完一本[0m[m
+[92m2022-09-22 17:52:34 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:52:34 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> 焦作[0m[m
+[0m2022-09-22 17:52:44 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> fsf什么东西[0m[m
+[92m2022-09-22 17:52:44 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:53:01 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 斌斌写的小说[0m[m
+[92m2022-09-22 17:53:01 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:53:10 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> fate strange fake[0m[m
+[92m2022-09-22 17:53:10 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:53:28 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 来惹[0m[m
+[92m2022-09-22 17:53:28 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:53:31 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:53:31 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> 标题打错了[0m[m
+[0m2022-09-22 17:53:40 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> [吃瓜][0m[m
+[92m2022-09-22 17:53:40 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:53:45 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> 会说[0m[m
+[92m2022-09-22 17:53:45 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:53:51 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 囊开交[0m[m
+[92m2022-09-22 17:53:51 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:53:58 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 老师是看不懂中文[0m[m
+[92m2022-09-22 17:53:58 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:54:00 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> 直接交就行了[0m[m
+[92m2022-09-22 17:54:00 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:54:01 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 直接截图还是弄到word里面[0m[m
+[92m2022-09-22 17:54:01 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:54:20 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:54:20 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 直接在头哥那里发截图嘛[0m[m
+[0m2022-09-22 17:54:35 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> 会议评论区[0m[m
+[92m2022-09-22 17:54:35 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:54:57 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:54:57 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> woc，蒸[0m[m
+[0m2022-09-22 17:55:17 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:quote:[mirai:source:ids=[39461], internalIds=[462891808], from 3074139791 to 1109825279 at 1663840433], content=<not yet initialized>][mirai:at:3074139791]  截图发在聊天区就行[0m[m
+[92m2022-09-22 17:55:17 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:55:36 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 头歌也有这个作业哒[0m[m
+[92m2022-09-22 17:55:36 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:55:43 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:55:43 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 害[0m[m
+[92m2022-09-22 17:55:45 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:55:45 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 我的苏苏[0m[m
+[0m2022-09-22 17:55:46 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 头哥先不管[0m[m
+[92m2022-09-22 17:55:46 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:55:48 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:55:48 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 被我删除了[0m[m
+[0m2022-09-22 17:56:06 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 换你的刀剑神域[0m[m
+[92m2022-09-22 17:56:06 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:56:13 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:56:13 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [牛气冲天][0m[m
+[92m2022-09-22 17:56:24 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:56:24 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 麻烦啊[0m[m
+[92m2022-09-22 17:57:45 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:57:45 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:image:{7E0DF6C9-02A0-17B2-B0B2-34B26669F666}.png, width=184, height=198, size=23657, type=PNG, isEmoji=true][0m[m
+[0m2022-09-22 17:58:20 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)][SYNC] <- 欢迎使用 超级课表课程提醒QQ机器人。\n注意：使用本功能前请添加本机器人为好友，该功能只支持好友私聊\n本机master已设置默认超级课堂账号：18181487399，默认超级课堂密码：lh6611000\n登录时请自行输入\n它可以在你下一节课上课前提醒你这节课的信息，避免你错过课程。\n默认提前15分钟，若需要更长时间，请联系我的master更改\n指令：\n  "登录超级课表" - 使用密码登录你的超级课表账户\n  "查看时间表" - 查看本校的作息时间表\n  "修改时间表" - 修改本校的作息时间表\n  "同步课程" - 手动从超级课表同步你的课程\n  "今(明)日课程" - 查看你今(明)天的所有课程信息\n  "周X课程" - 查看你周X的所有课程信息\n  "怎么用/帮助" - 显示这条信息\n  "修改密码" - 修改记录在机器人数据库中的密码\n  "删除用户" - 删除你的记录在机器人数据库中的信息，并停止课程提醒服务。\n  "修改提前提醒时间" - 修改上课提前多长时间提醒\n  "状态" - 查看超级课表课程提醒QQ机器人的运行情况\n\n注意：当前处于初代测试阶段。[0m[m
+[92m2022-09-22 17:58:24 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:58:24 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 真他妈刺激[0m[m
+[0m2022-09-22 17:58:29 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> gov八光扯拐[0m[m
+[92m2022-09-22 17:58:29 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 17:58:58 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 17:58:58 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:quote:[mirai:source:ids=[39478], internalIds=[-2098721315], from 2118654642 to 1109825279 at 1663840702], content=<not yet initialized>][mirai:at:2118654642] 只能私聊提醒上课时间[0m[m
+[0m2022-09-22 17:59:02 V/Bot.2118654642: Group(1109825279) <- 别走私，呆在这大伙一块聊呗[0m[m
+[0m2022-09-22 17:59:11 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 群聊提醒没弄[0m[m
+[92m2022-09-22 17:59:11 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:00:12 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> [mirai:at:2118654642] 退群[0m[m
+[92m2022-09-22 18:00:12 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:00:16 V/Bot.2118654642: Group(1109825279) <- 动不动就退群， 有意思嘛？[0m[m
+[0m2022-09-22 18:00:26 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:quote:[mirai:source:ids=[39485], internalIds=[1251685460], from 2118654642 to 1109825279 at 1663840818], content=<not yet initialized>][mirai:at:2118654642] 把你龟儿踢出去[0m[m
+[92m2022-09-22 18:00:26 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:00:29 V/Bot.2118654642: Group(1109825279) <- 不要踢我嘛，如果觉得我烦，可以叫我闭嘴的[0m[m
+[0m2022-09-22 18:00:38 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:at:2118654642] 闭嘴🤐[0m[m
+[92m2022-09-22 18:00:38 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:00:41 V/Bot.2118654642: Group(1109825279) <- 呜呜呜呜……[0m[m
+[0m2022-09-22 18:00:42 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 这么可爱的机器人[0m[m
+[92m2022-09-22 18:00:42 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 18:00:42 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:00:42 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> [mirai:at:2118654642] can can need[0m[m
+[0m2022-09-22 18:00:43 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 呜呜呜[0m[m
+[92m2022-09-22 18:00:43 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 18:00:43 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:00:43 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:quote:[mirai:source:ids=[39485], internalIds=[1251685460], from 2118654642 to 1109825279 at 1663840818], content=<not yet initialized>][mirai:at:2118654642] 滚起爬[0m[m
+[0m2022-09-22 18:00:45 V/Bot.2118654642: Group(1109825279) <- 三弟沙僧！[0m[m
+[0m2022-09-22 18:00:46 V/Bot.2118654642: Group(1109825279) <- [表情][0m[m
+[92m2022-09-22 18:00:50 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:00:50 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:quote:[mirai:source:ids=[39494], internalIds=[1459934774], from 2118654642 to 1109825279 at 1663840847], content=<not yet initialized>][mirai:at:2118654642] 草泥马[0m[m
+[91m2022-09-22 18:00:53 W/stderr: net.mamoe.mirai.contact.SendMessageFailedException: Failed sending message to Group(1109825279), reason=GROUP_CHAT_LIMITED[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.sendSinglePacket(GeneralMessageSenderProtocol.kt:139)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.access$sendSinglePacket(GeneralMessageSenderProtocol.kt:46)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender$sendSinglePacket$1.invokeSuspend(GeneralMessageSenderProtocol.kt)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:178)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:166)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:431)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$default(CancellableContinuationImpl.kt:420)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:328)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at kotlinx.coroutines.ResumeAwaitOnCompletion.invoke(JobSupport.kt:1412)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:318)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at kotlinx.coroutines.JobSupport.tryFinalizeSimpleState(JobSupport.kt:295)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:856)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at kotlinx.coroutines.JobSupport.makeCompleting$kotlinx_coroutines_core(JobSupport.kt:806)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at kotlinx.coroutines.CompletableDeferredImpl.complete(CompletableDeferred.kt:92)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:84)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$send$1.invokeSuspend(NettyNetworkHandler.kt:192)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)[0m[m
+[91m2022-09-22 18:00:53 W/stderr: 	at java.base/java.lang.Thread.run(Thread.java:833)[0m[m
+[91m2022-09-22 18:00:53 W/Bot.2118654642: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2118654642.EventDispatcher'
+java.lang.NullPointerException: Cannot invoke "java.lang.Throwable.toString()" because the return value of "java.lang.Exception.getCause()" is null
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.reply(Context.java:130)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:102)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[92m2022-09-22 18:01:00 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:01:00 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:at:2118654642] show show way[0m[m
+[92m2022-09-22 18:01:01 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:01:01 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 草泥马[0m[m
+[91m2022-09-22 18:01:02 W/stderr: net.mamoe.mirai.contact.SendMessageFailedException: Failed sending message to Group(1109825279), reason=GROUP_CHAT_LIMITED[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.sendSinglePacket(GeneralMessageSenderProtocol.kt:139)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.access$sendSinglePacket(GeneralMessageSenderProtocol.kt:46)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender$sendSinglePacket$1.invokeSuspend(GeneralMessageSenderProtocol.kt)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:178)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:166)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:431)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$default(CancellableContinuationImpl.kt:420)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:328)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at kotlinx.coroutines.ResumeAwaitOnCompletion.invoke(JobSupport.kt:1412)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:318)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at kotlinx.coroutines.JobSupport.tryFinalizeSimpleState(JobSupport.kt:295)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:856)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at kotlinx.coroutines.JobSupport.makeCompleting$kotlinx_coroutines_core(JobSupport.kt:806)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at kotlinx.coroutines.CompletableDeferredImpl.complete(CompletableDeferred.kt:92)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:84)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$send$1.invokeSuspend(NettyNetworkHandler.kt:192)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)[0m[m
+[91m2022-09-22 18:01:02 W/stderr: 	at java.base/java.lang.Thread.run(Thread.java:833)[0m[m
+[91m2022-09-22 18:01:02 W/Bot.2118654642: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2118654642.EventDispatcher'
+java.lang.NullPointerException: Cannot invoke "java.lang.Throwable.toString()" because the return value of "java.lang.Exception.getCause()" is null
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.reply(Context.java:130)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:102)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[91m2022-09-22 18:01:03 W/stderr: net.mamoe.mirai.contact.SendMessageFailedException: Failed sending message to Group(1109825279), reason=GROUP_CHAT_LIMITED[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.sendSinglePacket(GeneralMessageSenderProtocol.kt:139)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.access$sendSinglePacket(GeneralMessageSenderProtocol.kt:46)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender$sendSinglePacket$1.invokeSuspend(GeneralMessageSenderProtocol.kt)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:178)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:166)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:431)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$default(CancellableContinuationImpl.kt:420)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:328)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at kotlinx.coroutines.ResumeAwaitOnCompletion.invoke(JobSupport.kt:1412)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:318)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at kotlinx.coroutines.JobSupport.tryFinalizeSimpleState(JobSupport.kt:295)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:856)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at kotlinx.coroutines.JobSupport.makeCompleting$kotlinx_coroutines_core(JobSupport.kt:806)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at kotlinx.coroutines.CompletableDeferredImpl.complete(CompletableDeferred.kt:92)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:84)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$send$1.invokeSuspend(NettyNetworkHandler.kt:192)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)[0m[m
+[91m2022-09-22 18:01:03 W/stderr: 	at java.base/java.lang.Thread.run(Thread.java:833)[0m[m
+[91m2022-09-22 18:01:03 W/Bot.2118654642: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2118654642.EventDispatcher'
+java.lang.NullPointerException: Cannot invoke "java.lang.Throwable.toString()" because the return value of "java.lang.Exception.getCause()" is null
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.reply(Context.java:130)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:102)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[0m2022-09-22 18:01:10 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> 机器死了？[0m[m
+[92m2022-09-22 18:01:10 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 18:01:17 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:01:17 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:image:{98F82BDB-B0EB-B828-2325-2AB98D05226A}.png, width=1223, height=639, size=154486, type=PNG, isEmoji=false][0m[m
+[0m2022-09-22 18:01:19 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 骂脏话[0m[m
+[92m2022-09-22 18:01:19 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:01:23 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> 你叫它闭嘴了[0m[m
+[92m2022-09-22 18:01:23 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:01:23 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 后台给我干崩了[0m[m
+[92m2022-09-22 18:01:23 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 18:01:27 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:01:27 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:at:2118654642] sword new new[0m[m
+[0m2022-09-22 18:01:30 V/Bot.2118654642: Group(1109825279) <- 咱是中国人，请讲中文，谢谢！[0m[m
+[92m2022-09-22 18:01:42 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:01:42 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 草泥马[0m[m
+[0m2022-09-22 18:01:45 V/Bot.2118654642: Group(1109825279) <- 草泥马可以是一种动物，也可能是骂人，这词还是不要随意用的好[0m[m
+[0m2022-09-22 18:01:50 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:quote:[mirai:source:ids=[39505], internalIds=[1762383446], from 2118654642 to 1109825279 at 1663840892], content=<not yet initialized>][mirai:at:2118654642] ✌讲得就是中文[0m[m
+[92m2022-09-22 18:01:50 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:01:53 V/Bot.2118654642: Group(1109825279) <- 与其说是聊天，不如说是问答式的吧[0m[m
+[0m2022-09-22 18:02:07 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:quote:[mirai:source:ids=[39509], internalIds=[36588094], from 2118654642 to 1109825279 at 1663840915], content=<not yet initialized>][mirai:at:2118654642] 看看你的[0m[m
+[92m2022-09-22 18:02:07 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:02:10 V/Bot.2118654642: Group(1109825279) <- 要查看我的本领请发送：help[0m[m
+[92m2022-09-22 18:02:14 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:02:14 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> [mirai:at:2118654642] 不发原神的内容就滚吧[0m[m
+[0m2022-09-22 18:02:17 V/Bot.2118654642: Group(1109825279) <- 你有2个选择，①是马上滚；②是立刻滚，当然你还可以选择立刻马上滚！[0m[m
+[92m2022-09-22 18:02:26 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:02:26 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 卧槽[0m[m
+[0m2022-09-22 18:02:36 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> [mirai:at:2118654642] 请发原神[0m[m
+[92m2022-09-22 18:02:36 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 18:02:36 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:02:36 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:at:2118654642] 你很叼嘛[0m[m
+[0m2022-09-22 18:02:38 V/Bot.2118654642: Group(1109825279) <- ZA二零三[0m[m
+[0m2022-09-22 18:02:39 V/Bot.2118654642: Group(1109825279) <- 有些事没必要认真，有些人没必要理会[0m[m
+[92m2022-09-22 18:02:48 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:02:48 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:quote:[mirai:source:ids=[39518], internalIds=[1675491294], from 2118654642 to 1109825279 at 1663840961], content=<not yet initialized>][mirai:at:2118654642] 什么装逼哥[0m[m
+[0m2022-09-22 18:02:51 V/Bot.2118654642: Group(1109825279) <- 总说别人装逼的人，连逼都不是[0m[m
+[0m2022-09-22 18:02:58 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 草[0m[m
+[92m2022-09-22 18:02:58 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:03:03 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 。。。[0m[m
+[92m2022-09-22 18:03:03 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:03:06 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 这ai怎么嘴这么臭[0m[m
+[92m2022-09-22 18:03:06 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:03:08 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> [mirai:at:2118654642] 日你妈妈，发原神[0m[m
+[92m2022-09-22 18:03:08 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:03:11 V/Bot.2118654642: Group(1109825279) <- 欧尼酱怎么会有亲人[0m[m
+[0m2022-09-22 18:03:13 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:quote:[mirai:source:ids=[39520], internalIds=[1361801622], from 2118654642 to 1109825279 at 1663840973], content=<not yet initialized>][mirai:at:2118654642] 嗦我的牛子[0m[m
+[92m2022-09-22 18:03:13 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:03:16 V/Bot.2118654642: Group(1109825279) <- 像！[0m[m
+[0m2022-09-22 18:03:35 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> [mirai:at:2118654642] 去干杰哥[0m[m
+[92m2022-09-22 18:03:35 I/stdout: RobotConfig.enableRobot = true[0m[m
+[91m2022-09-22 18:03:38 W/stderr: net.mamoe.mirai.contact.SendMessageFailedException: Failed sending message to Group(1109825279), reason=GROUP_CHAT_LIMITED[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.sendSinglePacket(GeneralMessageSenderProtocol.kt:139)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.access$sendSinglePacket(GeneralMessageSenderProtocol.kt:46)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender$sendSinglePacket$1.invokeSuspend(GeneralMessageSenderProtocol.kt)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:178)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:166)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:431)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$default(CancellableContinuationImpl.kt:420)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:328)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at kotlinx.coroutines.ResumeAwaitOnCompletion.invoke(JobSupport.kt:1412)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:318)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at kotlinx.coroutines.JobSupport.tryFinalizeSimpleState(JobSupport.kt:295)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:856)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at kotlinx.coroutines.JobSupport.makeCompleting$kotlinx_coroutines_core(JobSupport.kt:806)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at kotlinx.coroutines.CompletableDeferredImpl.complete(CompletableDeferred.kt:92)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:84)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$send$1.invokeSuspend(NettyNetworkHandler.kt:192)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)[0m[m
+[91m2022-09-22 18:03:38 W/stderr: 	at java.base/java.lang.Thread.run(Thread.java:833)[0m[m
+[91m2022-09-22 18:03:38 W/Bot.2118654642: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2118654642.EventDispatcher'
+java.lang.NullPointerException: Cannot invoke "java.lang.Throwable.toString()" because the return value of "java.lang.Exception.getCause()" is null
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.reply(Context.java:130)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:102)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[92m2022-09-22 18:03:46 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:03:46 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:quote:[mirai:source:ids=[39527], internalIds=[601760930], from 2118654642 to 1109825279 at 1663840998], content=<not yet initialized>][mirai:at:2118654642] 被杰哥干[0m[m
+[0m2022-09-22 18:03:49 V/Bot.2118654642: Group(1109825279) <- 杰哥不在，啥事和我说[0m[m
+[0m2022-09-22 18:03:55 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [赞][0m[m
+[92m2022-09-22 18:03:55 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:04:00 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)][SYNC] <- 爱杰哥捏[0m[m
+[92m2022-09-22 18:04:10 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:04:10 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:at:2118654642] 干你屁眼子[0m[m
+[92m2022-09-22 18:04:13 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:04:13 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:quote:[mirai:source:ids=[39532], internalIds=[-1090270557], from 2118654642 to 1109825279 at 1663841042], content=<not yet initialized>][mirai:at:2118654642] 梁红异地登陆是吧[0m[m
+[0m2022-09-22 18:04:13 V/Bot.2118654642: Group(1109825279) <- 干你自个的吧[0m[m
+[0m2022-09-22 18:04:15 V/Bot.2118654642: Group(1109825279) <- 哦[0m[m
+[92m2022-09-22 18:04:17 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:04:17 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> [mirai:at:2118654642] 叫你发原神听不懂吗？[0m[m
+[0m2022-09-22 18:04:20 V/Bot.2118654642: Group(1109825279) <- 不知道不明白的就要问清楚，晓得不[0m[m
+[92m2022-09-22 18:04:49 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:04:49 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:at:2118654642] 你好骚啊！[0m[m
+[0m2022-09-22 18:04:52 V/Bot.2118654642: Group(1109825279) <- 你才骚，你一出现，整个世界就迷漫着一股骚味[0m[m
+[92m2022-09-22 18:05:11 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:05:11 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:at:2118654642] [mirai:image:{FBE7BBFB-4D9C-21B8-6CD6-3F95AC8F5A71}.gif, width=720, height=720, size=32876, type=GIF, isEmoji=true][0m[m
+[0m2022-09-22 18:05:14 V/Bot.2118654642: Group(1109825279) <- 未获取到相关信息[0m[m
+[0m2022-09-22 18:05:17 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> 小金不骂回去[0m[m
+[92m2022-09-22 18:05:17 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:05:34 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:image:{B135887A-40A5-8A9B-2247-1D243D4F0DEB}.gif, width=300, height=300, size=427731, type=GIF, isEmoji=true][0m[m
+[92m2022-09-22 18:05:34 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:07:04 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)][SYNC] <- 原神是不能被诋毁的！[0m[m
+[0m2022-09-22 18:07:12 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:at:2118654642] 你发张自己的照片我看看[0m[m
+[92m2022-09-22 18:07:12 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:07:14 V/Bot.2118654642: Group(1109825279) <- 看什么看，您就别凑热闹了[0m[m
+[0m2022-09-22 18:07:28 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)][SYNC] <- [mirai:image:{4B1C1C50-7B3D-586E-2C31-CB3D32D0B1F4}.png, width=158, height=143, size=19745, type=PNG, isEmoji=false][0m[m
+[0m2022-09-22 18:07:44 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 有人异地登录[0m[m
+[92m2022-09-22 18:07:44 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:07:48 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)][SYNC] <- 看牛魔酬宾[0m[m
+[0m2022-09-22 18:07:56 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)][SYNC] <- 😘[0m[m
+[92m2022-09-22 18:08:02 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:08:02 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:at:2118654642] [mirai:image:{16BD030A-57DD-8A5D-0C46-A35AA19CC8AF}.jpg, width=1099, height=1080, size=100086, type=JPG, isEmoji=true][0m[m
+[0m2022-09-22 18:08:05 V/Bot.2118654642: Group(1109825279) <- 未获取到相关信息[0m[m
+[92m2022-09-22 18:08:12 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:08:12 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:quote:[mirai:source:ids=[39550], internalIds=[-1444916300], from 2118654642 to 1109825279 at 1663841270], content=<not yet initialized>][mirai:at:2118654642] 这踏马就是梁宏在说吧[0m[m
+[0m2022-09-22 18:08:15 V/Bot.2118654642: Group(1109825279) <- 有些事没必要认真，有些人没必要理会[0m[m
+[0m2022-09-22 18:08:23 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)][SYNC] <- 不是捏[0m[m
+[92m2022-09-22 18:08:24 I/HRobot: cron task running...[0m[m
+[92m2022-09-22 18:08:26 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:08:26 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 这梗都出来了[0m[m
+[92m2022-09-22 18:08:33 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:08:33 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:image:{3B196D8F-ECC9-64DE-8296-A7FF1690BA8E}.jpg, width=1242, height=1242, size=114573, type=JPG, isEmoji=true][0m[m
+[0m2022-09-22 18:08:34 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)][SYNC] <- 😘[0m[m
+[0m2022-09-22 18:08:45 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)][SYNC] <- 我超蚂蚁学姐[0m[m
+[0m2022-09-22 18:08:55 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 你异地登录牛魔酬宾[0m[m
+[92m2022-09-22 18:08:55 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 18:09:04 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:09:04 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [偷笑][0m[m
+[0m2022-09-22 18:09:16 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 现在ai都这么智能了嘛[汪汪][0m[m
+[92m2022-09-22 18:09:16 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:09:46 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 那是[0m[m
+[92m2022-09-22 18:09:46 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 18:10:03 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:10:03 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:2118654642] 查刀[0m[m
+[91m2022-09-22 18:10:03 W/stderr: java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because the return value of "java.util.Map.get(Object)" is null[0m[m
+[91m2022-09-22 18:10:03 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.GtReportMessageEventHandler.check(GtReportMessageEventHandler.java:140)[0m[m
+[91m2022-09-22 18:10:03 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.GtReportMessageEventHandler.handleMessageEvent(GtReportMessageEventHandler.java:118)[0m[m
+[91m2022-09-22 18:10:03 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:98)[0m[m
+[91m2022-09-22 18:10:03 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)[0m[m
+[91m2022-09-22 18:10:03 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)[0m[m
+[91m2022-09-22 18:10:03 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-22 18:10:03 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-22 18:10:03 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)[0m[m
+[91m2022-09-22 18:10:03 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)[0m[m
+[91m2022-09-22 18:10:03 W/stderr: 	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)[0m[m
+[91m2022-09-22 18:10:03 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:10:03 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 18:10:03 W/stderr: 	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)[0m[m
+[91m2022-09-22 18:10:03 W/stderr: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)[0m[m
+[91m2022-09-22 18:10:03 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)[0m[m
+[91m2022-09-22 18:10:03 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)[0m[m
+[91m2022-09-22 18:10:03 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)[0m[m
+[91m2022-09-22 18:10:03 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)[0m[m
+[0m2022-09-22 18:10:04 V/Bot.2118654642: Group(1109825279) <- 发生了一条意料之外的错误[0m[m
+[0m2022-09-22 18:13:10 V/Bot.2118654642: Tohsaka Gozen(1679124358)[SYNC] <- 欢迎使用 超级课表课程提醒QQ机器人。\n注意：使用本功能前请添加本机器人为好友，该功能只支持好友私聊\n本机master已设置默认超级课堂账号：18181487399，默认超级课堂密码：lh6611000\n登录时请自行输入\n它可以在你下一节课上课前提醒你这节课的信息，避免你错过课程。\n默认提前15分钟，若需要更长时间，请联系我的master更改\n指令：\n  "登录超级课表" - 使用密码登录你的超级课表账户\n  "查看时间表" - 查看本校的作息时间表\n  "修改时间表" - 修改本校的作息时间表\n  "同步课程" - 手动从超级课表同步你的课程\n  "今(明)日课程" - 查看你今(明)天的所有课程信息\n  "周X课程" - 查看你周X的所有课程信息\n  "怎么用/帮助" - 显示这条信息\n  "修改密码" - 修改记录在机器人数据库中的密码\n  "删除用户" - 删除你的记录在机器人数据库中的信息，并停止课程提醒服务。\n  "修改提前提醒时间" - 修改上课提前多长时间提醒\n  "状态" - 查看超级课表课程提醒QQ机器人的运行情况\n\n注意：当前处于初代测试阶段。[0m[m
+[92m2022-09-22 18:13:18 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:13:18 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 鸡儿[0m[m
+[0m2022-09-22 18:13:21 V/Bot.2118654642: Group(1109825279) <- 剃光光[0m[m
+[92m2022-09-22 18:13:24 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:13:24 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 在爪子[0m[m
+[0m2022-09-22 18:13:27 V/Bot.2118654642: Group(1109825279) <- 殿下SAMA[0m[m
+[92m2022-09-22 18:13:37 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:13:37 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 吃狗屎[0m[m
+[0m2022-09-22 18:13:40 V/Bot.2118654642: Group(1109825279) <- 你吃！我吃！！大家吃！！！[0m[m
+[92m2022-09-22 18:13:47 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:13:47 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 你吃尼玛[0m[m
+[0m2022-09-22 18:13:50 V/Bot.2118654642: Group(1109825279) <- 你大爷[0m[m
+[0m2022-09-22 18:13:50 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 你们吃，我不吃[0m[m
+[92m2022-09-22 18:13:50 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:13:58 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 还骂人[0m[m
+[92m2022-09-22 18:13:58 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:14:00 V/Bot.2118654642: Group(1109825279) <- 这不跟您学的么[0m[m
+[92m2022-09-22 18:14:07 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:14:07 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 老子收拾你[0m[m
+[91m2022-09-22 18:14:10 W/stderr: net.mamoe.mirai.contact.SendMessageFailedException: Failed sending message to Group(1109825279), reason=GROUP_CHAT_LIMITED[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.sendSinglePacket(GeneralMessageSenderProtocol.kt:139)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.access$sendSinglePacket(GeneralMessageSenderProtocol.kt:46)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender$sendSinglePacket$1.invokeSuspend(GeneralMessageSenderProtocol.kt)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:178)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:166)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:431)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$default(CancellableContinuationImpl.kt:420)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:328)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at kotlinx.coroutines.ResumeAwaitOnCompletion.invoke(JobSupport.kt:1412)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:318)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at kotlinx.coroutines.JobSupport.tryFinalizeSimpleState(JobSupport.kt:295)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:856)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at kotlinx.coroutines.JobSupport.makeCompleting$kotlinx_coroutines_core(JobSupport.kt:806)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at kotlinx.coroutines.CompletableDeferredImpl.complete(CompletableDeferred.kt:92)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:84)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$send$1.invokeSuspend(NettyNetworkHandler.kt:192)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)[0m[m
+[91m2022-09-22 18:14:10 W/stderr: 	at java.base/java.lang.Thread.run(Thread.java:833)[0m[m
+[91m2022-09-22 18:14:10 W/Bot.2118654642: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2118654642.EventDispatcher'
+java.lang.NullPointerException: Cannot invoke "java.lang.Throwable.toString()" because the return value of "java.lang.Exception.getCause()" is null
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.reply(Context.java:130)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:102)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[0m2022-09-22 18:14:15 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 把你踢了[0m[m
+[92m2022-09-22 18:14:15 I/stdout: RobotConfig.enableRobot = true[0m[m
+[91m2022-09-22 18:14:17 W/stderr: net.mamoe.mirai.contact.SendMessageFailedException: Failed sending message to Group(1109825279), reason=GROUP_CHAT_LIMITED[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.sendSinglePacket(GeneralMessageSenderProtocol.kt:139)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.access$sendSinglePacket(GeneralMessageSenderProtocol.kt:46)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender$sendSinglePacket$1.invokeSuspend(GeneralMessageSenderProtocol.kt)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:178)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:166)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:431)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$default(CancellableContinuationImpl.kt:420)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:328)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at kotlinx.coroutines.ResumeAwaitOnCompletion.invoke(JobSupport.kt:1412)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:318)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at kotlinx.coroutines.JobSupport.tryFinalizeSimpleState(JobSupport.kt:295)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:856)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at kotlinx.coroutines.JobSupport.makeCompleting$kotlinx_coroutines_core(JobSupport.kt:806)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at kotlinx.coroutines.CompletableDeferredImpl.complete(CompletableDeferred.kt:92)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:84)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$send$1.invokeSuspend(NettyNetworkHandler.kt:192)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)[0m[m
+[91m2022-09-22 18:14:17 W/stderr: 	at java.base/java.lang.Thread.run(Thread.java:833)[0m[m
+[91m2022-09-22 18:14:17 W/Bot.2118654642: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2118654642.EventDispatcher'
+java.lang.NullPointerException: Cannot invoke "java.lang.Throwable.toString()" because the return value of "java.lang.Exception.getCause()" is null
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.reply(Context.java:130)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:102)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[92m2022-09-22 18:14:25 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:14:25 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:image:{BC1A3243-0747-FCE5-4789-3FD48FDADB78}.png, width=1223, height=639, size=151802, type=PNG, isEmoji=false][0m[m
+[0m2022-09-22 18:14:28 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 又崩了[0m[m
+[92m2022-09-22 18:14:28 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 18:14:41 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:14:41 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:image:{0B859D56-AA50-5A76-22CD-1D608654F717}.gif, width=270, height=270, size=119729, type=GIF, isEmoji=false][0m[m
+[92m2022-09-22 18:15:10 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:15:10 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:2118654642] test[0m[m
+[0m2022-09-22 18:15:13 V/Bot.2118654642: Group(1109825279) <- [睡][0m[m
+[92m2022-09-22 18:15:27 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:15:27 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 🐔[0m[m
+[0m2022-09-22 18:15:30 V/Bot.2118654642: Group(1109825279) <- 现在的生活太感性，情绪不停泛滥，身心具疲[0m[m
+[92m2022-09-22 18:15:33 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:15:33 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:at:2118654642] fuck you[0m[m
+[0m2022-09-22 18:15:33 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 蔡徐坤[0m[m
+[92m2022-09-22 18:15:33 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:15:36 V/Bot.2118654642: Group(1109825279) <- 别动不动就Fuck！[0m[m
+[0m2022-09-22 18:15:36 V/Bot.2118654642: Group(1109825279) <- [表情][0m[m
+[92m2022-09-22 18:15:43 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:15:43 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 蔡徐坤[0m[m
+[0m2022-09-22 18:15:45 V/Bot.2118654642: Group(1109825279) <- 对不起，我没明白你的意思……[0m[m
+[92m2022-09-22 18:15:50 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:15:50 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:2118654642] 百度百科蔡徐坤[0m[m
+[0m2022-09-22 18:15:51 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 鸡你太美[0m[m
+[92m2022-09-22 18:15:51 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 18:15:52 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:15:52 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:at:2118654642] 坤坤[0m[m
+[91m2022-09-22 18:15:54 W/stderr: net.mamoe.mirai.contact.SendMessageFailedException: Failed sending message to Group(1109825279), reason=GROUP_CHAT_LIMITED[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.sendSinglePacket(GeneralMessageSenderProtocol.kt:139)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.access$sendSinglePacket(GeneralMessageSenderProtocol.kt:46)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender$sendSinglePacket$1.invokeSuspend(GeneralMessageSenderProtocol.kt)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:178)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:166)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:431)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$default(CancellableContinuationImpl.kt:420)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:328)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.ResumeAwaitOnCompletion.invoke(JobSupport.kt:1412)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:318)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.JobSupport.tryFinalizeSimpleState(JobSupport.kt:295)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:856)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.JobSupport.makeCompleting$kotlinx_coroutines_core(JobSupport.kt:806)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.CompletableDeferredImpl.complete(CompletableDeferred.kt:92)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:84)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$send$1.invokeSuspend(NettyNetworkHandler.kt:192)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at java.base/java.lang.Thread.run(Thread.java:833)[0m[m
+[91m2022-09-22 18:15:54 W/Bot.2118654642: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2118654642.EventDispatcher'
+java.lang.NullPointerException: Cannot invoke "java.lang.Throwable.toString()" because the return value of "java.lang.Exception.getCause()" is null
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.reply(Context.java:130)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:102)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[91m2022-09-22 18:15:54 W/stderr: net.mamoe.mirai.contact.SendMessageFailedException: Failed sending message to Group(1109825279), reason=GROUP_CHAT_LIMITED[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.sendSinglePacket(GeneralMessageSenderProtocol.kt:139)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.access$sendSinglePacket(GeneralMessageSenderProtocol.kt:46)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender$sendSinglePacket$1.invokeSuspend(GeneralMessageSenderProtocol.kt)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:178)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:166)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:431)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$default(CancellableContinuationImpl.kt:420)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:328)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.ResumeAwaitOnCompletion.invoke(JobSupport.kt:1412)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:318)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.JobSupport.tryFinalizeSimpleState(JobSupport.kt:295)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:856)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.JobSupport.makeCompleting$kotlinx_coroutines_core(JobSupport.kt:806)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.CompletableDeferredImpl.complete(CompletableDeferred.kt:92)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:84)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$send$1.invokeSuspend(NettyNetworkHandler.kt:192)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)[0m[m
+[91m2022-09-22 18:15:54 W/stderr: 	at java.base/java.lang.Thread.run(Thread.java:833)[0m[m
+[91m2022-09-22 18:15:54 W/Bot.2118654642: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2118654642.EventDispatcher'
+java.lang.NullPointerException: Cannot invoke "java.lang.Throwable.toString()" because the return value of "java.lang.Exception.getCause()" is null
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.reply(Context.java:130)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:102)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[91m2022-09-22 18:15:56 W/stderr: net.mamoe.mirai.contact.SendMessageFailedException: Failed sending message to Group(1109825279), reason=GROUP_CHAT_LIMITED[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.sendSinglePacket(GeneralMessageSenderProtocol.kt:139)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.access$sendSinglePacket(GeneralMessageSenderProtocol.kt:46)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender$sendSinglePacket$1.invokeSuspend(GeneralMessageSenderProtocol.kt)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:178)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:166)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:431)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$default(CancellableContinuationImpl.kt:420)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:328)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at kotlinx.coroutines.ResumeAwaitOnCompletion.invoke(JobSupport.kt:1412)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:318)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at kotlinx.coroutines.JobSupport.tryFinalizeSimpleState(JobSupport.kt:295)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:856)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at kotlinx.coroutines.JobSupport.makeCompleting$kotlinx_coroutines_core(JobSupport.kt:806)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at kotlinx.coroutines.CompletableDeferredImpl.complete(CompletableDeferred.kt:92)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:84)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$send$1.invokeSuspend(NettyNetworkHandler.kt:192)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)[0m[m
+[91m2022-09-22 18:15:56 W/stderr: 	at java.base/java.lang.Thread.run(Thread.java:833)[0m[m
+[91m2022-09-22 18:15:56 W/Bot.2118654642: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2118654642.EventDispatcher'
+java.lang.NullPointerException: Cannot invoke "java.lang.Throwable.toString()" because the return value of "java.lang.Exception.getCause()" is null
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.reply(Context.java:130)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:102)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[0m2022-09-22 18:16:00 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 寄了？[0m[m
+[92m2022-09-22 18:16:00 I/stdout: RobotConfig.enableRobot = true[0m[m
+[91m2022-09-22 18:16:04 W/stderr: net.mamoe.mirai.contact.SendMessageFailedException: Failed sending message to Group(1109825279), reason=GROUP_CHAT_LIMITED[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.sendSinglePacket(GeneralMessageSenderProtocol.kt:139)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.access$sendSinglePacket(GeneralMessageSenderProtocol.kt:46)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender$sendSinglePacket$1.invokeSuspend(GeneralMessageSenderProtocol.kt)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:178)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:166)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:431)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$default(CancellableContinuationImpl.kt:420)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:328)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at kotlinx.coroutines.ResumeAwaitOnCompletion.invoke(JobSupport.kt:1412)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:318)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at kotlinx.coroutines.JobSupport.tryFinalizeSimpleState(JobSupport.kt:295)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:856)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at kotlinx.coroutines.JobSupport.makeCompleting$kotlinx_coroutines_core(JobSupport.kt:806)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at kotlinx.coroutines.CompletableDeferredImpl.complete(CompletableDeferred.kt:92)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:84)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$send$1.invokeSuspend(NettyNetworkHandler.kt:192)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)[0m[m
+[91m2022-09-22 18:16:04 W/stderr: 	at java.base/java.lang.Thread.run(Thread.java:833)[0m[m
+[91m2022-09-22 18:16:04 W/Bot.2118654642: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2118654642.EventDispatcher'
+java.lang.NullPointerException: Cannot invoke "java.lang.Throwable.toString()" because the return value of "java.lang.Exception.getCause()" is null
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.reply(Context.java:130)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:102)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[0m2022-09-22 18:16:06 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:at:2118654642] 坤坤吃🐔🐔[0m[m
+[92m2022-09-22 18:16:06 I/stdout: RobotConfig.enableRobot = true[0m[m
+[91m2022-09-22 18:16:08 W/stderr: net.mamoe.mirai.contact.SendMessageFailedException: Failed sending message to Group(1109825279), reason=GROUP_CHAT_LIMITED[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.sendSinglePacket(GeneralMessageSenderProtocol.kt:139)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.access$sendSinglePacket(GeneralMessageSenderProtocol.kt:46)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender$sendSinglePacket$1.invokeSuspend(GeneralMessageSenderProtocol.kt)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:178)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:166)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:431)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$default(CancellableContinuationImpl.kt:420)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:328)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at kotlinx.coroutines.ResumeAwaitOnCompletion.invoke(JobSupport.kt:1412)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:318)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at kotlinx.coroutines.JobSupport.tryFinalizeSimpleState(JobSupport.kt:295)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:856)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at kotlinx.coroutines.JobSupport.makeCompleting$kotlinx_coroutines_core(JobSupport.kt:806)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at kotlinx.coroutines.CompletableDeferredImpl.complete(CompletableDeferred.kt:92)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:84)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$send$1.invokeSuspend(NettyNetworkHandler.kt:192)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)[0m[m
+[91m2022-09-22 18:16:08 W/stderr: 	at java.base/java.lang.Thread.run(Thread.java:833)[0m[m
+[91m2022-09-22 18:16:08 W/Bot.2118654642: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2118654642.EventDispatcher'
+java.lang.NullPointerException: Cannot invoke "java.lang.Throwable.toString()" because the return value of "java.lang.Exception.getCause()" is null
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.reply(Context.java:130)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:102)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[0m2022-09-22 18:16:21 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 草[0m[m
+[92m2022-09-22 18:16:21 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:16:21 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 吃邹涛弯钩[0m[m
+[92m2022-09-22 18:16:21 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:16:24 V/Bot.2118654642: Group(1109825279) <- [表情][0m[m
+[92m2022-09-22 18:16:29 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:16:29 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> @猫の记忆 百度百科蔡徐坤[0m[m
+[92m2022-09-22 18:16:40 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:16:40 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 出来[0m[m
+[0m2022-09-22 18:16:43 V/Bot.2118654642: Group(1109825279) <- 出来做什么[0m[m
+[92m2022-09-22 18:16:48 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:16:48 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:quote:[mirai:source:ids=[39599], internalIds=[609652241], from 769178107 to 1109825279 at 1663841783], content=<not yet initialized>][mirai:at:769178107] [微笑][0m[m
+[0m2022-09-22 18:16:54 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 吃邹涛弯钩[0m[m
+[92m2022-09-22 18:16:54 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:16:56 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:2118654642] 百度百科蔡徐坤[0m[m
+[92m2022-09-22 18:16:56 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:16:57 V/Bot.2118654642: Group(1109825279) <- 谈谈情，跳跳舞，跟我搞暧昧啊[0m[m
+[92m2022-09-22 18:16:59 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:16:59 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:image:{0B859D56-AA50-5A76-22CD-1D608654F717}.gif, width=270, height=270, size=119729, type=GIF, isEmoji=false][0m[m
+[0m2022-09-22 18:17:03 V/Bot.2118654642: Group(1109825279) <- 标题：蔡徐坤\n描述：蔡徐坤\n蔡徐坤（KUN），1998年8月2日出生于浙江省温州市，户籍湖南吉首，中国内地男歌手、演员、原创音乐制作人、MV导演。2012年8月，蔡徐坤担任主演的偶像剧《童话二分之一》播出，由此开始步入大众视线。2018年1月，参加竞演类综艺节目《偶像练习生》并以总票数第一正式出道，成为限定男团NINE PERCENT队长；8月，发行首张EP《1》，获2018亚洲新歌榜年度盛典最受欢迎潜力男歌手奖；随后，他还发行原创单曲《Wait Wait Wait》 ，并携手格莱美奖最佳MV获奖导演戴夫·迈尔斯打造歌曲MV。2019年1月，被授予“中牙友好大使暨中牙杰出青年领袖人物”称号；3月，成功开启横跨三个国家、六座城市的海外公演《ONE》；7月，发行首张数字专辑《YOUNG》；10月，携手中国儿童少年基金会共同设立“葵计划爱心基金”。2020年3月，加盟《青春有你第二季》担任青春制作人代表；4月9日，原创公益\n[mirai:image:{EFC23020-03F6-11CF-6406-409223C90F95}.jpg, width=2530, height=2530, size=2861964, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 18:17:11 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:17:11 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 吃狗巴[0m[m
+[0m2022-09-22 18:17:15 V/Bot.2118654642: Group(1109825279) <- 你吃！我吃！！大家吃！！！[0m[m
+[92m2022-09-22 18:17:25 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:17:25 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 你不行啊[0m[m
+[92m2022-09-22 18:17:26 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:17:26 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:at:2118654642] 让杰哥登dua郎[0m[m
+[0m2022-09-22 18:17:26 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 什么银趴[0m[m
+[92m2022-09-22 18:17:26 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:17:28 V/Bot.2118654642: Group(1109825279) <- 我说行就行，不行也得行[0m[m
+[0m2022-09-22 18:17:29 V/Bot.2118654642: Group(1109825279) <- 杰哥不在，啥事和我说[0m[m
+[0m2022-09-22 18:17:49 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 借我5块[0m[m
+[92m2022-09-22 18:17:49 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:17:52 V/Bot.2118654642: Group(1109825279) <- 不能借，一给借，网友是不会还的[0m[m
+[92m2022-09-22 18:18:15 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:18:15 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:2118654642] help[0m[m
+[0m2022-09-22 18:18:16 V/Bot.2118654642: Group(1109825279) <- 欢迎使用 HRobotv3.0，请前往 https://github.com/happysnaker/mirai-plugin-HRobot 查看相关信息[0m[m
+[0m2022-09-22 18:18:35 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 裸体美女[0m[m
+[92m2022-09-22 18:18:35 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:18:39 V/Bot.2118654642: Group(1109825279) <- 陪哥睡觉[0m[m
+[92m2022-09-22 18:18:48 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:18:48 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 老头[0m[m
+[0m2022-09-22 18:18:51 V/Bot.2118654642: Group(1109825279) <- 是个胡子邋轧的大傻，？！[0m[m
+[0m2022-09-22 18:18:54 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 老婆婆[0m[m
+[92m2022-09-22 18:18:54 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:18:57 V/Bot.2118654642: Group(1109825279) <- 超可愛超強正妹[0m[m
+[92m2022-09-22 18:19:10 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:19:10 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 来点壁纸[0m[m
+[92m2022-09-22 18:19:13 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:19:13 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 什么恶心二次元[0m[m
+[0m2022-09-22 18:19:13 V/Bot.2118654642: Group(1109825279) <- [mirai:at:1679124358][mirai:image:{07A5B47E-3338-BF2B-CC4C-C57C5F1E8EBF}.jpg, width=1920, height=1080, size=864850, type=JPG, isEmoji=false][0m[m
+[0m2022-09-22 18:19:15 V/Bot.2118654642: Group(1109825279) <- [坏笑][0m[m
+[0m2022-09-22 18:19:17 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:quote:[mirai:source:ids=[39616], internalIds=[2094506548], from 2118654642 to 1109825279 at 1663841851], content=<not yet initialized>][mirai:at:2118654642] 你代表杰哥是吧[0m[m
+[92m2022-09-22 18:19:17 I/stdout: RobotConfig.enableRobot = true[0m[m
+[91m2022-09-22 18:19:19 W/stderr: net.mamoe.mirai.contact.SendMessageFailedException: Failed sending message to Group(1109825279), reason=GROUP_CHAT_LIMITED[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.sendSinglePacket(GeneralMessageSenderProtocol.kt:139)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender.access$sendSinglePacket(GeneralMessageSenderProtocol.kt:46)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at net.mamoe.mirai.internal.message.protocol.impl.GeneralMessageSenderProtocol$GeneralMessageSender$sendSinglePacket$1.invokeSuspend(GeneralMessageSenderProtocol.kt)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:178)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:166)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:431)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$default(CancellableContinuationImpl.kt:420)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:328)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at kotlinx.coroutines.ResumeAwaitOnCompletion.invoke(JobSupport.kt:1412)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:318)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at kotlinx.coroutines.JobSupport.tryFinalizeSimpleState(JobSupport.kt:295)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:856)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at kotlinx.coroutines.JobSupport.makeCompleting$kotlinx_coroutines_core(JobSupport.kt:806)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at kotlinx.coroutines.CompletableDeferredImpl.complete(CompletableDeferred.kt:92)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:84)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$send$1.invokeSuspend(NettyNetworkHandler.kt:192)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:497)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)[0m[m
+[91m2022-09-22 18:19:19 W/stderr: 	at java.base/java.lang.Thread.run(Thread.java:833)[0m[m
+[91m2022-09-22 18:19:19 W/Bot.2118654642: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2118654642.EventDispatcher'
+java.lang.NullPointerException: Cannot invoke "java.lang.Throwable.toString()" because the return value of "java.lang.Exception.getCause()" is null
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.reply(Context.java:130)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:102)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[0m2022-09-22 18:19:37 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> 来的音乐[0m[m
+[92m2022-09-22 18:19:37 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:19:48 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:at:2118654642] 你是不是杰哥的星怒[0m[m
+[92m2022-09-22 18:19:48 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:19:51 V/Bot.2118654642: Group(1109825279) <- 当然，还用问么[0m[m
+[0m2022-09-22 18:19:51 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 点歌[0m[m
+[92m2022-09-22 18:19:51 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:19:54 V/Bot.2118654642: Group(1109825279) <- 好冷啊！我在东北玩泥巴~我在大连没有家~啊~啊！[0m[m
+[92m2022-09-22 18:20:06 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:20:06 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:2118654642] 音乐star[0m[m
+[0m2022-09-22 18:20:08 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 我抄 杰哥有星怒了[0m[m
+[92m2022-09-22 18:20:08 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:20:08 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=QQMusic, title=Star Unkind, summary=请点击右侧按钮播放, jumpUrl=http://y.qq.com/n/yqq/song/003DRapc0c56RN.html, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://ws.stream.qqmusic.qq.com/C400002vdniD0Wwj6p.m4a?guid=4220211900&vkey=B35CFFE9A373AC307FD450CF92773FC85D17F60C1CEF6E30865BFBA17D2FA9D3040DA1DFCF540BCFA9E34860DFB0D97C3B8CF8D0760E7456&uin=&fromtag=123032, brief=[分享]Star Unkind)[0m[m
+[0m2022-09-22 18:20:25 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:1679124358] 音乐 你是狗币[0m[m
+[92m2022-09-22 18:20:25 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:20:26 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=QQMusic, title=你是狗, summary=请点击右侧按钮播放, jumpUrl=http://y.qq.com/n/yqq/song/003KY46H26nKeI.html, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://ws.stream.qqmusic.qq.com/C400001zp4gn3AsAUb.m4a?guid=4220211900&vkey=28B5936E37E45EB19DDAFC4574E0D30416B8FBBF59A2FA682D2DBD0A2D7C6F51757144892DA66D1526D23F59AA061FFA73F4C7BCAB1724B6&uin=&fromtag=123032, brief=[分享]你是狗)[0m[m
+[92m2022-09-22 18:20:30 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:20:30 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:at:2118654642] 你是不是杰哥的型驽[0m[m
+[0m2022-09-22 18:20:34 V/Bot.2118654642: Group(1109825279) <- 当然，还用问么[0m[m
+[92m2022-09-22 18:20:38 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:20:38 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [微笑][0m[m
+[92m2022-09-22 18:20:49 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:20:49 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:at:2118654642] 你是不是杰哥的性奴[0m[m
+[0m2022-09-22 18:20:49 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 草，我的机器人才不是辛奴[0m[m
+[92m2022-09-22 18:20:49 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:20:51 V/Bot.2118654642: Group(1109825279) <- 也许可能大概未必不一定是[0m[m
+[92m2022-09-22 18:20:54 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:20:54 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:marketface:209590,][0m[m
+[0m2022-09-22 18:21:03 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:at:1679124358] ntr [0m[m
+[92m2022-09-22 18:21:03 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:21:04 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> g[0m[m
+[92m2022-09-22 18:21:04 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:21:17 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:2118654642] 音乐孤勇者[0m[m
+[92m2022-09-22 18:21:17 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:21:18 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=NeteaseCloudMusic, title=孤勇者, summary=请点击右侧按钮播放, jumpUrl=http://music.163.com/#/song?id=1901371647, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://m801.music.126.net/20220922184620/7248b003194eca9ade8ec4335f44e7f3/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14096429529/2bea/211b/0672/43be1ec076b8d7d7dc457549274e1d5f.mp3, brief=[分享]孤勇者)[0m[m
+[92m2022-09-22 18:21:20 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:21:20 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:marketface:209590,][0m[m
+[0m2022-09-22 18:22:01 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:at:2118654642] 杰哥有几条星怒[0m[m
+[92m2022-09-22 18:22:01 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:22:06 V/Bot.2118654642: Group(1109825279) <- 知道切糕不，一刀上海买房 两刀杨幂上床 三刀盖茨认娘 四刀铁定入常[0m[m
+[0m2022-09-22 18:22:23 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> 怎么卵了[0m[m
+[92m2022-09-22 18:22:23 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 18:23:59 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:23:59 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:image:{A7C2EF42-AE81-3E1E-33AF-A194FAE1E47C}.mirai, width=264, height=213, size=106342, type=UNKNOWN, isEmoji=false][0m[m
+[92m2022-09-22 18:24:00 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:24:00 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:image:{B076416A-7BD7-A510-CF51-BB7E1DEA8A34}.mirai, width=352, height=331, size=193641, type=UNKNOWN, isEmoji=false][0m[m
+[92m2022-09-22 18:24:00 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 18:24:00 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 迪迦(1794522691) -> [mirai:image:{EA9DBC5B-7E63-DB69-80C9-63D9EEF7520E}.jpg, width=584, height=474, size=65371, type=JPG, isEmoji=false][0m[m
+[0m2022-09-22 18:25:39 V/Bot.2118654642: 怪兽之王哥斯拉(3074139791) -> 今日课程[0m[m
+[0m2022-09-22 18:25:39 V/Bot.2118654642: Friend(3074139791) <- 你还没有登录超级课表，无法查看今日课程[0m[m
+[0m2022-09-22 18:26:20 V/Bot.2118654642: 怪兽之王哥斯拉(3074139791) -> 今日课程？[0m[m
+[0m2022-09-22 18:26:20 V/Bot.2118654642: Friend(3074139791) <- 你还没有登录超级课表，无法查看今日课程[0m[m
+[0m2022-09-22 18:26:35 V/Bot.2118654642: 怪兽之王哥斯拉(3074139791) -> ？[0m[m

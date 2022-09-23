@@ -1,0 +1,239 @@
+[92m2022-09-22 19:59:59 I/main: Starting mirai-console...[0m[m
+[92m2022-09-22 19:59:59 I/main: Backend: version 2.12.1, built on 2022-07-31 17:49:27.[0m[m
+[92m2022-09-22 19:59:59 I/main: Frontend Terminal: version 2.12.1, provided by Mamoe Technologies[0m[m
+[92m2022-09-22 19:59:59 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-09-22 19:59:59 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-09-22 19:59:59 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-09-22 19:59:59 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-09-22 20:00:00 I/plugin: Successfully loaded plugin Chat Command v0.5.0[0m[m
+[92m2022-09-22 20:00:00 I/plugin: Successfully loaded plugin Lolicon v6.0.4[0m[m
+[92m2022-09-22 20:00:00 I/plugin: Successfully loaded plugin HRobot v1.0.0[0m[m
+[92m2022-09-22 20:00:00 I/plugin: Successfully loaded plugin iam.xiaoan.RanImage v1.0-SNAPSHOT[0m[m
+[92m2022-09-22 20:00:00 I/plugin: Successfully loaded plugin SuperCourseTimetable v0.4.7[0m[m
+[92m2022-09-22 20:00:00 I/plugin: Successfully loaded plugin MCL Addon v2.0.2[0m[m
+[92m2022-09-22 20:00:00 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-09-22 20:00:00 I/Lolicon: Plugin loaded[0m[m
+[92m2022-09-22 20:00:00 I/HRobot: 正在初始化机器人配置[0m[m
+[92m2022-09-22 20:00:00 I/HRobot: 配置初始化完成[0m[m
+[92m2022-09-22 20:00:00 I/stdout: RobotConfig.customKeyword = {全局关键字=全局关键字回复, #regex#全局正则表达式=回复, 群号=群内关键字: 群内关键字回复, 1109825279={原神=原神怎么你了！, 杰哥=杰哥快教我登dua郎！, 课程表=mirai:image:{75C5DCD8-297A-9352-08E9-DD3FAAE85306}.gif, width=200, height=200, size=1137187, type=GIF, isEmoji=true}}[0m[m
+[91m2022-09-22 20:00:00 W/HRobot: Linked class org.slf4j.impl.StaticLoggerBinder in SCTimetableBot-0.4.7.mirai.jar but plugin not depend on it.[0m[m
+[91m2022-09-22 20:00:00 W/HRobot: Class loading logic may change in feature.[0m[m
+[92m2022-09-22 20:00:00 I/org.reflections.Reflections: Reflections took 46 ms to scan 1 urls, producing 21 keys and 62 values [0m[m
+[92m2022-09-22 20:00:00 I/HRobot: HRobot handlers and filters loading finished, total 15 handlers, 3 inspectors.[0m[m
+[92m2022-09-22 20:00:00 I/stdout: Pattern = true[0m[m
+[92m2022-09-22 20:00:00 I/HRobot: cron task running...[0m[m
+[92m2022-09-22 20:00:00 I/stdout:         ,--,                                                    [0m[m
+[92m2022-09-22 20:00:00 I/stdout:       ,--.'|,-.----.                                    ___     [0m[m
+[92m2022-09-22 20:00:00 I/stdout:    ,--,  | :\    /  \             ,---,               ,--.'|_   [0m[m
+[92m2022-09-22 20:00:00 I/stdout: ,---.'|  : ';   :    \   ,---.  ,---.'|      ,---.    |  | :,'  [0m[m
+[92m2022-09-22 20:00:00 I/stdout: |   | : _' ||   | .\ :  '   ,'\ |   | :     '   ,'\   :  : ' :  [0m[m
+[92m2022-09-22 20:00:00 I/stdout: :   : |.'  |.   : |: | /   /   |:   : :    /   /   |.;__,'  /   [0m[m
+[92m2022-09-22 20:00:00 I/stdout: |   ' '  ; :|   |  \ :.   ; ,. ::     |,-..   ; ,. :|  |   |    [0m[m
+[92m2022-09-22 20:00:00 I/stdout: '   |  .'. ||   : .  /'   | |: :|   : '  |'   | |: ::__,'| :    [0m[m
+[92m2022-09-22 20:00:00 I/stdout: |   | :  | ';   | |  \'   | .; :|   |  / :'   | .; :  '  : |__  [0m[m
+[92m2022-09-22 20:00:00 I/stdout: '   : |  : ;|   | ;\  \   :    |'   : |: ||   :    |  |  | '.'| [0m[m
+[92m2022-09-22 20:00:00 I/stdout: |   | '  ,/ :   ' | \.'\   \  / |   | '/ : \   \  /   ;  :    ; [0m[m
+[92m2022-09-22 20:00:00 I/stdout: ;   : ;--'  :   : :-'   `----'  |   :    |  `----'    |  ,   /  [0m[m
+[92m2022-09-22 20:00:00 I/stdout: |   ,/      |   |.'             /    \  /              ---`-'       [0m[m
+[92m2022-09-22 20:00:00 I/stdout: '---'       `---'               `-'----'                            v3.2.1[0m[m
+[92m2022-09-22 20:00:01 I/stdout: latestVersion = HRobot v3.2.1[0m[m
+[92m2022-09-22 20:00:01 I/HRobot: 当前 HRobot 插件已为最新版[0m[m
+[92m2022-09-22 20:00:01 I/iam.xiaoan.RanImage: Plugin loaded![0m[m
+[92m2022-09-22 20:00:01 I/iam.xiaoan.RanImage: 你好！我是小安！感谢你使用这款随机二次元图片插件！[0m[m
+[92m2022-09-22 20:00:01 I/SuperCourseTimetable: Plugin loaded[0m[m
+[92m2022-09-22 20:00:01 I/com.zaxxer.hikari.HikariDataSource: SCTimetableDB Pool - Starting...[0m[m
+[92m2022-09-22 20:00:01 I/com.zaxxer.hikari.pool.HikariPool: SCTimetableDB Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@28dd81ad[0m[m
+[92m2022-09-22 20:00:01 I/com.zaxxer.hikari.HikariDataSource: SCTimetableDB Pool - Start completed.[0m[m
+[92m2022-09-22 20:00:01 I/SuperCourseTimetable: Database is connected.[0m[m
+[92m2022-09-22 20:00:01 I/SuperCourseTimetable: Waiting target Bot 2118654642 goes online...[0m[m
+[92m2022-09-22 20:00:01 I/MCL Addon: iTXTech MCL Version: 2.1.1-d66fada[0m[m
+[91m2022-09-22 20:00:01 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用[0m[m
+[92m2022-09-22 20:00:01 I/main: 6 plugin(s) enabled.[0m[m
+[92m2022-09-22 20:00:02 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-09-22 20:00:02 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[92m2022-09-22 20:00:02 I/main: Auto-login 2118654642[0m[m
+[91m2022-09-22 20:00:02 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-09-22 20:00:03 I/Bot.2118654642: Login successful[0m[m
+[92m2022-09-22 20:00:04 I/Bot.2118654642: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-09-22 20:00:04 I/Bot.2118654642: Login successful.[0m[m
+[0m2022-09-22 20:00:05 V/Bot.2118654642: Event: BotOnlineEvent(bot=Bot(2118654642))[0m[m
+[92m2022-09-22 20:00:05 I/Bot.2118654642: Bot login successful.[0m[m
+[92m2022-09-22 20:00:05 I/main: mirai-console started successfully.[0m[m
+[92m2022-09-22 20:00:05 I/org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor[0m[m
+[92m2022-09-22 20:00:05 I/org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: DefaultDispatcher-worker-4[0m[m
+[92m2022-09-22 20:00:05 I/org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl[0m[m
+[92m2022-09-22 20:00:05 I/org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.3.2 created.[0m[m
+[92m2022-09-22 20:00:05 I/org.quartz.simpl.RAMJobStore: RAMJobStore initialized.[0m[m
+[92m2022-09-22 20:00:05 I/org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+[0m[m
+[92m2022-09-22 20:00:05 I/org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'[0m[m
+[92m2022-09-22 20:00:05 I/org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.3.2[0m[m
+[92m2022-09-22 20:00:05 I/org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.[0m[m
+[92m2022-09-22 20:00:05 I/org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.[0m[m
+[92m2022-09-22 20:00:05 I/SuperCourseTimetable: ScheduleListenerService: ScheduleListenerService is started.[0m[m
+[92m2022-09-22 20:00:05 I/SuperCourseTimetable: TimeProviderService: Job SemesterUpdater is executed. (semester 1 begins in 2022.)[0m[m
+[92m2022-09-22 20:00:05 I/SuperCourseTimetable: TimeProviderService: Job SchoolWeekPeriodUpdater is executed.[0m[m
+[92m2022-09-22 20:00:05 I/SuperCourseTimetable: TimeProviderService: TimeProviderServices(TimeProviderService$SemesterUpdaterJob, TimeProviderService$SchoolWeekPeriodUpdaterJob) have started.[0m[m
+[92m2022-09-22 20:00:05 I/SuperCourseTimetable: ScheduleListenerService: Notification distribution job has executed.[0m[m
+[0m2022-09-22 20:00:21 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> llc[0m[m
+[92m2022-09-22 20:00:21 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 20:00:21 I/HRobot: init bot...[0m[m
+[92m2022-09-22 20:00:21 I/HRobot: 正在提交定期任务...[0m[m
+[92m2022-09-22 20:00:21 I/HRobot: 任务提交成功！[0m[m
+[92m2022-09-22 20:00:34 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:00:34 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> [mirai:at:2118654642] llc[0m[m
+[0m2022-09-22 20:00:36 V/Bot.2118654642: Group(460292097) <- “llc”是啥意思？[0m[m
+[92m2022-09-22 20:00:49 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:00:49 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> lolicon get[0m[m
+[0m2022-09-22 20:00:56 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> lolicon set[0m[m
+[92m2022-09-22 20:00:56 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 20:01:05 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:01:05 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> lolicon help[0m[m
+[0m2022-09-22 20:01:09 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> help[0m[m
+[92m2022-09-22 20:01:09 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:01:47 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> 明日课表[0m[m
+[0m2022-09-22 20:01:47 V/Bot.2118654642: Friend(1679124358) <- 1. 大数据技术及应用(8:30到10:05)在四川大学锦江学院 7-305\n2. 专业英语Ⅰ(14:25到16:05)在四川大学锦江学院 5-303[0m[m
+[91m2022-09-22 20:05:01 W/console: 未知指令: /./mcl --update-package net.mamoe:chat-command --channel stable --type plugin, 输入 ? 获取帮助[0m[m
+[91m2022-09-22 20:05:11 W/console: 未知指令: /--update-package net.mamoe:chat-command --channel stable --type plugin, 输入 ? 获取帮助[0m[m
+[91m2022-09-22 20:05:22 W/console: 未知指令: /./mcl --update-package net.mamoe:chat-command --channel stable --type plugin, 输入 ? 获取帮助[0m[m
+[91m2022-09-22 20:05:30 W/console: 参数不匹配, 你是否想执行: 
+/mcl info <package>    # 获取包信息
+/mcl install <package> [channel] [type] [version] [lock or unlock]    # 安装包
+/mcl list    # 列出已安装的包
+/mcl remove <package>    # 移除包
+/mcl run <script>    # 执行模块load阶段
+/mcl update    # 执行updater模块[0m[m
+[91m2022-09-22 20:06:37 W/console: 参数不匹配, 你是否想执行: 
+/permission cancel <被许可人 ID> <权限 ID>    (参数不足)
+/permission deny <被许可人 ID> <权限 ID>    (参数不足)
+/permission remove <被许可人 ID> <权限 ID>    (参数不足)
+/permission cancelAll <被许可人 ID> <权限 ID>    (参数不足)
+/permission denyAll <被许可人 ID> <权限 ID>    (参数不足)
+/permission removeAll <被许可人 ID> <权限 ID>    (参数不足)
+/permission listPermissions    (参数不足)
+/permission lp    (参数不足)
+/permission permit <被许可人 ID> <权限 ID>    (参数不足)
+/permission grant <被许可人 ID> <权限 ID>    (参数不足)
+/permission add <被许可人 ID> <权限 ID>    (参数不足)
+/permission permittedPermissions <被许可人 ID> [显示全部]    (参数不足)
+/permission pp <被许可人 ID> [显示全部]    (参数不足)
+/permission grantedPermissions <被许可人 ID> [显示全部]    (参数不足)
+/permission gp <被许可人 ID> [显示全部]    (参数不足)[0m[m
+[91m2022-09-22 20:06:57 W/console: 未知指令: /perm4, 输入 ? 获取帮助[0m[m
+[91m2022-09-22 20:07:02 W/console: 参数不匹配, 你是否想执行: 
+/permission cancel <被许可人 ID> <权限 ID>    (参数不足)
+/permission deny <被许可人 ID> <权限 ID>    (参数不足)
+/permission remove <被许可人 ID> <权限 ID>    (参数不足)
+/permission cancelAll <被许可人 ID> <权限 ID>    (参数不足)
+/permission denyAll <被许可人 ID> <权限 ID>    (参数不足)
+/permission removeAll <被许可人 ID> <权限 ID>    (参数不足)
+/permission listPermissions    (参数不足)
+/permission lp    (参数不足)
+/permission permit <被许可人 ID> <权限 ID>    (参数不足)
+/permission grant <被许可人 ID> <权限 ID>    (参数不足)
+/permission add <被许可人 ID> <权限 ID>    (参数不足)
+/permission permittedPermissions <被许可人 ID> [显示全部]    (参数不足)
+/permission pp <被许可人 ID> [显示全部]    (参数不足)
+/permission grantedPermissions <被许可人 ID> [显示全部]    (参数不足)
+/permission gp <被许可人 ID> [显示全部]    (参数不足)[0m[m
+[0m2022-09-22 20:07:07 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> 这个啥开学第一课不用看涩[0m[m
+[92m2022-09-22 20:07:07 I/stdout: RobotConfig.enableRobot = true[0m[m
+[91m2022-09-22 20:07:31 W/console: 参数不匹配, 你是否想执行: 
+/permission pp <被许可人 ID> [显示全部]    (参数不足)[0m[m
+[0m2022-09-22 20:07:41 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:quote:[mirai:source:ids=[40048], internalIds=[828448837], from 2118654642 to 1109825279 at 1663847188], content=<not yet initialized>][mirai:at:2118654642] 对[0m[m
+[92m2022-09-22 20:07:41 I/stdout: RobotConfig.enableRobot = true[0m[m
+[91m2022-09-22 20:07:43 W/console: 参数不匹配, 你是否想执行: 
+/permission gp <被许可人 ID> [显示全部]    (参数不足)[0m[m
+[0m2022-09-22 20:07:44 V/Bot.2118654642: Group(1109825279) <- 嗯的[0m[m
+[0m2022-09-22 20:08:17 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:quote:[mirai:source:ids=[40055], internalIds=[514354755], from 2118654642 to 1109825279 at 1663848466], content=<not yet initialized>][mirai:at:2118654642] 音乐逆战[0m[m
+[92m2022-09-22 20:08:17 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:08:19 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=NeteaseCloudMusic, title=逆战, summary=请点击右侧按钮播放, jumpUrl=http://music.163.com/#/song?id=28996036, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://m8.music.126.net/20220922203321/9dd38dce52b1175129a72a0de6145850/ymusic/2097/cdf9/aece/fc7ae85d3e8d91faaf1344dc1ec66cae.mp3, brief=[分享]逆战)[0m[m
+[0m2022-09-22 20:09:18 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 音乐V4U[0m[m
+[92m2022-09-22 20:09:18 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:09:19 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=QQMusic, title=4U, summary=请点击右侧按钮播放, jumpUrl=http://y.qq.com/n/yqq/song/0022GHfK40fCv2.html, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://ws.stream.qqmusic.qq.com/C4000022GHfK40fCv2.m4a?guid=4220211900&vkey=A5D203E22641A1ED1B96003BC45198B2B5CACCE44D727B340EAD0ECA1472628C3149DF39CAB4AF2B5FB5929A058CE3E4C8741D6F52C05644&uin=&fromtag=123032, brief=[分享]4U)[0m[m
+[0m2022-09-22 20:09:52 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> [mirai:at:2118654642] 音乐只因你太美[0m[m
+[92m2022-09-22 20:09:52 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:09:54 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=KuwoMusic, title=只因你太美, summary=请点击右侧按钮播放, jumpUrl=http://www.kuwo.cn/yinyue/67307403/, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://other-web-ri01-sycdn.kuwo.cn/24a2c4f44b28ebf0c6e261e44f7530da/632c4ff8/resource/n1/87/57/3082041059.mp3, brief=[分享]只因你太美)[0m[m
+[0m2022-09-22 20:10:15 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 谢帝[0m[m
+[92m2022-09-22 20:10:15 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:10:18 V/Bot.2118654642: Group(1109825279) <- 不是每种牛奶都叫苏特仑，不是每个人都像我那么纯[0m[m
+[92m2022-09-22 20:10:28 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:10:28 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> [mirai:at:2118654642] 丁真[0m[m
+[0m2022-09-22 20:10:31 V/Bot.2118654642: Group(1109825279) <- 虽然我很聪明，但也不可能全部都懂哦[0m[m
+[0m2022-09-22 20:10:45 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:2118654642] 百度百科谢帝[0m[m
+[92m2022-09-22 20:10:45 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:10:53 V/Bot.2118654642: Group(1109825279) <- 标题：谢帝\n描述：谢帝\n谢帝，原名蔡镇鸿，1989年11月6日出生于四川省成都市，中国内地嘻哈说唱男歌手。2013年，发行Mixtape专辑《随便听起耍嘛》，凭借歌曲《在场》获得第二届中国嘻哈颁奖典礼最佳原创国语歌曲奖；2014年，参加CCTV-3《中国好歌曲》比赛获得全国总决赛四强，3月29日，凭借歌曲《明天不上班》获得第三届中国嘻哈颁奖典礼最佳原创方言歌曲奖；2015年，发行首张音乐专辑《人.社会.钱》，10月1日，在成都举办“谢帝之好耍巡回演唱会”；2017年，出演武侠电影 《火锅侠》，发行第二张音乐专辑《这张专辑太Diao了》，7月20日，获得首届唱工委音乐奖颁奖盛典CMA最佳说唱表演奖；2020年，发行专辑《Couple Hunnid Mixtape Vol.1》。\n[mirai:image:{9D3FBC60-1F89-7A21-3014-D1867981CBE4}.jpg, width=4096, height=4096, size=5060336, type=JPG, isEmoji=false][0m[m
+[92m2022-09-22 20:13:50 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:13:50 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:quote:[mirai:source:ids=[40055], internalIds=[514354755], from 2118654642 to 1109825279 at 1663848466], content=<not yet initialized>][mirai:at:2118654642] 前前前世[0m[m
+[0m2022-09-22 20:13:53 V/Bot.2118654642: Group(1109825279) <- 简直不得技术含量[0m[m
+[0m2022-09-22 20:14:00 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [撇嘴][0m[m
+[92m2022-09-22 20:14:00 I/stdout: RobotConfig.enableRobot = true[0m[m
+[91m2022-09-22 20:14:09 W/console: 参数不匹配, 你是否想执行: 
+/permission cancel <被许可人 ID> <权限 ID>    (参数不足)
+/permission deny <被许可人 ID> <权限 ID>    (参数不足)
+/permission remove <被许可人 ID> <权限 ID>    (参数不足)
+/permission cancelAll <被许可人 ID> <权限 ID>    (参数不足)
+/permission denyAll <被许可人 ID> <权限 ID>    (参数不足)
+/permission removeAll <被许可人 ID> <权限 ID>    (参数不足)
+/permission listPermissions    (参数不足)
+/permission lp    (参数不足)
+/permission permit <被许可人 ID> <权限 ID>    (参数不足)
+/permission grant <被许可人 ID> <权限 ID>    (参数不足)
+/permission add <被许可人 ID> <权限 ID>    (参数不足)
+/permission permittedPermissions <被许可人 ID> [显示全部]    (参数不足)
+/permission pp <被许可人 ID> [显示全部]    (参数不足)
+/permission grantedPermissions <被许可人 ID> [显示全部]    (参数不足)
+/permission gp <被许可人 ID> [显示全部]    (参数不足)[0m[m
+[92m2022-09-22 20:14:35 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:14:35 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:quote:[mirai:source:ids=[40069], internalIds=[1091024703], from 2118654642 to 1109825279 at 1663848835], content=<not yet initialized>][mirai:at:2118654642] 音乐前前前世[0m[m
+[0m2022-09-22 20:14:38 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=QQMusic, title=前前前世, summary=请点击右侧按钮播放, jumpUrl=http://y.qq.com/n/yqq/song/003HRb6w3eSOew.html, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://ws.stream.qqmusic.qq.com/C400001EYCyL32TSU3.m4a?guid=4220211900&vkey=58213DF48F4B9491F801A774E3114508B5D5D7A9911205F8B8D1568A1B5C402B94D58DD9F020A12FAE50236B11F184C7771B907174951594&uin=&fromtag=123032, brief=[分享]前前前世)[0m[m
+[0m2022-09-22 20:15:11 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 要是能听原唱就安逸了[0m[m
+[92m2022-09-22 20:15:11 I/stdout: RobotConfig.enableRobot = true[0m[m
+[91m2022-09-22 20:15:33 W/console: 无法解析 <u1679124358> 为被许可人 ID.[0m[m
+[91m2022-09-22 20:16:02 W/console: 无法解析 <u1679124358> 为被许可人 ID.[0m[m
+[91m2022-09-22 20:16:07 W/console: 无法解析 <u1679124358> 为被许可人 ID.[0m[m
+[0m2022-09-22 20:16:43 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:origin:MUSIC_SHARE]MusicShare(kind=QQMusic, title=缘之空, summary=hanser, jumpUrl=https://i.y.qq.com/v8/playsong.html?platform=11&appshare=android_qq&appversion=11090009&hosteuin=oinl7e6iNKSqov**&songmid=004aXoq92G2EmP&type=0&appsongtype=1&_wv=1&source=qq&ADTAG=qfshare, pictureUrl=http://y.gtimg.cn/music/photo_new/T002R150x150M000000TjDuH4UIw0b_2.jpg, musicUrl=http://c6.y.qq.com/rsc/fcgi-bin/fcg_pyq_play.fcg?songid=&songmid=004aXoq92G2EmP&songtype=1&fromtag=50&uin=3074139791&code=12DC2, brief=[分享]缘之空)[0m[m
+[92m2022-09-22 20:16:43 I/stdout: RobotConfig.enableRobot = true[0m[m
+[91m2022-09-22 20:16:55 W/console: 无法解析 <u123456> 为被许可人 ID.[0m[m
+[91m2022-09-22 20:17:25 W/console: 无法解析 <*> 为被许可人 ID.[0m[m
+[91m2022-09-22 20:17:43 W/console: 无法解析 <*> 为被许可人 ID.[0m[m
+[91m2022-09-22 20:17:49 W/console: 无法解析 <*> 为被许可人 ID.[0m[m
+[91m2022-09-22 20:21:23 W/console: 无法解析 <m*> 为被许可人 ID.[0m[m
+[91m2022-09-22 20:21:52 W/console: 无法解析 <"m*"> 为被许可人 ID.[0m[m
+[91m2022-09-22 20:22:11 W/console: 无法解析 <*> 为权限 ID.[0m[m
+[92m2022-09-22 20:23:51 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:23:51 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> help[0m[m
+[0m2022-09-22 20:23:58 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> lolicon help[0m[m
+[92m2022-09-22 20:23:58 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:23:58 V/Bot.2118654642: Group(460292097) <- 参数不匹配, 你是否想执行: \n(/)lolicon adv <json>    # 根据JSON字符串发送涩图\n(/)lolicon 高级 <json>    # 根据JSON字符串发送涩图\n(/)lolicon get [tags]    # 根据标签发送涩图, 不提供则随机发送一张\n(/)lolicon 来一张 [tags]    # 根据标签发送涩图, 不提供则随机发送一张\n(/)lolicon set <property> <value>    # 设置属性, 详见帮助信息\n(/)lolicon 设置 <property> <value>    # 设置属性, 详见帮助信息[0m[m
+[0m2022-09-22 20:24:16 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> rin get[0m[m
+[92m2022-09-22 20:24:16 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 20:24:16 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 20:24:16 V/Bot.2118654642: Group(460292097) <- [mirai:quote:[mirai:source:ids=[2384], internalIds=[775649185], from group 1679124358 to 460292097 at 1663849458], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 20:24:18 I/Lolicon: {"error":"","data":[{"pid":98021272,"p":0,"uid":1214550,"title":"【FGO】謎のヒロインXX ８","author":"kyo","r18":false,"width":636,"height":900,"tags":["FGO","Fate/GrandOrder","謎のヒロインXX","谜之女主角XX","水着","泳装","指を突っ込みたいへそ","好想用手指戳一下肚脐","下乳","南半「球」"],"ext":"jpg","uploadDate":1651398551000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2022/05/01/18/49/11/98021272_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 20:24:22 V/Bot.2118654642: Group(460292097) <- ForwardMessage(preview=[猫の记忆: 标题: 【FGO】謎のヒロインXX ８\n作者: kyo (uid: 1214550)\n标签: [FGO, Fate/GrandOrder, 謎のヒロインXX, 谜之女主角XX, 水着, 泳装, 指を突っ込みたいへそ, 好想用手指戳一下肚脐, 下乳, 南半「球」]\n链接: https://pixiv.net/artworks/98021272\n代理链接：https://i.pixiv.re/img-master/img/2022/05/01/18/49/11/98021272_p0_master1200.jpg, 猫の记忆: [图片]], title=神秘的聊天记录, brief=[Lolicon], source=聊天记录, summary=查看2条转发消息, nodeList=[Node(senderId=2118654642, time=1663849461, senderName=猫の记忆, messageChain=标题: 【FGO】謎のヒロインXX ８\n作者: kyo (uid: 1214550)\n标签: [FGO, Fate/GrandOrder, 謎のヒロインXX, 谜之女主角XX, 水着, 泳装, 指を突っ込みたいへそ, 好想用手指戳一下肚脐, 下乳, 南半「球」]\n链接: https://pixiv.net/artworks/98021272\n代理链接：https://i.pixiv.re/img-master/img/2022/05/01/18/49/11/98021272_p0_master1200.jpg), Node(senderId=2118654642, time=1663849462, senderName=猫の记忆, messageChain=[mirai:image:{403AD67D-C132-B083-55F3-17CE699FAAF2}.jpg, width=636, height=900, size=606069, type=JPG, isEmoji=false])])[0m[m
+[92m2022-09-22 20:24:22 I/Lolicon: Group(460292097)进入冷却[0m[m
+[92m2022-09-22 20:24:23 I/Lolicon: Group(460292097)NOTIFICATION已撤回[0m[m
+[0m2022-09-22 20:24:38 V/Bot.2118654642: [botTset(460292097)] Tohsaka Gozen(1679124358) -> rin get[0m[m
+[92m2022-09-22 20:24:38 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:24:38 V/Bot.2118654642: Group(460292097) <- 你怎么冲得到处都是[0m[m
+[0m2022-09-22 20:24:50 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> [mirai:at:2118654642] 音乐zood[0m[m
+[92m2022-09-22 20:24:50 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-22 20:24:52 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=NeteaseCloudMusic, title=zood, summary=请点击右侧按钮播放, jumpUrl=http://music.163.com/#/song?id=1945800351, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://m801.music.126.net/20220922204954/ed3f53854d07dafcf2111c749df8a500/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14362051289/d5bd/1c2b/5df2/1f2944cbfe8cc06c42961baf45d19507.mp3, brief=[分享]zood)[0m[m
+[92m2022-09-22 20:24:53 I/Lolicon: Group(460292097)IMAGE已撤回[0m[m
+[0m2022-09-22 20:25:05 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> rin get[0m[m
+[92m2022-09-22 20:25:05 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-22 20:25:05 I/Lolicon: request body: {"r18":0,"num":1,"uid":[],"keyword":"","tag":[],"size":["regular"],"proxy":"https://i.pixiv.re","dataAfter":null,"dataBefore":null,"dsc":null}[0m[m
+[0m2022-09-22 20:25:06 V/Bot.2118654642: Group(1109825279) <- [mirai:quote:[mirai:source:ids=[40077], internalIds=[1649383169], from group 1679124358 to 1109825279 at 1663849507], content=rin get]正在获取图片...[0m[m
+[92m2022-09-22 20:25:06 I/Lolicon: {"error":"","data":[{"pid":91153727,"p":0,"uid":40449091,"title":"スク水女子","author":"こむぎ","r18":false,"width":3776,"height":2894,"tags":["オリジナル","原创","女の子","女孩子","イラスト","插画","クリスタ","christa","ツインテール","双马尾","創作","ランドセル","小学书包","スク水","学生泳衣","旧スク","old-fashioned school swimsuit","体操服","gym uniform"],"ext":"jpg","uploadDate":1625926365000,"urls":{"regular":"https://i.pixiv.re/img-master/img/2021/07/10/23/12/45/91153727_p0_master1200.jpg"}}]}[0m[m
+[0m2022-09-22 20:25:10 V/Bot.2118654642: Group(1109825279) <- ForwardMessage(preview=[猫の记忆: 标题: スク水女子\n作者: こむぎ (uid: 40449091)\n标签: [オリジナル, 原创, 女の子, 女孩子, イラスト, 插画, クリスタ, christa, ツインテール, 双马尾, 創作, ランドセル, 小学书包, スク水, 学生泳衣, 旧スク, old-fashioned school swimsuit, 体操服, gym uniform]\n链接: https://pixiv.net/artworks/91153727\n代理链接：https://i.pixiv.re/img-master/img/2021/07/10/23/12/45/91153727_p0_master1200.jpg, 猫の记忆: [图片]], title=神秘的聊天记录, brief=[Lolicon], source=聊天记录, summary=查看2条转发消息, nodeList=[Node(senderId=2118654642, time=1663849509, senderName=猫の记忆, messageChain=标题: スク水女子\n作者: こむぎ (uid: 40449091)\n标签: [オリジナル, 原创, 女の子, 女孩子, イラスト, 插画, クリスタ, christa, ツインテール, 双马尾, 創作, ランドセル, 小学书包, スク水, 学生泳衣, 旧スク, old-fashioned school swimsuit, 体操服, gym uniform]\n链接: https://pixiv.net/artworks/91153727\n代理链接：https://i.pixiv.re/img-master/img/2021/07/10/23/12/45/91153727_p0_master1200.jpg), Node(senderId=2118654642, time=1663849510, senderName=猫の记忆, messageChain=[mirai:image:{83BA3D3C-E53B-CD0F-3FE1-3D4832B67031}.jpg, width=1200, height=920, size=536330, type=JPG, isEmoji=false])])[0m[m
+[92m2022-09-22 20:25:10 I/Lolicon: Group(1109825279)进入冷却[0m[m
+[92m2022-09-22 20:25:10 I/Lolicon: Group(1109825279)NOTIFICATION已撤回[0m[m
+[92m2022-09-22 20:25:22 I/Lolicon: Group(460292097)已冷却[0m[m
+[92m2022-09-22 20:25:40 I/Lolicon: Group(1109825279)IMAGE已撤回[0m[m

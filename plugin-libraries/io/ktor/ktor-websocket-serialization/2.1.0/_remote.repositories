@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 22 19:40:34 CST 2022
+ktor-websocket-serialization-2.1.0.pom>=
+ktor-websocket-serialization-2.1.0.jar>=

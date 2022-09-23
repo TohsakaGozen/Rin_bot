@@ -1,0 +1,21 @@
+[92m2022-09-22 15:53:47 I/main: Starting mirai-console...[0m[m
+[92m2022-09-22 15:53:47 I/main: Backend: version 2.12.1, built on 2022-07-31 17:49:27.[0m[m
+[92m2022-09-22 15:53:47 I/main: Frontend Terminal: version 2.12.1, provided by Mamoe Technologies[0m[m
+[92m2022-09-22 15:53:47 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-09-22 15:53:47 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-09-22 15:53:47 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-09-22 15:53:47 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-09-22 15:53:47 I/plugin: Successfully loaded plugin MCL Addon v2.0.2[0m[m
+[92m2022-09-22 15:53:48 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-09-22 15:53:48 I/MCL Addon: iTXTech MCL Version: 2.1.1-d66fada[0m[m
+[91m2022-09-22 15:53:48 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用[0m[m
+[92m2022-09-22 15:53:48 I/main: 1 plugin(s) enabled.[0m[m
+[92m2022-09-22 15:53:48 I/main: mirai-console started successfully.[0m[m
+[92m2022-09-22 15:54:22 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-09-22 15:54:22 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[91m2022-09-22 15:54:22 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-09-22 15:54:23 I/Bot.2118654642: Loaded account secrets from local cache.[0m[m
+[92m2022-09-22 15:54:23 I/Bot.2118654642: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-09-22 15:54:23 I/Bot.2118654642: Login successful.[0m[m
+[0m2022-09-22 15:54:24 V/Bot.2118654642: Event: BotOnlineEvent(bot=Bot(2118654642))[0m[m
+[92m2022-09-22 15:54:24 I/Bot.2118654642: Bot login successful.[0m[m

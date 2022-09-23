@@ -1,0 +1,478 @@
+[92m2022-09-23 08:31:49 I/main: Starting mirai-console...[0m[m
+[92m2022-09-23 08:31:49 I/main: Backend: version 2.12.1, built on 2022-07-31 17:49:27.[0m[m
+[92m2022-09-23 08:31:49 I/main: Frontend Terminal: version 2.12.1, provided by Mamoe Technologies[0m[m
+[92m2022-09-23 08:31:49 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-09-23 08:31:49 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-09-23 08:31:49 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-09-23 08:31:49 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-09-23 08:31:52 I/plugin: Successfully loaded plugin Chat Command v0.5.0[0m[m
+[92m2022-09-23 08:31:52 I/plugin: Successfully loaded plugin Lolicon v6.0.4[0m[m
+[92m2022-09-23 08:31:52 I/plugin: Successfully loaded plugin HRobot v1.0.0[0m[m
+[92m2022-09-23 08:31:52 I/plugin: Successfully loaded plugin iam.xiaoan.RanImage v1.0-SNAPSHOT[0m[m
+[92m2022-09-23 08:31:52 I/plugin: Successfully loaded plugin SuperCourseTimetable v0.4.7[0m[m
+[92m2022-09-23 08:31:52 I/plugin: Successfully loaded plugin MCL Addon v2.0.2[0m[m
+[92m2022-09-23 08:31:52 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-09-23 08:31:53 I/Lolicon: Plugin loaded[0m[m
+[92m2022-09-23 08:31:53 I/HRobot: 正在初始化机器人配置[0m[m
+[92m2022-09-23 08:31:53 I/HRobot: 配置初始化完成[0m[m
+[92m2022-09-23 08:31:53 I/stdout: RobotConfig.customKeyword = {全局关键字=全局关键字回复, #regex#全局正则表达式=回复, 群号=群内关键字: 群内关键字回复, 1109825279={原神=原神怎么你了！, 杰哥=杰哥快教我登dua郎！}}[0m[m
+[91m2022-09-23 08:31:53 W/HRobot: Linked class org.slf4j.impl.StaticLoggerBinder in SCTimetableBot-0.4.7.mirai.jar but plugin not depend on it.[0m[m
+[91m2022-09-23 08:31:53 W/HRobot: Class loading logic may change in feature.[0m[m
+[92m2022-09-23 08:31:53 I/org.reflections.Reflections: Reflections took 47 ms to scan 1 urls, producing 21 keys and 62 values [0m[m
+[92m2022-09-23 08:31:53 I/HRobot: HRobot handlers and filters loading finished, total 15 handlers, 3 inspectors.[0m[m
+[92m2022-09-23 08:31:53 I/stdout: Pattern = true[0m[m
+[92m2022-09-23 08:31:53 I/HRobot: cron task running...[0m[m
+[92m2022-09-23 08:31:53 I/stdout:         ,--,                                                    [0m[m
+[92m2022-09-23 08:31:53 I/stdout:       ,--.'|,-.----.                                    ___     [0m[m
+[92m2022-09-23 08:31:53 I/stdout:    ,--,  | :\    /  \             ,---,               ,--.'|_   [0m[m
+[92m2022-09-23 08:31:53 I/stdout: ,---.'|  : ';   :    \   ,---.  ,---.'|      ,---.    |  | :,'  [0m[m
+[92m2022-09-23 08:31:53 I/stdout: |   | : _' ||   | .\ :  '   ,'\ |   | :     '   ,'\   :  : ' :  [0m[m
+[92m2022-09-23 08:31:53 I/stdout: :   : |.'  |.   : |: | /   /   |:   : :    /   /   |.;__,'  /   [0m[m
+[92m2022-09-23 08:31:53 I/stdout: |   ' '  ; :|   |  \ :.   ; ,. ::     |,-..   ; ,. :|  |   |    [0m[m
+[92m2022-09-23 08:31:53 I/stdout: '   |  .'. ||   : .  /'   | |: :|   : '  |'   | |: ::__,'| :    [0m[m
+[92m2022-09-23 08:31:53 I/stdout: |   | :  | ';   | |  \'   | .; :|   |  / :'   | .; :  '  : |__  [0m[m
+[92m2022-09-23 08:31:53 I/stdout: '   : |  : ;|   | ;\  \   :    |'   : |: ||   :    |  |  | '.'| [0m[m
+[92m2022-09-23 08:31:53 I/stdout: |   | '  ,/ :   ' | \.'\   \  / |   | '/ : \   \  /   ;  :    ; [0m[m
+[92m2022-09-23 08:31:53 I/stdout: ;   : ;--'  :   : :-'   `----'  |   :    |  `----'    |  ,   /  [0m[m
+[92m2022-09-23 08:31:53 I/stdout: |   ,/      |   |.'             /    \  /              ---`-'       [0m[m
+[92m2022-09-23 08:31:53 I/stdout: '---'       `---'               `-'----'                            v3.2.1[0m[m
+[92m2022-09-23 08:31:54 I/stdout: latestVersion = HRobot v3.2.1[0m[m
+[92m2022-09-23 08:31:54 I/HRobot: 当前 HRobot 插件已为最新版[0m[m
+[92m2022-09-23 08:31:54 I/iam.xiaoan.RanImage: Plugin loaded![0m[m
+[92m2022-09-23 08:31:54 I/iam.xiaoan.RanImage: 你好！我是小安！感谢你使用这款随机二次元图片插件！[0m[m
+[92m2022-09-23 08:31:54 I/SuperCourseTimetable: Plugin loaded[0m[m
+[92m2022-09-23 08:31:54 I/com.zaxxer.hikari.HikariDataSource: SCTimetableDB Pool - Starting...[0m[m
+[92m2022-09-23 08:31:55 I/com.zaxxer.hikari.pool.HikariPool: SCTimetableDB Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@657b3b[0m[m
+[92m2022-09-23 08:31:55 I/com.zaxxer.hikari.HikariDataSource: SCTimetableDB Pool - Start completed.[0m[m
+[92m2022-09-23 08:31:55 I/SuperCourseTimetable: Database is connected.[0m[m
+[92m2022-09-23 08:31:55 I/SuperCourseTimetable: Waiting target Bot 2118654642 goes online...[0m[m
+[92m2022-09-23 08:31:55 I/MCL Addon: iTXTech MCL Version: 2.1.1-d66fada[0m[m
+[91m2022-09-23 08:31:55 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用[0m[m
+[92m2022-09-23 08:31:55 I/main: 6 plugin(s) enabled.[0m[m
+[92m2022-09-23 08:31:55 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-09-23 08:31:55 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[92m2022-09-23 08:31:55 I/main: Auto-login 2118654642[0m[m
+[91m2022-09-23 08:31:55 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-09-23 08:31:57 I/Bot.2118654642: Login successful[0m[m
+[92m2022-09-23 08:31:57 I/Bot.2118654642: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-09-23 08:31:57 I/Bot.2118654642: Login successful.[0m[m
+[0m2022-09-23 08:31:58 V/Bot.2118654642: Event: BotOnlineEvent(bot=Bot(2118654642))[0m[m
+[92m2022-09-23 08:31:58 I/Bot.2118654642: Bot login successful.[0m[m
+[92m2022-09-23 08:31:58 I/main: mirai-console started successfully.[0m[m
+[92m2022-09-23 08:31:58 I/org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor[0m[m
+[92m2022-09-23 08:31:58 I/org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: DefaultDispatcher-worker-3[0m[m
+[92m2022-09-23 08:31:58 I/org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl[0m[m
+[92m2022-09-23 08:31:58 I/org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.3.2 created.[0m[m
+[92m2022-09-23 08:31:58 I/org.quartz.simpl.RAMJobStore: RAMJobStore initialized.[0m[m
+[92m2022-09-23 08:31:58 I/org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+[0m[m
+[92m2022-09-23 08:31:58 I/org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'[0m[m
+[92m2022-09-23 08:31:58 I/org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.3.2[0m[m
+[92m2022-09-23 08:31:58 I/org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.[0m[m
+[92m2022-09-23 08:31:58 I/org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.[0m[m
+[92m2022-09-23 08:31:58 I/SuperCourseTimetable: ScheduleListenerService: ScheduleListenerService is started.[0m[m
+[92m2022-09-23 08:31:58 I/SuperCourseTimetable: TimeProviderService: Job SemesterUpdater is executed. (semester 1 begins in 2022.)[0m[m
+[92m2022-09-23 08:31:58 I/SuperCourseTimetable: TimeProviderService: Job SchoolWeekPeriodUpdater is executed.[0m[m
+[92m2022-09-23 08:31:58 I/SuperCourseTimetable: TimeProviderService: TimeProviderServices(TimeProviderService$SemesterUpdaterJob, TimeProviderService$SchoolWeekPeriodUpdaterJob) have started.[0m[m
+[92m2022-09-23 08:31:58 I/SuperCourseTimetable: ScheduleListenerService: Notification distribution job has executed.[0m[m
+[0m2022-09-23 08:32:50 V/Bot.2118654642: Tohsaka Gozen(1679124358) -> 今日课程[0m[m
+[0m2022-09-23 08:32:50 V/Bot.2118654642: Friend(1679124358) <- 1. 大数据技术及应用(8:30到10:05)在四川大学锦江学院 7-305\n2. 专业英语Ⅰ(14:25到16:05)在四川大学锦江学院 5-303[0m[m
+[0m2022-09-23 08:35:58 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> 我都忘了要装软件了[0m[m
+[92m2022-09-23 08:35:58 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-23 08:35:58 I/HRobot: init bot...[0m[m
+[92m2022-09-23 08:35:58 I/HRobot: 正在提交定期任务...[0m[m
+[92m2022-09-23 08:35:58 I/HRobot: 下一次任务执行时间 = Sat Sep 24 08:15:00 CST 2022[0m[m
+[92m2022-09-23 08:35:58 I/HRobot: 任务提交成功！[0m[m
+[0m2022-09-23 08:36:02 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> [变形]请使用最新版手机QQ体验新功能[0m[m
+[92m2022-09-23 08:36:02 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-23 08:36:28 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 08:36:28 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 啥软件🧐[0m[m
+[92m2022-09-23 08:37:49 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 08:37:49 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> 这课不是要装软件吗[0m[m
+[92m2022-09-23 08:41:00 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 08:41:00 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> [mirai:image:{B135887A-40A5-8A9B-2247-1D243D4F0DEB}.gif, width=300, height=300, size=427731, type=GIF, isEmoji=true][0m[m
+[0m2022-09-23 08:42:20 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:image:{B135887A-40A5-8A9B-2247-1D243D4F0DEB}.jpg, width=300, height=300, size=427731, type=GIF, isEmoji=true][0m[m
+[92m2022-09-23 08:42:20 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 08:42:25 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 虚拟机样[0m[m
+[92m2022-09-23 08:42:25 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-23 08:42:28 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 08:42:28 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:quote:[mirai:source:ids=[40354], internalIds=[0], from 2531455307 to 1109825279 at 1663893471], content=<not yet initialized>][mirai:at:2531455307] 可以不装[0m[m
+[92m2022-09-23 08:43:32 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 08:43:32 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:2118654642] 音乐star walking[0m[m
+[0m2022-09-23 08:43:35 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=NeteaseCloudMusic, title=STAR WALKIN' (League of Legends Worlds Anthem), summary=请点击右侧按钮播放, jumpUrl=http://music.163.com/#/song?id=1983593929, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://m701.music.126.net/20220923090836/8300d40346006220cde8196aa25b9933/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/19393177459/b738/d5bd/3457/63d1f2c5eebd715bfec96dec84758fd9.mp3, brief=[分享]STAR WALKIN' (League of Legends Worlds Anthem))[0m[m
+[92m2022-09-23 08:43:55 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 08:43:55 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:1679124358] 她在讲什么[0m[m
+[92m2022-09-23 08:44:10 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 08:44:10 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> [mirai:at:2118654642] 音乐 i got smoke[0m[m
+[0m2022-09-23 08:44:16 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=QQMusic, title=I Got Love, summary=请点击右侧按钮播放, jumpUrl=http://y.qq.com/n/yqq/song/000zalnB0NW818.html, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://ws.stream.qqmusic.qq.com/C400000zalnB0NW818.m4a?guid=4220211900&vkey=F1E25070220010C1A6E9EE28D602C49050C5A94A8A0BA3CE4523A7C36598D3210647E6AAAAE664438AF4DF58138935246E2C6A6E451F4B76&uin=&fromtag=123032, brief=[分享]I Got Love)[0m[m
+[0m2022-09-23 08:44:27 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> 什么垃圾机器人[0m[m
+[92m2022-09-23 08:44:27 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-23 08:44:47 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 08:44:47 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> [mirai:image:{89363E7E-E28B-2A03-0EC4-0950F75DDDB7}.jpg, width=720, height=722, size=19776, type=JPG, isEmoji=true][0m[m
+[92m2022-09-23 08:44:53 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 08:44:53 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:image:{C36ACA92-2094-B617-CAD6-300EECB567D4}.jpg, width=55, height=56, size=4576, type=GIF, isEmoji=true][0m[m
+[92m2022-09-23 08:44:55 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 08:44:55 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:quote:[mirai:source:ids=[40361], internalIds=[814968918], from 769178107 to 1109825279 at 1663893838], content=<not yet initialized>][mirai:at:769178107] 不晓得[0m[m
+[0m2022-09-23 08:45:04 V/Bot.2118654642: Event: BotOfflineEvent.Dropped(bot=Bot(2118654642), cause=HeartbeatFailedException: 2118654642.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2118654642.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)[0m[m
+[91m2022-09-23 08:45:04 W/Bot.2118654642: Connection lost, reconnecting... (HeartbeatFailedException: 2118654642.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2118654642.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))[0m[m
+[0m2022-09-23 08:45:05 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 听不懂[0m[m
+[92m2022-09-23 08:45:05 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-23 08:45:11 I/Bot.2118654642: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-09-23 08:45:11 I/Bot.2118654642: Login successful.[0m[m
+[0m2022-09-23 08:45:11 V/Bot.2118654642: Event: BotOnlineEvent(bot=Bot(2118654642))[0m[m
+[0m2022-09-23 08:45:11 V/Bot.2118654642: Event: BotReloginEvent(bot=Bot(2118654642), cause=null)[0m[m
+[92m2022-09-23 08:45:11 I/Bot.2118654642: Reconnected successfully in 7.413s.[0m[m
+[0m2022-09-23 08:45:12 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> 为啥子感觉她讲得好开心[0m[m
+[92m2022-09-23 08:45:12 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-23 08:45:31 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 08:45:31 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 一个人自娱自乐[表情][0m[m
+[92m2022-09-23 08:45:47 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 08:45:47 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> 打麻将[0m[m
+[0m2022-09-23 08:45:58 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 只会照到PPT念，垃圾[0m[m
+[92m2022-09-23 08:45:58 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 08:46:15 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> 什么小金[0m[m
+[92m2022-09-23 08:46:15 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-23 08:55:45 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 08:55:45 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> [mirai:quote:[mirai:source:ids=[40358], internalIds=[975993745], from 769178107 to 1109825279 at 1663893750], content=<not yet initialized>][mirai:at:769178107] 真的？[0m[m
+[0m2022-09-23 08:56:20 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> 应该是吧[0m[m
+[92m2022-09-23 08:56:20 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:00:05 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 只会bb，鬼记得到[0m[m
+[92m2022-09-23 09:00:05 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-23 09:00:14 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:00:14 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 使劲说[0m[m
+[92m2022-09-23 09:00:16 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:00:16 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 憨批[0m[m
+[92m2022-09-23 09:01:56 I/HRobot: cron task running...[0m[m
+[0m2022-09-23 09:05:21 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> 小金今天怎么了[0m[m
+[92m2022-09-23 09:05:21 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:06:39 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> 怼怼金[0m[m
+[92m2022-09-23 09:06:39 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:12:19 V/Bot.2118654642: Event: BotOfflineEvent.Dropped(bot=Bot(2118654642), cause=HeartbeatFailedException: 2118654642.StatHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2118654642.StatHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)[0m[m
+[91m2022-09-23 09:12:19 W/Bot.2118654642: Connection lost, reconnecting... (HeartbeatFailedException: 2118654642.StatHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2118654642.StatHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))[0m[m
+[92m2022-09-23 09:12:25 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:12:25 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:2118654642] 励志鸡汤[0m[m
+[91m2022-09-23 09:12:37 W/stderr: java.net.UnknownHostException: api.qingyunke.com[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at java.base/java.net.Socket.connect(Socket.java:633)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:532)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:637)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:280)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:385)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:407)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.getUrlConnection(IOUtil.java:34)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:55)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:87)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.api.QingYunKeApi.getMessage(QingYunKeApi.java:22)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.GroupMessageEventHandler.handleMessageEvent(GroupMessageEventHandler.java:206)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:98)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)[0m[m
+[91m2022-09-23 09:12:37 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)[0m[m
+[92m2022-09-23 09:12:48 I/Bot.2118654642: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-09-23 09:12:48 I/Bot.2118654642: Login successful.[0m[m
+[0m2022-09-23 09:12:48 V/Bot.2118654642: Event: BotOnlineEvent(bot=Bot(2118654642))[0m[m
+[0m2022-09-23 09:12:48 V/Bot.2118654642: Event: BotReloginEvent(bot=Bot(2118654642), cause=null)[0m[m
+[92m2022-09-23 09:12:48 I/Bot.2118654642: Reconnected successfully in 29.151s.[0m[m
+[91m2022-09-23 09:12:58 W/stderr: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms[0m[m
+[91m2022-09-23 09:12:58 W/stderr: 	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:184)[0m[m
+[91m2022-09-23 09:12:58 W/stderr: 	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:154)[0m[m
+[91m2022-09-23 09:12:58 W/stderr: 	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:502)[0m[m
+[91m2022-09-23 09:12:58 W/stderr: 	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:279)[0m[m
+[91m2022-09-23 09:12:58 W/stderr: 	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:108)[0m[m
+[91m2022-09-23 09:12:58 W/stderr: 	at java.base/java.lang.Thread.run(Thread.java:833)[0m[m
+[91m2022-09-23 09:12:58 W/Bot.2118654642: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2118654642.EventDispatcher'
+java.lang.NullPointerException: Cannot invoke "java.lang.Throwable.toString()" because the return value of "java.lang.Exception.getCause()" is null
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.reply(Context.java:130)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:102)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[92m2022-09-23 09:13:06 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:13:06 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> 叫我们爪子[0m[m
+[0m2022-09-23 09:13:10 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> 耍咩[0m[m
+[92m2022-09-23 09:13:10 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:13:21 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> 下课时间[0m[m
+[92m2022-09-23 09:13:21 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:13:32 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:2118654642] 还活着么[0m[m
+[92m2022-09-23 09:13:32 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:13:41 V/Bot.2118654642: Group(1109825279) <- 当然还活着啦[0m[m
+[92m2022-09-23 09:13:46 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:13:46 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:image:{BA6D0CE3-7201-EB6A-5FD1-5328456D27BD}.jpg, width=279, height=270, size=53467, type=GIF, isEmoji=true][0m[m
+[0m2022-09-23 09:13:55 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:at:2118654642] 鸡汤[0m[m
+[92m2022-09-23 09:13:55 I/stdout: RobotConfig.enableRobot = true[0m[m
+[91m2022-09-23 09:13:58 W/stderr: java.net.SocketTimeoutException: Connect timed out[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at java.base/java.net.Socket.connect(Socket.java:633)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:532)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:637)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:142)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.getUrlConnection(IOUtil.java:34)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:55)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.utils.IOUtil.sendAndGetResponseMap(IOUtil.java:87)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.ImageShareMessageEventHandler.doParseChickenSoup(ImageShareMessageEventHandler.java:216)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.handler.impl.ImageShareMessageEventHandler.handleMessageEvent(ImageShareMessageEventHandler.java:60)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:98)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)[0m[m
+[91m2022-09-23 09:13:58 W/stderr: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)[0m[m
+[0m2022-09-23 09:14:01 V/Bot.2118654642: Group(1109825279) <- 意外地失去了与地球上的通信...\n错误原因：Connect timed out[0m[m
+[92m2022-09-23 09:14:11 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:14:11 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 古利特(1679124358) -> [mirai:image:{ECA4EE43-1963-702E-6ECB-28E54018DB25}.gif, width=300, height=300, size=27428, type=GIF, isEmoji=true][0m[m
+[0m2022-09-23 09:15:54 V/Bot.2118654642: Event: BotOfflineEvent.Dropped(bot=Bot(2118654642), cause=HeartbeatFailedException: 2118654642.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2118654642.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)[0m[m
+[91m2022-09-23 09:15:54 W/Bot.2118654642: Connection lost, reconnecting... (HeartbeatFailedException: 2118654642.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2118654642.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))[0m[m
+[92m2022-09-23 09:16:01 I/Bot.2118654642: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-09-23 09:16:01 I/Bot.2118654642: Login successful.[0m[m
+[0m2022-09-23 09:16:01 V/Bot.2118654642: Event: BotOnlineEvent(bot=Bot(2118654642))[0m[m
+[0m2022-09-23 09:16:01 V/Bot.2118654642: Event: BotReloginEvent(bot=Bot(2118654642), cause=null)[0m[m
+[92m2022-09-23 09:16:01 I/Bot.2118654642: Reconnected successfully in 7.28s.[0m[m
+[92m2022-09-23 09:16:07 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:16:07 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:quote:[mirai:source:ids=[40387], internalIds=[93872474], from 2118654642 to 1109825279 at 1663895621], content=<not yet initialized>][mirai:at:2118654642] 什么星怒[0m[m
+[0m2022-09-23 09:16:10 V/Bot.2118654642: Group(1109825279) <- [发呆][0m[m
+[92m2022-09-23 09:16:36 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:16:36 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> 她怎么不说话了[0m[m
+[92m2022-09-23 09:16:41 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:16:41 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> 这是放学了吗？[0m[m
+[92m2022-09-23 09:17:42 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:17:42 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> [mirai:image:{B135887A-40A5-8A9B-2247-1D243D4F0DEB}.gif, width=300, height=300, size=427731, type=GIF, isEmoji=true][0m[m
+[92m2022-09-23 09:18:15 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:18:15 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:3031215597] 不准用[0m[m
+[92m2022-09-23 09:18:18 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:18:18 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:image:{B135887A-40A5-8A9B-2247-1D243D4F0DEB}.jpg, width=300, height=300, size=427731, type=GIF, isEmoji=true][0m[m
+[92m2022-09-23 09:18:33 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:18:33 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> [mirai:image:{B135887A-40A5-8A9B-2247-1D243D4F0DEB}.gif, width=300, height=300, size=427731, type=GIF, isEmoji=true][0m[m
+[0m2022-09-23 09:18:33 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:at:2118654642] 音乐一路生花[0m[m
+[92m2022-09-23 09:18:33 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:18:38 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> 傻狗表情[0m[m
+[92m2022-09-23 09:18:38 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:18:39 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=KuwoMusic, title=一路生花, summary=请点击右侧按钮播放, jumpUrl=http://www.kuwo.cn/yinyue/162582615/, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://go-sycdn.kuwo.cn/3e49d4806a724306a8ea6e8db1ea4fc0/632d08c5/resource/n1/0/59/4273740735.mp3, brief=[分享]一路生花)[0m[m
+[0m2022-09-23 09:18:54 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> [mirai:at:2118654642] 音乐沙漠珍珠[0m[m
+[92m2022-09-23 09:18:54 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:18:57 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 音乐你是我的眼[0m[m
+[92m2022-09-23 09:18:57 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:19:06 V/Bot.2118654642: Event: BotOfflineEvent.Dropped(bot=Bot(2118654642), cause=HeartbeatFailedException: 2118654642.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2118654642.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)[0m[m
+[91m2022-09-23 09:19:06 W/Bot.2118654642: Connection lost, reconnecting... (HeartbeatFailedException: 2118654642.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2118654642.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))[0m[m
+[92m2022-09-23 09:19:09 I/Bot.2118654642: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-09-23 09:19:10 I/Bot.2118654642: Login successful.[0m[m
+[0m2022-09-23 09:19:10 V/Bot.2118654642: Event: BotOnlineEvent(bot=Bot(2118654642))[0m[m
+[0m2022-09-23 09:19:10 V/Bot.2118654642: Event: BotReloginEvent(bot=Bot(2118654642), cause=null)[0m[m
+[92m2022-09-23 09:19:10 I/Bot.2118654642: Reconnected successfully in 3.682s.[0m[m
+[0m2022-09-23 09:19:13 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=QQMusic, title=第73集 沙漠珍珠, summary=请点击右侧按钮播放, jumpUrl=http://y.qq.com/n/yqq/song/001aLqVL4K7mJR.html, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://ws.stream.qqmusic.qq.com/C400001aLqVL4K7mJR.m4a?guid=4220211900&vkey=2CB5BE4D8ED036E94AF04CD1327FB5BAEB00AFB72E85B05E3CA36799CF6101A5FC9B74AB6B1057332C9628088DD11B37E1294E46BFE0C2BB&uin=&fromtag=123032, brief=[分享]第73集 沙漠珍珠)[0m[m
+[91m2022-09-23 09:19:25 W/stderr: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms[0m[m
+[91m2022-09-23 09:19:25 W/stderr: 	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:184)[0m[m
+[91m2022-09-23 09:19:25 W/stderr: 	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:154)[0m[m
+[91m2022-09-23 09:19:25 W/stderr: 	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:502)[0m[m
+[91m2022-09-23 09:19:25 W/stderr: 	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:279)[0m[m
+[91m2022-09-23 09:19:25 W/stderr: 	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:108)[0m[m
+[91m2022-09-23 09:19:25 W/stderr: 	at java.base/java.lang.Thread.run(Thread.java:833)[0m[m
+[91m2022-09-23 09:19:25 W/Bot.2118654642: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2118654642.EventDispatcher'
+java.lang.NullPointerException: Cannot invoke "java.lang.Throwable.toString()" because the return value of "java.lang.Exception.getCause()" is null
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.reply(Context.java:130)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.context.Context.execute(Context.java:102)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.proxy.MessageHandlerProxy.handleMessageEvent(MessageHandlerProxy.java:71)
+	at plugin-3.2.1-SNAPSHOT.mirai.jar//com.happysnaker.starter.HRobotStarter.lambda$Start$0(HRobotStarter.java:59)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:631)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[92m2022-09-23 09:19:41 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:19:41 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 阿司匹林[0m[m
+[0m2022-09-23 09:19:45 V/Bot.2118654642: Group(1109825279) <- [表情][0m[m
+[92m2022-09-23 09:19:46 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:19:46 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> 沙漠珍珠b站都没了[0m[m
+[92m2022-09-23 09:19:55 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:19:55 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> [mirai:image:{D1CD5C47-9B7C-0B19-6721-955BE457DB17}.gif, width=300, height=300, size=436114, type=GIF, isEmoji=true][0m[m
+[0m2022-09-23 09:20:03 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> 我缓存了[0m[m
+[92m2022-09-23 09:20:03 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-23 09:20:05 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:20:05 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:image:{7A8443EC-DEBF-ACDC-5EE8-3E0707D2A979}.jpg, width=300, height=263, size=115145, type=GIF, isEmoji=true][0m[m
+[92m2022-09-23 09:20:43 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:20:43 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> tm她只念不敲[0m[m
+[92m2022-09-23 09:22:21 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:22:21 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 说了是个傻逼[0m[m
+[92m2022-09-23 09:22:29 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:22:29 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 懒得扣恰[0m[m
+[92m2022-09-23 09:22:35 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:22:35 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 该遭日[0m[m
+[0m2022-09-23 09:23:21 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:at:2118654642] This game[0m[m
+[92m2022-09-23 09:23:21 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:23:25 V/Bot.2118654642: Group(1109825279) <- [微笑][0m[m
+[92m2022-09-23 09:23:32 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:23:32 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:image:{7A8443EC-DEBF-ACDC-5EE8-3E0707D2A979}.jpg, width=300, height=263, size=115145, type=GIF, isEmoji=true][0m[m
+[0m2022-09-23 09:23:36 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:at:2118654642] 音乐This game[0m[m
+[92m2022-09-23 09:23:36 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:23:38 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=NeteaseCloudMusic, title=This game, summary=请点击右侧按钮播放, jumpUrl=http://music.163.com/#/song?id=28563214, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://m8.music.126.net/20220923094838/58e8a975e73fb1d2c639f3b90e5f9fcc/ymusic/344e/4e75/326b/125d3853502bce049d0656f1a378edf2.mp3, brief=[分享]This game)[0m[m
+[92m2022-09-23 09:23:49 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:23:49 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:quote:[mirai:source:ids=[40418], internalIds=[415265464], from 3074139791 to 1109825279 at 1663896155], content=<not yet initialized>][mirai:at:3074139791] 你今天囊开了[0m[m
+[0m2022-09-23 09:24:14 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 直接摆烂耍游戏去了[0m[m
+[92m2022-09-23 09:24:14 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:24:19 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 听歌球[0m[m
+[92m2022-09-23 09:24:19 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-23 09:25:46 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:25:46 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> [mirai:image:{C434D7FA-7BCD-4CA4-6442-1743FBA41997}.jpg, width=720, height=720, size=30491, type=JPG, isEmoji=true][0m[m
+[92m2022-09-23 09:26:05 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:26:05 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> 我已经打了一节课麻将了[0m[m
+[0m2022-09-23 09:26:20 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> 警惕小金打加爵牌[0m[m
+[92m2022-09-23 09:26:20 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-23 09:26:39 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:26:39 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> 快跑[0m[m
+[0m2022-09-23 09:28:15 V/Bot.2118654642: Event: BotOfflineEvent.Dropped(bot=Bot(2118654642), cause=HeartbeatFailedException: 2118654642.StatHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2118654642.StatHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)[0m[m
+[91m2022-09-23 09:28:15 W/Bot.2118654642: Connection lost, reconnecting... (HeartbeatFailedException: 2118654642.StatHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2118654642.StatHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))[0m[m
+[92m2022-09-23 09:28:15 I/Bot.2118654642: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-09-23 09:28:15 I/Bot.2118654642: Login successful.[0m[m
+[0m2022-09-23 09:28:15 V/Bot.2118654642: Event: BotOnlineEvent(bot=Bot(2118654642))[0m[m
+[0m2022-09-23 09:28:15 V/Bot.2118654642: Event: BotReloginEvent(bot=Bot(2118654642), cause=null)[0m[m
+[92m2022-09-23 09:28:15 I/Bot.2118654642: Reconnected successfully in 0.373s.[0m[m
+[0m2022-09-23 09:28:37 V/Bot.2118654642: Event: BotOfflineEvent.Dropped(bot=Bot(2118654642), cause=NettyChannelException(message=null, cause=java.net.SocketException: Connection reset), reconnect=true)[0m[m
+[91m2022-09-23 09:28:37 W/Bot.2118654642: Connection lost, reconnecting... (NettyChannelException(message=null, cause=java.net.SocketException: Connection reset))[0m[m
+[92m2022-09-23 09:28:41 I/Bot.2118654642: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-09-23 09:28:41 I/Bot.2118654642: Login successful.[0m[m
+[0m2022-09-23 09:28:41 V/Bot.2118654642: Event: BotOnlineEvent(bot=Bot(2118654642))[0m[m
+[0m2022-09-23 09:28:41 V/Bot.2118654642: Event: BotReloginEvent(bot=Bot(2118654642), cause=null)[0m[m
+[92m2022-09-23 09:28:41 I/Bot.2118654642: Reconnected successfully in 3.336s.[0m[m
+[0m2022-09-23 09:29:19 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:at:2118654642]音乐 The truth that of you[0m[m
+[92m2022-09-23 09:29:19 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:29:22 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=NeteaseCloudMusic, title=The truth that you leave (现场版), summary=请点击右侧按钮播放, jumpUrl=http://music.163.com/#/song?id=1963404160, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://m801.music.126.net/20220923095422/a9bc067985fa674773d5d58002cd2a22/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/19274984246/aef3/4b29/ce45/19d1e21d62d42ebe63d6cf6a0d2edf1f.mp3, brief=[分享]The truth that you leave (现场版))[0m[m
+[0m2022-09-23 09:29:29 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> [mirai:at:2118654642] 音乐free loop[0m[m
+[92m2022-09-23 09:29:29 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:29:32 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=NeteaseCloudMusic, title=free loop, summary=请点击右侧按钮播放, jumpUrl=http://music.163.com/#/song?id=29775189, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://m7.music.126.net/20220923095431/1378aa667c1080007075f8bbc9881afc/ymusic/b9a5/4023/450f/a961c28c63bd0ac7e3bccdb4e3983a82.mp3, brief=[分享]free loop)[0m[m
+[0m2022-09-23 09:30:46 V/Bot.2118654642: Event: BotOfflineEvent.Dropped(bot=Bot(2118654642), cause=HeartbeatFailedException: 2118654642.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2118654642.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)[0m[m
+[91m2022-09-23 09:30:46 W/Bot.2118654642: Connection lost, reconnecting... (HeartbeatFailedException: 2118654642.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2118654642.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))[0m[m
+[92m2022-09-23 09:30:46 I/Bot.2118654642: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-09-23 09:30:46 I/Bot.2118654642: Login successful.[0m[m
+[0m2022-09-23 09:30:46 V/Bot.2118654642: Event: BotOnlineEvent(bot=Bot(2118654642))[0m[m
+[0m2022-09-23 09:30:46 V/Bot.2118654642: Event: BotReloginEvent(bot=Bot(2118654642), cause=null)[0m[m
+[92m2022-09-23 09:30:46 I/Bot.2118654642: Reconnected successfully in 0.331s.[0m[m
+[92m2022-09-23 09:31:53 I/HRobot: cron task running...[0m[m
+[0m2022-09-23 09:31:57 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:at:2118654642] 音乐云烟成雨[0m[m
+[92m2022-09-23 09:31:57 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:32:00 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=NeteaseCloudMusic, title=云烟成雨, summary=请点击右侧按钮播放, jumpUrl=http://music.163.com/#/song?id=513360721, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://m701.music.126.net/20220923095659/053715ed788a17f36e11d191ae6e1333/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14096469374/99cf/d5ca/bd53/0ebc3bc6cdb984d880ba58be8c5934af.mp3, brief=[分享]云烟成雨)[0m[m
+[92m2022-09-23 09:36:14 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:36:14 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:at:2118654642] 音乐西海情歌[0m[m
+[0m2022-09-23 09:36:16 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=QQMusic, title=西海情歌, summary=请点击右侧按钮播放, jumpUrl=http://y.qq.com/n/yqq/song/003IjD3G3xCgJv.html, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://ws.stream.qqmusic.qq.com/C400000SgoIw4JzQtr.m4a?guid=4220211900&vkey=BBD14F04DE4FC6DC611C10D1B333644930DE672F37E94FAE63D64D73900976FEC663E11C486F76C18C36B7B3BA144D1B0AD129E51D3A0124&uin=&fromtag=123032, brief=[分享]西海情歌)[0m[m
+[92m2022-09-23 09:38:17 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:38:17 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 奥特之王(2531455307) -> [mirai:at:2118654642] 音乐香烟妈妈[0m[m
+[0m2022-09-23 09:38:19 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=NeteaseCloudMusic, title=岁末, summary=请点击右侧按钮播放, jumpUrl=http://music.163.com/#/song?id=454906664, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://m7.music.126.net/20220923100318/32cbf4e25df63dc07dac24604108aa21/ymusic/aca2/b816/1e7e/0f0e36a17d817e2cf66596799f27b229.mp3, brief=[分享]岁末)[0m[m
+[0m2022-09-23 09:42:41 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:at:2118654642] 音乐青藏高原[0m[m
+[92m2022-09-23 09:42:41 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:42:43 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=QQMusic, title=青藏高原, summary=请点击右侧按钮播放, jumpUrl=http://y.qq.com/n/yqq/song/001FLKhH3IKDkb.html, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://ws.stream.qqmusic.qq.com/C4000035Hmnc338LmJ.m4a?guid=4220211900&vkey=588C79A3AEC6002217FDB9ABF7425ECE79A5522CB38FF479EB86FEC72DFBB157398F66A4C1BA576C5A8071E0C4BEC6B91B9F9619598E233A&uin=&fromtag=123032, brief=[分享]青藏高原)[0m[m
+[92m2022-09-23 09:44:14 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:44:14 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 空尼几哇[0m[m
+[0m2022-09-23 09:44:17 V/Bot.2118654642: Group(1109825279) <- 空帮哇。[0m[m
+[92m2022-09-23 09:46:07 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:46:07 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> [mirai:at:2118654642] 黙って[0m[m
+[0m2022-09-23 09:46:10 V/Bot.2118654642: Group(1109825279) <- 我不是大便，我的粉丝也不是苍蝇[0m[m
+[0m2022-09-23 09:46:19 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:at:2118654642] 音乐腾格尔[0m[m
+[92m2022-09-23 09:46:19 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:46:20 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> [mirai:image:{FA9D4E11-3936-C6FF-4A4E-B498ADBE738D}.jpg, width=960, height=725, size=25516, type=JPG, isEmoji=true][0m[m
+[92m2022-09-23 09:46:20 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:46:21 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=QQMusic, title=天堂, summary=请点击右侧按钮播放, jumpUrl=http://y.qq.com/n/yqq/song/003dxjbv39BfVS.html, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://ws.stream.qqmusic.qq.com/C400001X4q6u37y6aH.m4a?guid=4220211900&vkey=31775D0127DB712E6B4D1903EE04B9C6B472293326AC98745F3824499A47EF40E5D2D2487CBA06AC1C8C8883C9B41874F5C5C7816268B809&uin=&fromtag=123032, brief=[分享]天堂)[0m[m
+[92m2022-09-23 09:48:26 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:48:26 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> [mirai:at:2118654642] 音乐let me let you go[0m[m
+[0m2022-09-23 09:48:28 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=QQMusic, title=Let Me Let You Go, summary=请点击右侧按钮播放, jumpUrl=http://y.qq.com/n/yqq/song/003aIZqy3zJ7RF.html, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://ws.stream.qqmusic.qq.com/C400003aIZqy3zJ7RF.m4a?guid=4220211900&vkey=2888A9712DEFE913820C46242E828EAFAEE6FBABB6B9EDD899A348BCAE581C0B139FB7BCDAE957CA0A9DCEC67A50CF80B4E00CDE73B4A5C5&uin=&fromtag=123032, brief=[分享]Let Me Let You Go)[0m[m
+[0m2022-09-23 09:51:41 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> 第二题你们弄完没有？[0m[m
+[92m2022-09-23 09:51:41 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:52:00 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 高斯(3031215597) -> 我照到打都打不来[0m[m
+[92m2022-09-23 09:52:00 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-23 09:52:40 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:52:40 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:at:2118654642] 音乐青稞[0m[m
+[0m2022-09-23 09:52:42 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=QQMusic, title=青稞, summary=请点击右侧按钮播放, jumpUrl=http://y.qq.com/n/yqq/song/000pnpx13WaGlE.html, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://ws.stream.qqmusic.qq.com/C400000pnpx13WaGlE.m4a?guid=4220211900&vkey=4043D9B9467A185DCDA81EDDEC30216C48C9E640144DB92A575F57005DD4ADAC6A7578DDCB69A818CA391CF1042F69F6E3AF5230375C900F&uin=&fromtag=123032, brief=[分享]青稞)[0m[m
+[0m2022-09-23 09:59:39 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:at:2118654642] 音乐月亮之上[0m[m
+[92m2022-09-23 09:59:39 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 09:59:42 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=KuwoMusic, title=月亮之上, summary=请点击右侧按钮播放, jumpUrl=http://www.kuwo.cn/yinyue/4318939/, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://sf-sycdn.kuwo.cn/8402926966fed554588bae8a4c6b200c/632d130d/resource/n1/73/72/2640970070.mp3, brief=[分享]月亮之上)[0m[m
+[92m2022-09-23 10:01:53 I/HRobot: cron task running...[0m[m
+[92m2022-09-23 10:07:45 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 10:07:45 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:at:2118654642] 音乐坐着火车去拉萨[0m[m
+[0m2022-09-23 10:07:48 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=KuwoMusic, title=坐着火车去拉萨, summary=请点击右侧按钮播放, jumpUrl=http://www.kuwo.cn/yinyue/20670925/, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://other-web-ri01-sycdn.kuwo.cn/4ca29e0586fc4bc9cc08d382a9114bf0/632d14f4/resource/n1/25/16/3129427711.mp3, brief=[分享]坐着火车去拉萨)[0m[m
+[92m2022-09-23 10:08:14 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 10:08:14 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:3074139791] 疯了？[0m[m
+[0m2022-09-23 10:08:20 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:3074139791] 晚上出来不[0m[m
+[92m2022-09-23 10:08:20 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-23 10:08:28 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 10:08:28 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> 我支付宝扫了7块钱[0m[m
+[0m2022-09-23 10:08:37 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> 可以请你喝瓶水[0m[m
+[92m2022-09-23 10:08:37 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 10:08:56 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 啥子疯咯[0m[m
+[92m2022-09-23 10:08:56 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 10:09:01 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 我在听music[0m[m
+[92m2022-09-23 10:09:01 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 10:09:13 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:quote:[mirai:source:ids=[40465], internalIds=[-1974253452], from 3074139791 to 1109825279 at 1663898941], content=<not yet initialized>][mirai:at:3074139791] [睁眼][0m[m
+[92m2022-09-23 10:09:13 I/stdout: RobotConfig.enableRobot = true[0m[m
+[92m2022-09-23 10:09:13 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 10:09:13 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> 回忆经典[0m[m
+[0m2022-09-23 10:09:48 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 哈尼宝贝[0m[m
+[92m2022-09-23 10:09:48 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 10:09:51 V/Bot.2118654642: Group(1109825279) <- 嗯哼？[0m[m
+[92m2022-09-23 10:10:00 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 10:10:00 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 戴拿(769178107) -> [mirai:at:2118654642] 音乐阿司匹林[0m[m
+[0m2022-09-23 10:10:03 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=NeteaseCloudMusic, title=阿司匹林, summary=请点击右侧按钮播放, jumpUrl=http://music.163.com/#/song?id=1396141677, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://m701.music.126.net/20220923103503/33359c96813d172ce2be8d6def107fea/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14096520986/6dcb/bb92/f0e0/deab521a5d84129e22d533d12b1e0b82.mp3, brief=[分享]阿司匹林)[0m[m
+[0m2022-09-23 10:11:24 V/Bot.2118654642: [<$ǿĀC>奥特六兄弟<$ǿĀC>(1109825279)] 怪兽之王哥斯拉(3074139791) -> [mirai:at:2118654642] 音乐Daisy[0m[m
+[92m2022-09-23 10:11:24 I/stdout: RobotConfig.enableRobot = true[0m[m
+[0m2022-09-23 10:11:26 V/Bot.2118654642: Group(1109825279) <- MusicShare(kind=NeteaseCloudMusic, title=Daisy, summary=请点击右侧按钮播放, jumpUrl=http://music.163.com/#/song?id=28018269, pictureUrl=http://p2.music.126.net/y19E5SadGUmSR8SZxkrNtw==/109951163785855539.jpg, musicUrl=https://m7.music.126.net/20220923103625/5580ccac62c6be1b002379571bd5c080/ymusic/26cd/4352/b42f/dc4303448a4f72f569af00683b1515d0.mp3, brief=[分享]Daisy)[0m[m

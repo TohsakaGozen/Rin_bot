@@ -1,0 +1,21 @@
+[0m2022-09-22 15:43:52 V/Net 18181487399: No server list cached.[0m
+[92m2022-09-22 15:43:52 I/Net 18181487399: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-09-22 15:43:52 I/Net 18181487399: Successfully fetched ecdh public key from server.[0m
+[0m2022-09-22 15:43:52 V/Net 18181487399: Send: wtlogin.login[0m
+[0m2022-09-22 15:43:53 V/Net 18181487399: Recv: wtlogin.login[0m
+[0m2022-09-22 15:44:28 V/Net 18181487399: Send: wtlogin.login[0m
+[0m2022-09-22 15:44:29 V/Net 18181487399: Recv: wtlogin.login[0m
+[91m2022-09-22 15:44:29 W/Net 18181487399: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(18181487399), code=32, title=禁止登录, message=请确认你输入了正确的帐号。该帐号已被回收，建议通过手机QQ重新申请一个QQ使用。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(18181487399), code=32, title=禁止登录, message=请确认你输入了正确的帐号。该帐号已被回收，建议通过手机QQ重新申请一个QQ使用。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:284)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
