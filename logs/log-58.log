@@ -1,0 +1,203 @@
+[92m2022-10-29 20:42:13 I/main: Starting mirai-console...[0m[m
+[92m2022-10-29 20:42:13 I/main: Backend: version 2.12.1, built on 2022-07-31 17:49:27.[0m[m
+[92m2022-10-29 20:42:13 I/main: Frontend Terminal: version 2.12.1, provided by Mamoe Technologies[0m[m
+[92m2022-10-29 20:42:13 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-10-29 20:42:14 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-10-29 20:42:14 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-10-29 20:42:14 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-10-29 20:42:15 I/plugin: Successfully loaded plugin net.mamoe.mirai-api-http v2.6.2[0m[m
+[92m2022-10-29 20:42:15 I/plugin: Successfully loaded plugin SuperCourseTimetable v0.4.7[0m[m
+[92m2022-10-29 20:42:15 I/plugin: Successfully loaded plugin Lolicon v6.0.4[0m[m
+[92m2022-10-29 20:42:15 I/plugin: Successfully loaded plugin Chat Command v0.5.0[0m[m
+[92m2022-10-29 20:42:15 I/plugin: Successfully loaded plugin HRobot v1.0.0[0m[m
+[92m2022-10-29 20:42:15 I/plugin: Successfully loaded plugin iam.xiaoan.RanImage v1.0-SNAPSHOT[0m[m
+[92m2022-10-29 20:42:15 I/plugin: Successfully loaded plugin MCL Addon v2.0.2[0m[m
+[92m2022-10-29 20:42:15 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[91m2022-10-29 20:42:15 W/net.mamoe.mirai-api-http: USING INITIAL KEY, please edit the key[0m[m
+[92m2022-10-29 20:42:15 I/Mirai HTTP API: ********************************************************[0m[m
+[91m2022-10-29 20:42:15 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-10-29 20:42:15 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-10-29 20:42:15 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[31m2022-10-29 20:42:15 E/MahKtorAdapter[http,ws]: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.ConnectUtilsJvmKt.bind(ConnectUtilsJvm.kt:32)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:46)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:30)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind$default(TcpSocketBuilder.kt:26)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.server.cio.backend.HttpServerKt$httpServer$acceptJob$1.invokeSuspend(HttpServer.kt:46)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[31m2022-10-29 20:42:15 E/net.mamoe.mirai-api-http: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine is cancelling; job=LazyStandaloneCoroutine{Cancelled}@559af296
+kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine is cancelling; job=LazyStandaloneCoroutine{Cancelled}@559af296
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.ConnectUtilsJvmKt.bind(ConnectUtilsJvm.kt:32)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:46)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:30)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind$default(TcpSocketBuilder.kt:26)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.server.cio.backend.HttpServerKt$httpServer$acceptJob$1.invokeSuspend(HttpServer.kt:46)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[92m2022-10-29 20:42:15 I/SuperCourseTimetable: Plugin loaded[0m[m
+[92m2022-10-29 20:42:15 I/com.zaxxer.hikari.HikariDataSource: SCTimetableDB Pool - Starting...[0m[m
+[31m2022-10-29 20:42:16 E/com.zaxxer.hikari.pool.HikariPool: SCTimetableDB Pool - Exception during pool initialization.[0m[m
+[31m2022-10-29 20:42:16 E/SuperCourseTimetable: com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Unknown database 'sctimetabledb'
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Unknown database 'sctimetabledb'
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:596)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:582)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at SCTimetableBot-0.4.7.mirai.jar//me.stageguard.sctimetable.database.Database.hikariDataSourceProvider(Database.kt:85)
+	at SCTimetableBot-0.4.7.mirai.jar//me.stageguard.sctimetable.database.Database.connect(Database.kt:55)
+	at SCTimetableBot-0.4.7.mirai.jar//me.stageguard.sctimetable.PluginMain.onEnable(PluginMain.kt:43)
+	at net.mamoe.mirai.console.internal.plugin.JvmPluginInternal.internalOnEnable$mirai_console(JvmPluginInternal.kt:131)
+	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:278)
+	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:35)
+	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt)
+	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt:50)
+	at net.mamoe.mirai.console.plugin.PluginManager.enablePlugin(PluginManager.kt:173)
+	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.enableAllLoadedPlugins$mirai_console(PluginManagerImpl.kt:178)
+	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:235)
+	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:464)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:168)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:167)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.itxtech.mcl.Utility.bootJars(Utility.java:86)
+	at org.itxtech.mcl.Utility.bootJars(Utility.java:76)
+	at org.itxtech.mcl.Utility.bootMirai(Utility.java:98)
+	at org.itxtech.mcl.module.builtin.Boot.boot(Boot.java:113)
+	at org.itxtech.mcl.module.ModuleManager.phaseBoot(ModuleManager.java:123)
+	at org.itxtech.mcl.Loader.lambda$start$4(Loader.java:194)
+	at org.itxtech.mcl.Loader.tryCatching(Loader.java:151)
+	at org.itxtech.mcl.Loader.start(Loader.java:194)
+	at org.itxtech.mcl.Loader.main(Loader.java:84)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'sctimetabledb'
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453)
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	... 30 more
+[0m[m
+[92m2022-10-29 20:42:17 I/Lolicon: Plugin loaded[0m[m
+[92m2022-10-29 20:42:17 I/HRobot: 正在初始化机器人配置[0m[m
+[92m2022-10-29 20:42:17 I/HRobot: 配置初始化完成[0m[m
+[92m2022-10-29 20:42:17 I/stdout: RobotConfig.customKeyword = {全局关键字=全局关键字回复, #regex#全局正则表达式=回复, 群号=群内关键字: 群内关键字回复, 1109825279={原神=原神怎么你了！, 杰哥=杰哥快教我登dua郎！}}[0m[m
+[91m2022-10-29 20:42:17 W/HRobot: Linked class org.slf4j.impl.StaticLoggerBinder in SCTimetableBot-0.4.7.mirai.jar but plugin not depend on it.[0m[m
+[91m2022-10-29 20:42:17 W/HRobot: Class loading logic may change in feature.[0m[m
+[92m2022-10-29 20:42:17 I/org.reflections.Reflections: Reflections took 84 ms to scan 1 urls, producing 21 keys and 62 values [0m[m
+[92m2022-10-29 20:42:17 I/HRobot: HRobot handlers and filters loading finished, total 15 handlers, 3 inspectors.[0m[m
+[92m2022-10-29 20:42:17 I/stdout: Pattern = true[0m[m
+[92m2022-10-29 20:42:17 I/stdout:         ,--,                                                    [0m[m
+[92m2022-10-29 20:42:17 I/stdout:       ,--.'|,-.----.                                    ___     [0m[m
+[92m2022-10-29 20:42:17 I/stdout:    ,--,  | :\    /  \             ,---,               ,--.'|_   [0m[m
+[92m2022-10-29 20:42:17 I/stdout: ,---.'|  : ';   :    \   ,---.  ,---.'|      ,---.    |  | :,'  [0m[m
+[92m2022-10-29 20:42:17 I/stdout: |   | : _' ||   | .\ :  '   ,'\ |   | :     '   ,'\   :  : ' :  [0m[m
+[92m2022-10-29 20:42:17 I/stdout: :   : |.'  |.   : |: | /   /   |:   : :    /   /   |.;__,'  /   [0m[m
+[92m2022-10-29 20:42:17 I/stdout: |   ' '  ; :|   |  \ :.   ; ,. ::     |,-..   ; ,. :|  |   |    [0m[m
+[92m2022-10-29 20:42:17 I/stdout: '   |  .'. ||   : .  /'   | |: :|   : '  |'   | |: ::__,'| :    [0m[m
+[92m2022-10-29 20:42:17 I/stdout: |   | :  | ';   | |  \'   | .; :|   |  / :'   | .; :  '  : |__  [0m[m
+[92m2022-10-29 20:42:17 I/stdout: '   : |  : ;|   | ;\  \   :    |'   : |: ||   :    |  |  | '.'| [0m[m
+[92m2022-10-29 20:42:17 I/stdout: |   | '  ,/ :   ' | \.'\   \  / |   | '/ : \   \  /   ;  :    ; [0m[m
+[92m2022-10-29 20:42:17 I/stdout: ;   : ;--'  :   : :-'   `----'  |   :    |  `----'    |  ,   /  [0m[m
+[92m2022-10-29 20:42:17 I/stdout: |   ,/      |   |.'             /    \  /              ---`-'       [0m[m
+[92m2022-10-29 20:42:17 I/stdout: '---'       `---'               `-'----'                            v3.2.1[0m[m
+[92m2022-10-29 20:42:17 I/HRobot: cron task running...[0m[m
+[92m2022-10-29 20:42:18 I/stdout: latestVersion = HRobot v3.3[0m[m
+[92m2022-10-29 20:42:18 I/HRobot: 检测到新版本: HRobot v3.3, 请前往 https://github.com/happysnaker/mirai-plugin-HRobot/releases/tag/3.3 查看详情[0m[m
+[92m2022-10-29 20:42:18 I/HRobot: 已取消下载[0m[m
+[92m2022-10-29 20:42:18 I/iam.xiaoan.RanImage: Plugin loaded![0m[m
+[92m2022-10-29 20:42:18 I/iam.xiaoan.RanImage: 你好！我是小安！感谢你使用这款随机二次元图片插件！[0m[m
+[92m2022-10-29 20:42:18 I/MCL Addon: iTXTech MCL Version: 2.1.1-d66fada[0m[m
+[91m2022-10-29 20:42:18 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用[0m[m
+[92m2022-10-29 20:42:18 I/main: 5 plugin(s) enabled.[0m[m
+[92m2022-10-29 20:42:18 I/main: Auto-login 2118654642[0m[m
+[91m2022-10-29 20:42:18 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-10-29 20:42:20 I/Bot.2118654642: [SliderCaptcha] 需要滑动验证码, 请按照以下链接的步骤完成滑动验证码, 然后输入获取到的 ticket[0m[m
+[92m2022-10-29 20:42:20 I/Bot.2118654642: [SliderCaptcha] Slider captcha required. Please solve the captcha with following link. Type ticket here after completion.[0m[m
+[92m2022-10-29 20:42:20 I/Bot.2118654642: [SliderCaptcha] @see https://github.com/project-mirai/mirai-login-solver-selenium[0m[m
+[92m2022-10-29 20:42:20 I/Bot.2118654642: [SliderCaptcha] @see https://docs.mirai.mamoe.net/mirai-login-solver-selenium/[0m[m
+[92m2022-10-29 20:42:20 I/Bot.2118654642: [SliderCaptcha] 或者输入 TxCaptchaHelper 来使用 TxCaptchaHelper 完成滑动验证码[0m[m
+[92m2022-10-29 20:42:20 I/Bot.2118654642: [SliderCaptcha] Or type `TxCaptchaHelper` to resolve slider captcha with TxCaptchaHelper.apk[0m[m
+[92m2022-10-29 20:42:20 I/Bot.2118654642: [SliderCaptcha] Captcha link: https://ssl.captcha.qq.com/template/wireless_mqq_captcha.html?style=simple&aid=16&uin=2118654642&sid=8124727908240269228&cap_cd=Mzs6aDxkq34ALqgqTfrkTVjYynVvYw8kPr7sr-9P4jtEYDbhYUroUg**&clientype=1&apptype=2[0m[m
+[92m2022-10-29 20:42:30 I/Bot.2118654642: [SliderCaptcha] @see https://github.com/mzdluo123/TxCaptchaHelper[0m[m
+[92m2022-10-29 20:42:30 I/Bot.2118654642: Sending request...[0m[m
+[92m2022-10-29 20:46:47 I/Bot.2118654642: 请在手机端使用请求码9310完成验证，完成后再次发送请求得到ticket[0m[m
+[92m2022-10-29 20:48:49 I/Bot.2118654642: Bot cancelled: Bot closed[0m[m
+[31m2022-10-29 20:48:49 E/main: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=155, title=登录失败, message=你太久没有操作，请重新登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=155, title=登录失败, message=你太久没有操作，请重新登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:284)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: java.util.concurrent.CancellationException: Bot closed
+		at kotlinx.coroutines.ExceptionsKt.CancellationException(Exceptions.kt:22)
+		at net.mamoe.mirai.internal.AbstractBot.close(AbstractBot.kt:112)
+		at net.mamoe.mirai.internal.QQAndroidBot.close(QQAndroidBot.kt:84)
+		at net.mamoe.mirai.internal.AbstractBot.login(AbstractBot.kt:136)
+		at net.mamoe.mirai.internal.AbstractBot$login$1.invokeSuspend(AbstractBot.kt)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+		at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:279)
+		at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+		at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+		at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+		at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+		at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+		at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:245)
+		at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:464)
+		at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:168)
+		at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:167)
+		at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:52)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.itxtech.mcl.Utility.bootJars(Utility.java:86)
+		at org.itxtech.mcl.Utility.bootJars(Utility.java:76)
+		at org.itxtech.mcl.Utility.bootMirai(Utility.java:98)
+		at org.itxtech.mcl.module.builtin.Boot.boot(Boot.java:113)
+		at org.itxtech.mcl.module.ModuleManager.phaseBoot(ModuleManager.java:123)
+		at org.itxtech.mcl.Loader.lambda$start$4(Loader.java:194)
+		at org.itxtech.mcl.Loader.tryCatching(Loader.java:151)
+		at org.itxtech.mcl.Loader.start(Loader.java:194)
+		at org.itxtech.mcl.Loader.main(Loader.java:84)
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=155, title=登录失败, message=你太久没有操作，请重新登录。, errorInfo=)]
+[0m[m
+[92m2022-10-29 20:48:49 I/main: mirai-console started successfully.[0m[m

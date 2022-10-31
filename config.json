@@ -4,24 +4,25 @@
   ],
   "mirai_repo": "https://repo.itxtech.org",
   "maven_repo": [
+    "https://repo1.maven.org/maven2",
     "https://maven.aliyun.com/repository/public"
   ],
   "packages": {
     "net.mamoe:mirai-console": {
-      "channel": "stable",
-      "version": "2.12.1",
+      "channel": "maven",
+      "version": "2.13.0-RC2",
       "type": "libs",
       "versionLocked": false
     },
     "net.mamoe:mirai-console-terminal": {
-      "channel": "stable",
-      "version": "2.12.1",
+      "channel": "maven",
+      "version": "2.13.0-RC2",
       "type": "libs",
       "versionLocked": false
     },
     "net.mamoe:mirai-core-all": {
-      "channel": "stable",
-      "version": "2.12.1",
+      "channel": "maven",
+      "version": "2.13.0-RC2",
       "type": "libs",
       "versionLocked": false
     },
@@ -35,6 +36,12 @@
       "channel": "stable",
       "version": "1.64",
       "type": "libs",
+      "versionLocked": false
+    },
+    "net.mamoe:mirai-login-solver-selenium": {
+      "channel": "nightly",
+      "version": "1.0-dev-17",
+      "type": "plugins",
       "versionLocked": false
     }
   },

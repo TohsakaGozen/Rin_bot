@@ -1,0 +1,1426 @@
+2022-10-29 21:09:26 I/main: Starting mirai-console...
+2022-10-29 21:09:26 I/main: 
+
+================================[ Mirai consosle 2.13.0-RC2 ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-10-29 21:09:26 I/main: Backend: version 2.13.0-RC2, built on 2022-10-21 01:15:53.
+2022-10-29 21:09:26 I/main: Frontend Terminal: version 2.13.0-RC2, provided by Mamoe Technologies
+2022-10-29 21:09:26 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-10-29 21:09:26 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-10-29 21:09:26 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-10-29 21:09:26 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-10-29 21:09:27 I/plugin: Successfully loaded plugin net.mamoe.mirai-api-http v2.6.2
+2022-10-29 21:09:27 I/plugin: Successfully loaded plugin SuperCourseTimetable v0.4.7
+2022-10-29 21:09:27 I/plugin: Successfully loaded plugin Lolicon v6.0.4
+2022-10-29 21:09:27 I/plugin: Successfully loaded plugin Chat Command v0.5.0
+2022-10-29 21:09:27 I/plugin: Successfully loaded plugin HRobot v1.0.0
+2022-10-29 21:09:27 I/plugin: Successfully loaded plugin iam.xiaoan.RanImage v1.0-SNAPSHOT
+2022-10-29 21:09:27 I/plugin: Successfully loaded plugin MCL Addon v2.0.2
+2022-10-29 21:09:27 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-10-29 21:09:28 W/net.mamoe.mirai-api-http: USING INITIAL KEY, please edit the key
+2022-10-29 21:09:28 I/Mirai HTTP API: ********************************************************
+2022-10-29 21:09:28 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-10-29 21:09:28 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-10-29 21:09:28 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-10-29 21:09:28 E/MahKtorAdapter[http,ws]: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.ConnectUtilsJvmKt.bind(ConnectUtilsJvm.kt:32)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:46)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:30)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind$default(TcpSocketBuilder.kt:26)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.server.cio.backend.HttpServerKt$httpServer$acceptJob$1.invokeSuspend(HttpServer.kt:46)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2022-10-29 21:09:28 E/net.mamoe.mirai-api-http: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine is cancelling; job=LazyStandaloneCoroutine{Cancelled}@3bbf1c0d
+kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine is cancelling; job=LazyStandaloneCoroutine{Cancelled}@3bbf1c0d
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.ConnectUtilsJvmKt.bind(ConnectUtilsJvm.kt:32)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:46)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:30)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind$default(TcpSocketBuilder.kt:26)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.server.cio.backend.HttpServerKt$httpServer$acceptJob$1.invokeSuspend(HttpServer.kt:46)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2022-10-29 21:09:28 I/SuperCourseTimetable: Plugin loaded
+2022-10-29 21:09:28 I/com.zaxxer.hikari.HikariDataSource: SCTimetableDB Pool - Starting...
+2022-10-29 21:09:29 E/com.zaxxer.hikari.pool.HikariPool: SCTimetableDB Pool - Exception during pool initialization.
+2022-10-29 21:09:29 E/SuperCourseTimetable: com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Unknown database 'sctimetabledb'
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Unknown database 'sctimetabledb'
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:596)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:582)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at SCTimetableBot-0.4.7.mirai.jar//me.stageguard.sctimetable.database.Database.hikariDataSourceProvider(Database.kt:85)
+	at SCTimetableBot-0.4.7.mirai.jar//me.stageguard.sctimetable.database.Database.connect(Database.kt:55)
+	at SCTimetableBot-0.4.7.mirai.jar//me.stageguard.sctimetable.PluginMain.onEnable(PluginMain.kt:43)
+	at net.mamoe.mirai.console.internal.plugin.JvmPluginInternal.internalOnEnable$mirai_console(JvmPluginInternal.kt:131)
+	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:279)
+	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:35)
+	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt)
+	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt:50)
+	at net.mamoe.mirai.console.plugin.PluginManager.enablePlugin(PluginManager.kt:173)
+	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.enableAllLoadedPlugins$mirai_console(PluginManagerImpl.kt:175)
+	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:336)
+	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:508)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:177)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:176)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.itxtech.mcl.Utility.bootJars(Utility.java:86)
+	at org.itxtech.mcl.Utility.bootJars(Utility.java:76)
+	at org.itxtech.mcl.Utility.bootMirai(Utility.java:98)
+	at org.itxtech.mcl.module.builtin.Boot.boot(Boot.java:113)
+	at org.itxtech.mcl.module.ModuleManager.phaseBoot(ModuleManager.java:123)
+	at org.itxtech.mcl.Loader.lambda$start$4(Loader.java:194)
+	at org.itxtech.mcl.Loader.tryCatching(Loader.java:151)
+	at org.itxtech.mcl.Loader.start(Loader.java:194)
+	at org.itxtech.mcl.Loader.main(Loader.java:84)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'sctimetabledb'
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453)
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	... 30 more
+
+2022-10-29 21:09:29 I/Lolicon: Plugin loaded
+2022-10-29 21:09:29 I/HRobot: 正在初始化机器人配置
+2022-10-29 21:09:29 I/HRobot: 配置初始化完成
+2022-10-29 21:09:29 I/stdout: RobotConfig.customKeyword = {全局关键字=全局关键字回复, #regex#全局正则表达式=回复, 群号=群内关键字: 群内关键字回复, 1109825279={原神=原神怎么你了！, 杰哥=杰哥快教我登dua郎！}}
+2022-10-29 21:09:29 W/HRobot: Linked class org.slf4j.impl.StaticLoggerBinder in SCTimetableBot-0.4.7.mirai.jar but plugin not depend on it.
+2022-10-29 21:09:29 W/HRobot: Class loading logic may change in feature.
+2022-10-29 21:09:29 I/org.reflections.Reflections: Reflections took 77 ms to scan 1 urls, producing 21 keys and 62 values 
+2022-10-29 21:09:30 I/HRobot: HRobot handlers and filters loading finished, total 15 handlers, 3 inspectors.
+2022-10-29 21:09:30 I/stdout: Pattern = true
+2022-10-29 21:09:30 I/stdout:         ,--,                                                    
+2022-10-29 21:09:30 I/stdout:       ,--.'|,-.----.                                    ___     
+2022-10-29 21:09:30 I/stdout:    ,--,  | :\    /  \             ,---,               ,--.'|_   
+2022-10-29 21:09:30 I/stdout: ,---.'|  : ';   :    \   ,---.  ,---.'|      ,---.    |  | :,'  
+2022-10-29 21:09:30 I/stdout: |   | : _' ||   | .\ :  '   ,'\ |   | :     '   ,'\   :  : ' :  
+2022-10-29 21:09:30 I/stdout: :   : |.'  |.   : |: | /   /   |:   : :    /   /   |.;__,'  /   
+2022-10-29 21:09:30 I/stdout: |   ' '  ; :|   |  \ :.   ; ,. ::     |,-..   ; ,. :|  |   |    
+2022-10-29 21:09:30 I/stdout: '   |  .'. ||   : .  /'   | |: :|   : '  |'   | |: ::__,'| :    
+2022-10-29 21:09:30 I/stdout: |   | :  | ';   | |  \'   | .; :|   |  / :'   | .; :  '  : |__  
+2022-10-29 21:09:30 I/stdout: '   : |  : ;|   | ;\  \   :    |'   : |: ||   :    |  |  | '.'| 
+2022-10-29 21:09:30 I/stdout: |   | '  ,/ :   ' | \.'\   \  / |   | '/ : \   \  /   ;  :    ; 
+2022-10-29 21:09:30 I/stdout: ;   : ;--'  :   : :-'   `----'  |   :    |  `----'    |  ,   /  
+2022-10-29 21:09:30 I/stdout: |   ,/      |   |.'             /    \  /              ---`-'       
+2022-10-29 21:09:30 I/stdout: '---'       `---'               `-'----'                            v3.2.1
+2022-10-29 21:09:30 I/HRobot: cron task running...
+2022-10-29 21:09:30 I/stdout: latestVersion = HRobot v3.3
+2022-10-29 21:09:31 I/HRobot: 检测到新版本: HRobot v3.3, 请前往 https://github.com/happysnaker/mirai-plugin-HRobot/releases/tag/3.3 查看详情
+2022-10-29 21:09:31 I/HRobot: 已取消下载
+2022-10-29 21:09:31 I/iam.xiaoan.RanImage: Plugin loaded!
+2022-10-29 21:09:31 I/iam.xiaoan.RanImage: 你好！我是小安！感谢你使用这款随机二次元图片插件！
+2022-10-29 21:09:31 I/MCL Addon: iTXTech MCL Version: 2.1.1-d66fada
+2022-10-29 21:09:31 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用
+2022-10-29 21:09:31 I/main: 5 plugin(s) enabled.
+2022-10-29 21:09:31 I/main: Auto-login 2118654642
+2022-10-29 21:09:31 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-10-29 21:09:32 I/Bot.2118654642: [SliderCaptcha] 需要滑动验证码, 请按照以下链接的步骤完成滑动验证码, 然后输入获取到的 ticket
+2022-10-29 21:09:32 I/Bot.2118654642: [SliderCaptcha] Slider captcha required. Please solve the captcha with following link. Type ticket here after completion.
+2022-10-29 21:09:32 I/Bot.2118654642: [SliderCaptcha] @see https://github.com/project-mirai/mirai-login-solver-selenium
+2022-10-29 21:09:32 I/Bot.2118654642: [SliderCaptcha] @see https://docs.mirai.mamoe.net/mirai-login-solver-selenium/
+2022-10-29 21:09:32 I/Bot.2118654642: [SliderCaptcha] 或者输入 TxCaptchaHelper 来使用 TxCaptchaHelper 完成滑动验证码
+2022-10-29 21:09:32 I/Bot.2118654642: [SliderCaptcha] Or type `TxCaptchaHelper` to resolve slider captcha with TxCaptchaHelper.apk
+2022-10-29 21:09:32 I/Bot.2118654642: [SliderCaptcha] Captcha link: https://ssl.captcha.qq.com/template/wireless_mqq_captcha.html?style=simple&aid=16&uin=2118654642&sid=924356034114168332&cap_cd=81haM42lCr34IyGcb_nEAUFtVzoMB5h10w93Z85ikPjCsJs0Wcitlw**&clientype=1&apptype=2
+2022-10-29 21:14:56 I/Bot.2118654642: [SliderCaptcha] @see https://github.com/mzdluo123/TxCaptchaHelper
+2022-10-29 21:14:56 I/Bot.2118654642: Sending request...
+2022-10-29 21:15:01 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:15:07 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:15:13 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:15:19 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:15:25 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:15:31 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:16:32 E/main: 
+
+=============================================================
+MIRAI CONSOLE CRASH REPORT.
+Console has take too long to shutdown.
+
+TIME: 1667049392388 <2022-10-29T13:16:32.388Z>
+SYSTEM: Linux amd64 3.10.0-1160.71.1.el7.x86_64
+JRT:
+  Java(TM) SE Runtime Environment  17.0.5
+    by Oracle Corporation
+SPEC:
+  Java Platform API Specification 17
+    by Oracle Corporation
+VM:
+  Java HotSpot(TM) 64-Bit Server VM 17.0.5+9-LTS-191
+    by Oracle Corporation
+
+
+PROCESS Working dir: /root/tohsaka/rin/Rin
+Console Working Dir: /root/tohsaka/rin/Rin
+Loaded plugins:
+|- net.mamoe.mirai-api-http v2.6.2
+|   `- ID: net.mamoe.mirai-api-http
+|   `- AUTHOR: ryoii
+|   `- MAIN: class net.mamoe.mirai.api.http.HttpApiPluginBase
+|   `- FROM: /root/tohsaka/rin/Rin/plugins/mirai-api-http-v2.6.2.mirai2.jar
+|- SuperCourseTimetable v0.4.7
+|   `- ID: me.stageguard.sctimetable
+|   `- MAIN: class me.stageguard.sctimetable.PluginMain
+|   `- FROM: /root/tohsaka/rin/Rin/plugins/SCTimetableBot-0.4.7.mirai.jar
+|- Lolicon v6.0.4
+|   `- ID: io.github.samarium150.mirai.plugin.mirai-console-lolicon
+|   `- AUTHOR: Samarium150
+|   `- MAIN: class io.github.samarium150.mirai.plugin.lolicon.MiraiConsoleLolicon
+|   `- FROM: /root/tohsaka/rin/Rin/plugins/mirai-console-lolicon-6.0.4.mirai2.jar
+|- Chat Command v0.5.0
+|   `- ID: net.mamoe.mirai.console.chat-command
+|   `- MAIN: class net.mamoe.mirai.console.plugins.chat.command.PluginMain
+|   `- FROM: /root/tohsaka/rin/Rin/plugins/chat-command-0.5.1.jar
+|- HRobot v1.0.0
+|   `- ID: com.happysnaker.HRobot
+|   `- AUTHOR: Happysnaker
+|   `- MAIN: class com.happysnaker.Main
+|   `- FROM: /root/tohsaka/rin/Rin/plugins/plugin-3.2.1-SNAPSHOT.mirai.jar
+|- iam.xiaoan.RanImage v1.0-SNAPSHOT
+|   `- ID: iam.xiaoan.RanImage
+|   `- AUTHOR: xiaoan
+|   `- MAIN: class iam.xiaoan.RanImage
+|   `- FROM: /root/tohsaka/rin/Rin/plugins/RanImage-1.0-SNAPSHOT.mirai.jar
+|- MCL Addon v2.0.2
+|   `- ID: org.itxtech.mcl.addon
+|   `- AUTHOR: PeratX
+|   `- MAIN: class org.itxtech.mcl.addon.PluginMain
+|   `- FROM: /root/tohsaka/rin/Rin/plugins/mcl-addon-2.0.2.jar
+
+
+
+PROCESS: 7393@VM-8-17-centos
+VM OPTIONS:
+
+
+THREADS:
+
+
+
+"main" prio=5 Id=1 on kotlinx.coroutines.BlockingCoroutine@408db98
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on kotlinx.coroutines.BlockingCoroutine@408db98
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:88)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at app//net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:346)
+	at app//net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:508)
+	at app//net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:177)
+	at app//net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:176)
+	at app//net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:54)
+	at java.base@17.0.5/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.5/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.5/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.5/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.itxtech.mcl.Utility.bootJars(Utility.java:86)
+	at app//org.itxtech.mcl.Utility.bootJars(Utility.java:76)
+	at app//org.itxtech.mcl.Utility.bootMirai(Utility.java:98)
+	at app//org.itxtech.mcl.module.builtin.Boot.boot(Boot.java:113)
+	at app//org.itxtech.mcl.module.ModuleManager.phaseBoot(ModuleManager.java:123)
+	at app//org.itxtech.mcl.Loader.lambda$start$4(Loader.java:194)
+	at app//org.itxtech.mcl.Loader$$Lambda$258/0x0000000800dc8000.run(Unknown Source)
+	at app//org.itxtech.mcl.Loader.tryCatching(Loader.java:151)
+	at app//org.itxtech.mcl.Loader.start(Loader.java:194)
+	at app//org.itxtech.mcl.Loader.main(Loader.java:84)
+
+
+
+
+"Reference Handler" daemon prio=10 Id=2
+	at java.base@17.0.5/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@17.0.5/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+	at java.base@17.0.5/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+
+
+
+"Finalizer" daemon prio=8 Id=3 on java.lang.ref.ReferenceQueue$Lock@7a72bc21
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@7a72bc21
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@17.0.5/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+
+
+
+"Signal Dispatcher" daemon prio=9 Id=4
+
+
+
+
+"Notification Thread" daemon prio=9 Id=10
+
+
+
+
+"Common-Cleaner" daemon prio=8 Id=11 on java.lang.ref.ReferenceQueue$Lock@7bb0978e
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@7bb0978e
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+	at java.base@17.0.5/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+
+
+
+"HttpClient-2-SelectorManager" daemon prio=5 Id=13 (in native)
+	at java.base@17.0.5/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@17.0.5/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+	-  locked sun.nio.ch.Util$2@41f05b61
+	-  locked sun.nio.ch.EPollSelectorImpl@6c9abb25
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at platform/java.net.http@17.0.5/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:889)
+
+
+
+
+"JLine Input Daemon" daemon prio=5 Id=91 on java.lang.Object@13e94ddf
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.Object@13e94ddf
+	at java.base@17.0.5/java.lang.Object.wait(Object.java:338)
+	at app//net.mamoe.mirai.console.terminal.JLineInputDaemon.run(JLineInputDaemon.kt:63)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"DefaultDispatcher-worker-2" daemon prio=5 Id=93
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+
+
+
+"kotlinx.coroutines.DefaultExecutor" daemon prio=5 Id=94 on kotlinx.coroutines.DefaultExecutor@50812790
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on kotlinx.coroutines.DefaultExecutor@50812790
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at app//kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:121)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"Mirai Console Logging#0" daemon prio=5 Id=95 on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@67365130
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@67365130
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"Mirai Console Logging#1" daemon prio=5 Id=96 on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@67365130
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@67365130
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"Mirai Console Logging#2" daemon prio=5 Id=97 on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@67365130
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@67365130
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"DefaultDispatcher-worker-1" daemon prio=5 Id=98
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+
+
+
+"DefaultDispatcher-worker-2" daemon prio=5 Id=99
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+
+
+
+"DefaultDispatcher-worker-3" daemon prio=5 Id=100
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+
+
+
+"DefaultDispatcher-worker-4" daemon prio=5 Id=101
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+
+
+
+"mysql-cj-abandoned-connection-cleanup" daemon prio=5 Id=103 on java.lang.ref.ReferenceQueue$Lock@5e4c8d60
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@5e4c8d60
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"Timer-0" prio=5 Id=104 on java.util.TaskQueue@712b4c3
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@712b4c3
+	at java.base@17.0.5/java.util.TimerThread.mainLoop(Timer.java:563)
+	at java.base@17.0.5/java.util.TimerThread.run(Timer.java:516)
+
+
+
+
+"nioEventLoopGroup-2-1" prio=10 Id=106 (in native)
+	at java.base@17.0.5/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@17.0.5/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@5e76be16
+	-  locked sun.nio.ch.EPollSelectorImpl@b1cdb39
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+	at app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:810)
+	at app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"nioEventLoopGroup-2-2" prio=10 Id=107 (in native)
+	at java.base@17.0.5/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@17.0.5/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@310160b7
+	-  locked sun.nio.ch.EPollSelectorImpl@23a76ef8
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+	at app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:810)
+	at app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"DefaultDispatcher-worker-1" daemon prio=5 Id=108
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+
+
+
+"nioEventLoopGroup-2-3" prio=10 Id=112 (in native)
+	at java.base@17.0.5/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@17.0.5/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@48caf294
+	-  locked sun.nio.ch.EPollSelectorImpl@25622da7
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+	at app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:810)
+	at app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"DefaultDispatcher-worker-3" daemon prio=5 Id=116
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+
+
+
+"Mirai Console Shutdown Daemon #0" daemon prio=5 Id=118
+	at java.management@17.0.5/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@17.0.5/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+	at java.management@17.0.5/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+	at app//net.mamoe.mirai.console.internal.shutdown.ShutdownDaemon$dumpCrashReport$2.a(ShutdownDaemon.kt:189)
+	at app//net.mamoe.mirai.console.internal.shutdown.ShutdownDaemon.dumpCrashReport(ShutdownDaemon.kt:235)
+	at app//net.mamoe.mirai.console.internal.shutdown.ShutdownDaemon.listen(ShutdownDaemon.kt:266)
+	at app//net.mamoe.mirai.console.internal.shutdown.ShutdownDaemon.start$lambda-0(ShutdownDaemon.kt:100)
+	at app//net.mamoe.mirai.console.internal.shutdown.ShutdownDaemon$$Lambda$514/0x00000008012ba260.run(Unknown Source)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"Mirai Console Shutdown Daemon #1" daemon prio=5 Id=120 on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1fdcf564
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1fdcf564
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"nioEventLoopGroup-2-4" prio=10 Id=121 (in native)
+	at java.base@17.0.5/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@17.0.5/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@79498c9
+	-  locked sun.nio.ch.EPollSelectorImpl@18d594fd
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+	at app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:810)
+	at app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"Mirai Console Signal-Shutdown Daemon #0" daemon prio=9 Id=119 on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2cee8d55
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2cee8d55
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"Mirai Console Signal-Shutdown Daemon #1" daemon prio=9 Id=122 on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2cee8d55
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2cee8d55
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"Mirai Console Signal-Shutdown Daemon #2" daemon prio=5 Id=123 on kotlin.concurrent.ThreadsKt$thread$thread$1@35cabb2a
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	-  waiting on kotlin.concurrent.ThreadsKt$thread$thread$1@35cabb2a
+	at java.base@17.0.5/java.lang.Thread.join(Thread.java:1304)
+	at java.base@17.0.5/java.lang.Thread.join(Thread.java:1372)
+	at java.base@17.0.5/java.lang.ApplicationShutdownHooks.runHooks(ApplicationShutdownHooks.java:107)
+	at java.base@17.0.5/java.lang.ApplicationShutdownHooks$1.run(ApplicationShutdownHooks.java:46)
+	at java.base@17.0.5/java.lang.Shutdown.runHooks(Shutdown.java:130)
+	at java.base@17.0.5/java.lang.Shutdown.exit(Shutdown.java:173)
+	-  locked java.lang.Class@d2cc05a
+	at java.base@17.0.5/java.lang.Runtime.exit(Runtime.java:115)
+	at java.base@17.0.5/java.lang.System.exit(System.java:1860)
+	at app//net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoaderKt.exitProcessAndForceHalt(MiraiConsoleTerminalLoader.kt:285)
+	at app//net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoaderKt$initSignalHandler$1$5.invokeSuspend(MiraiConsoleTerminalLoader.kt:244)
+	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"Mirai Console Force Halt Daemon" daemon prio=5 Id=124
+	at java.base@17.0.5/java.lang.Thread.sleep(Native Method)
+	at app//net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoaderKt.exitProcessAndForceHalt$lambda-7(MiraiConsoleTerminalLoader.kt:270)
+	at app//net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoaderKt$$Lambda$515/0x00000008012bca78.run(Unknown Source)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"Mirai Console Shutdown Hook" prio=5 Id=88 on kotlinx.coroutines.BlockingCoroutine@54e12a79
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on kotlinx.coroutines.BlockingCoroutine@54e12a79
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:88)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at app//net.mamoe.mirai.console.MiraiConsoleImplementation$Companion$1.invoke(MiraiConsoleImplementation.kt:464)
+	at app//net.mamoe.mirai.console.MiraiConsoleImplementation$Companion$1.invoke(MiraiConsoleImplementation.kt:462)
+	at app//kotlin.concurrent.ThreadsKt$thread$thread$1.run(Thread.kt:30)
+
+
+
+
+
+2022-10-29 21:16:47 E/main: 
+
+=============================================================
+MIRAI CONSOLE CRASH REPORT.
+Console has take too long to shutdown.
+
+TIME: 1667049407393 <2022-10-29T13:16:47.393Z>
+SYSTEM: Linux amd64 3.10.0-1160.71.1.el7.x86_64
+JRT:
+  Java(TM) SE Runtime Environment  17.0.5
+    by Oracle Corporation
+SPEC:
+  Java Platform API Specification 17
+    by Oracle Corporation
+VM:
+  Java HotSpot(TM) 64-Bit Server VM 17.0.5+9-LTS-191
+    by Oracle Corporation
+
+
+PROCESS Working dir: /root/tohsaka/rin/Rin
+Console Working Dir: /root/tohsaka/rin/Rin
+Loaded plugins:
+|- net.mamoe.mirai-api-http v2.6.2
+|   `- ID: net.mamoe.mirai-api-http
+|   `- AUTHOR: ryoii
+|   `- MAIN: class net.mamoe.mirai.api.http.HttpApiPluginBase
+|   `- FROM: /root/tohsaka/rin/Rin/plugins/mirai-api-http-v2.6.2.mirai2.jar
+|- SuperCourseTimetable v0.4.7
+|   `- ID: me.stageguard.sctimetable
+|   `- MAIN: class me.stageguard.sctimetable.PluginMain
+|   `- FROM: /root/tohsaka/rin/Rin/plugins/SCTimetableBot-0.4.7.mirai.jar
+|- Lolicon v6.0.4
+|   `- ID: io.github.samarium150.mirai.plugin.mirai-console-lolicon
+|   `- AUTHOR: Samarium150
+|   `- MAIN: class io.github.samarium150.mirai.plugin.lolicon.MiraiConsoleLolicon
+|   `- FROM: /root/tohsaka/rin/Rin/plugins/mirai-console-lolicon-6.0.4.mirai2.jar
+|- Chat Command v0.5.0
+|   `- ID: net.mamoe.mirai.console.chat-command
+|   `- MAIN: class net.mamoe.mirai.console.plugins.chat.command.PluginMain
+|   `- FROM: /root/tohsaka/rin/Rin/plugins/chat-command-0.5.1.jar
+|- HRobot v1.0.0
+|   `- ID: com.happysnaker.HRobot
+|   `- AUTHOR: Happysnaker
+|   `- MAIN: class com.happysnaker.Main
+|   `- FROM: /root/tohsaka/rin/Rin/plugins/plugin-3.2.1-SNAPSHOT.mirai.jar
+|- iam.xiaoan.RanImage v1.0-SNAPSHOT
+|   `- ID: iam.xiaoan.RanImage
+|   `- AUTHOR: xiaoan
+|   `- MAIN: class iam.xiaoan.RanImage
+|   `- FROM: /root/tohsaka/rin/Rin/plugins/RanImage-1.0-SNAPSHOT.mirai.jar
+|- MCL Addon v2.0.2
+|   `- ID: org.itxtech.mcl.addon
+|   `- AUTHOR: PeratX
+|   `- MAIN: class org.itxtech.mcl.addon.PluginMain
+|   `- FROM: /root/tohsaka/rin/Rin/plugins/mcl-addon-2.0.2.jar
+
+
+
+PROCESS: 7393@VM-8-17-centos
+VM OPTIONS:
+
+
+THREADS:
+
+
+
+"main" prio=5 Id=1 on kotlinx.coroutines.BlockingCoroutine@408db98
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on kotlinx.coroutines.BlockingCoroutine@408db98
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:88)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at app//net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:346)
+	at app//net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:508)
+	at app//net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:177)
+	at app//net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:176)
+	at app//net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:54)
+	at java.base@17.0.5/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.5/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.5/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.5/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.itxtech.mcl.Utility.bootJars(Utility.java:86)
+	at app//org.itxtech.mcl.Utility.bootJars(Utility.java:76)
+	at app//org.itxtech.mcl.Utility.bootMirai(Utility.java:98)
+	at app//org.itxtech.mcl.module.builtin.Boot.boot(Boot.java:113)
+	at app//org.itxtech.mcl.module.ModuleManager.phaseBoot(ModuleManager.java:123)
+	at app//org.itxtech.mcl.Loader.lambda$start$4(Loader.java:194)
+	at app//org.itxtech.mcl.Loader$$Lambda$258/0x0000000800dc8000.run(Unknown Source)
+	at app//org.itxtech.mcl.Loader.tryCatching(Loader.java:151)
+	at app//org.itxtech.mcl.Loader.start(Loader.java:194)
+	at app//org.itxtech.mcl.Loader.main(Loader.java:84)
+
+
+
+
+"Reference Handler" daemon prio=10 Id=2
+	at java.base@17.0.5/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@17.0.5/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+	at java.base@17.0.5/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+
+
+
+"Finalizer" daemon prio=8 Id=3 on java.lang.ref.ReferenceQueue$Lock@7a72bc21
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@7a72bc21
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@17.0.5/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+
+
+
+"Signal Dispatcher" daemon prio=9 Id=4
+
+
+
+
+"Notification Thread" daemon prio=9 Id=10
+
+
+
+
+"Common-Cleaner" daemon prio=8 Id=11 on java.lang.ref.ReferenceQueue$Lock@7bb0978e
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@7bb0978e
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+	at java.base@17.0.5/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+
+
+
+"HttpClient-2-SelectorManager" daemon prio=5 Id=13 (in native)
+	at java.base@17.0.5/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@17.0.5/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+	-  locked sun.nio.ch.Util$2@41f05b61
+	-  locked sun.nio.ch.EPollSelectorImpl@6c9abb25
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at platform/java.net.http@17.0.5/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:889)
+
+
+
+
+"JLine Input Daemon" daemon prio=5 Id=91 on java.lang.Object@13e94ddf
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.Object@13e94ddf
+	at java.base@17.0.5/java.lang.Object.wait(Object.java:338)
+	at app//net.mamoe.mirai.console.terminal.JLineInputDaemon.run(JLineInputDaemon.kt:63)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"kotlinx.coroutines.DefaultExecutor" daemon prio=5 Id=94 on kotlinx.coroutines.DefaultExecutor@50812790
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on kotlinx.coroutines.DefaultExecutor@50812790
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at app//kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:121)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"Mirai Console Logging#0" daemon prio=5 Id=95 on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@67365130
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@67365130
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"Mirai Console Logging#1" daemon prio=5 Id=96 on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@67365130
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@67365130
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"Mirai Console Logging#2" daemon prio=5 Id=97 on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@67365130
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@67365130
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"DefaultDispatcher-worker-1" daemon prio=5 Id=98
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+
+
+
+"DefaultDispatcher-worker-2" daemon prio=5 Id=99
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+
+
+
+"DefaultDispatcher-worker-3" daemon prio=5 Id=100
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+
+
+
+"DefaultDispatcher-worker-4" daemon prio=5 Id=101
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+
+
+
+"mysql-cj-abandoned-connection-cleanup" daemon prio=5 Id=103 on java.lang.ref.ReferenceQueue$Lock@5e4c8d60
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@5e4c8d60
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"Timer-0" prio=5 Id=104 on java.util.TaskQueue@712b4c3
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@712b4c3
+	at java.base@17.0.5/java.util.TimerThread.mainLoop(Timer.java:563)
+	at java.base@17.0.5/java.util.TimerThread.run(Timer.java:516)
+
+
+
+
+"nioEventLoopGroup-2-1" prio=10 Id=106 (in native)
+	at java.base@17.0.5/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@17.0.5/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@5e76be16
+	-  locked sun.nio.ch.EPollSelectorImpl@b1cdb39
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+	at app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:810)
+	at app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"nioEventLoopGroup-2-2" prio=10 Id=107 (in native)
+	at java.base@17.0.5/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@17.0.5/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@310160b7
+	-  locked sun.nio.ch.EPollSelectorImpl@23a76ef8
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+	at app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:810)
+	at app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"DefaultDispatcher-worker-1" daemon prio=5 Id=108
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+
+
+
+"nioEventLoopGroup-2-3" prio=10 Id=112 (in native)
+	at java.base@17.0.5/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@17.0.5/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@48caf294
+	-  locked sun.nio.ch.EPollSelectorImpl@25622da7
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+	at app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:810)
+	at app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"DefaultDispatcher-worker-3" daemon prio=5 Id=116
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+
+
+
+"nioEventLoopGroup-2-4" prio=10 Id=121 (in native)
+	at java.base@17.0.5/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@17.0.5/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@79498c9
+	-  locked sun.nio.ch.EPollSelectorImpl@18d594fd
+	at java.base@17.0.5/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+	at app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:810)
+	at app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"Mirai Console Signal-Shutdown Daemon #0" daemon prio=9 Id=119 on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2cee8d55
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2cee8d55
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"Mirai Console Signal-Shutdown Daemon #1" daemon prio=9 Id=122 on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2cee8d55
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2cee8d55
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"Mirai Console Signal-Shutdown Daemon #2" daemon prio=5 Id=123 on kotlin.concurrent.ThreadsKt$thread$thread$1@35cabb2a
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	-  waiting on kotlin.concurrent.ThreadsKt$thread$thread$1@35cabb2a
+	at java.base@17.0.5/java.lang.Thread.join(Thread.java:1304)
+	at java.base@17.0.5/java.lang.Thread.join(Thread.java:1372)
+	at java.base@17.0.5/java.lang.ApplicationShutdownHooks.runHooks(ApplicationShutdownHooks.java:107)
+	at java.base@17.0.5/java.lang.ApplicationShutdownHooks$1.run(ApplicationShutdownHooks.java:46)
+	at java.base@17.0.5/java.lang.Shutdown.runHooks(Shutdown.java:130)
+	at java.base@17.0.5/java.lang.Shutdown.exit(Shutdown.java:173)
+	-  locked java.lang.Class@d2cc05a
+	at java.base@17.0.5/java.lang.Runtime.exit(Runtime.java:115)
+	at java.base@17.0.5/java.lang.System.exit(System.java:1860)
+	at app//net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoaderKt.exitProcessAndForceHalt(MiraiConsoleTerminalLoader.kt:285)
+	at app//net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoaderKt$initSignalHandler$1$5.invokeSuspend(MiraiConsoleTerminalLoader.kt:244)
+	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"Mirai Console Force Halt Daemon" daemon prio=5 Id=124
+	at java.management@17.0.5/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@17.0.5/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+	at java.management@17.0.5/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+	at app//net.mamoe.mirai.console.internal.shutdown.ShutdownDaemon$dumpCrashReport$2.a(ShutdownDaemon.kt:189)
+	at app//net.mamoe.mirai.console.internal.shutdown.ShutdownDaemon.dumpCrashReport(ShutdownDaemon.kt:235)
+	at app//net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoaderKt.exitProcessAndForceHalt$lambda-7(MiraiConsoleTerminalLoader.kt:271)
+	at app//net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoaderKt$$Lambda$515/0x00000008012bca78.run(Unknown Source)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+
+"Mirai Console Shutdown Hook" prio=5 Id=88 on kotlinx.coroutines.BlockingCoroutine@54e12a79
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on kotlinx.coroutines.BlockingCoroutine@54e12a79
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:88)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at app//net.mamoe.mirai.console.MiraiConsoleImplementation$Companion$1.invoke(MiraiConsoleImplementation.kt:464)
+	at app//net.mamoe.mirai.console.MiraiConsoleImplementation$Companion$1.invoke(MiraiConsoleImplementation.kt:462)
+	at app//kotlin.concurrent.ThreadsKt$thread$thread$1.run(Thread.kt:30)
+
+
+
+
+
+2022-10-29 21:26:16 I/main: Starting mirai-console...
+2022-10-29 21:26:16 I/main: 
+
+================================[ Mirai consosle 2.13.0-RC2 ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-10-29 21:26:16 I/main: Backend: version 2.13.0-RC2, built on 2022-10-21 01:15:53.
+2022-10-29 21:26:16 I/main: Frontend Terminal: version 2.13.0-RC2, provided by Mamoe Technologies
+2022-10-29 21:26:16 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-10-29 21:26:16 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-10-29 21:26:16 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-10-29 21:26:16 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-10-29 21:26:17 I/plugin: Successfully loaded plugin net.mamoe.mirai-api-http v2.6.2
+2022-10-29 21:26:17 I/plugin: Successfully loaded plugin SuperCourseTimetable v0.4.7
+2022-10-29 21:26:17 I/plugin: Successfully loaded plugin Lolicon v6.0.4
+2022-10-29 21:26:17 I/plugin: Successfully loaded plugin Chat Command v0.5.0
+2022-10-29 21:26:17 I/plugin: Successfully loaded plugin HRobot v1.0.0
+2022-10-29 21:26:17 I/plugin: Successfully loaded plugin iam.xiaoan.RanImage v1.0-SNAPSHOT
+2022-10-29 21:26:17 I/plugin: Successfully loaded plugin MCL Addon v2.0.2
+2022-10-29 21:26:17 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-10-29 21:26:17 W/net.mamoe.mirai-api-http: USING INITIAL KEY, please edit the key
+2022-10-29 21:26:17 I/Mirai HTTP API: ********************************************************
+2022-10-29 21:26:17 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-10-29 21:26:17 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-10-29 21:26:17 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-10-29 21:26:18 E/net.mamoe.mirai-api-http: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine is cancelling; job=LazyStandaloneCoroutine{Cancelling}@37606fee
+kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine is cancelling; job=LazyStandaloneCoroutine{Cancelling}@37606fee
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.ConnectUtilsJvmKt.bind(ConnectUtilsJvm.kt:32)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:46)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:30)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind$default(TcpSocketBuilder.kt:26)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.server.cio.backend.HttpServerKt$httpServer$acceptJob$1.invokeSuspend(HttpServer.kt:46)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2022-10-29 21:26:18 E/MahKtorAdapter[http,ws]: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.ConnectUtilsJvmKt.bind(ConnectUtilsJvm.kt:32)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:46)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:30)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind$default(TcpSocketBuilder.kt:26)
+	at mirai-api-http-v2.6.2.mirai2.jar[shared]//io.ktor.server.cio.backend.HttpServerKt$httpServer$acceptJob$1.invokeSuspend(HttpServer.kt:46)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2022-10-29 21:26:18 I/SuperCourseTimetable: Plugin loaded
+2022-10-29 21:26:18 I/com.zaxxer.hikari.HikariDataSource: SCTimetableDB Pool - Starting...
+2022-10-29 21:26:19 E/com.zaxxer.hikari.pool.HikariPool: SCTimetableDB Pool - Exception during pool initialization.
+2022-10-29 21:26:19 E/SuperCourseTimetable: com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Unknown database 'sctimetabledb'
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Unknown database 'sctimetabledb'
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:596)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:582)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at SCTimetableBot-0.4.7.mirai.jar//me.stageguard.sctimetable.database.Database.hikariDataSourceProvider(Database.kt:85)
+	at SCTimetableBot-0.4.7.mirai.jar//me.stageguard.sctimetable.database.Database.connect(Database.kt:55)
+	at SCTimetableBot-0.4.7.mirai.jar//me.stageguard.sctimetable.PluginMain.onEnable(PluginMain.kt:43)
+	at net.mamoe.mirai.console.internal.plugin.JvmPluginInternal.internalOnEnable$mirai_console(JvmPluginInternal.kt:131)
+	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:279)
+	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:35)
+	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt)
+	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt:50)
+	at net.mamoe.mirai.console.plugin.PluginManager.enablePlugin(PluginManager.kt:173)
+	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.enableAllLoadedPlugins$mirai_console(PluginManagerImpl.kt:175)
+	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:336)
+	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:508)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:177)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:176)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.itxtech.mcl.Utility.bootJars(Utility.java:86)
+	at org.itxtech.mcl.Utility.bootJars(Utility.java:76)
+	at org.itxtech.mcl.Utility.bootMirai(Utility.java:98)
+	at org.itxtech.mcl.module.builtin.Boot.boot(Boot.java:113)
+	at org.itxtech.mcl.module.ModuleManager.phaseBoot(ModuleManager.java:123)
+	at org.itxtech.mcl.Loader.lambda$start$4(Loader.java:194)
+	at org.itxtech.mcl.Loader.tryCatching(Loader.java:151)
+	at org.itxtech.mcl.Loader.start(Loader.java:194)
+	at org.itxtech.mcl.Loader.main(Loader.java:84)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'sctimetabledb'
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453)
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at SCTimetableBot-0.4.7.mirai.jar//com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at SCTimetableBot-0.4.7.mirai.jar//com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	... 30 more
+
+2022-10-29 21:26:19 I/Lolicon: Plugin loaded
+2022-10-29 21:26:19 I/HRobot: 正在初始化机器人配置
+2022-10-29 21:26:19 I/HRobot: 配置初始化完成
+2022-10-29 21:26:19 I/stdout: RobotConfig.customKeyword = {全局关键字=全局关键字回复, #regex#全局正则表达式=回复, 群号=群内关键字: 群内关键字回复, 1109825279={原神=原神怎么你了！, 杰哥=杰哥快教我登dua郎！}}
+2022-10-29 21:26:19 W/HRobot: Linked class org.slf4j.impl.StaticLoggerBinder in SCTimetableBot-0.4.7.mirai.jar but plugin not depend on it.
+2022-10-29 21:26:19 W/HRobot: Class loading logic may change in feature.
+2022-10-29 21:26:19 I/org.reflections.Reflections: Reflections took 88 ms to scan 1 urls, producing 21 keys and 62 values 
+2022-10-29 21:26:19 I/HRobot: HRobot handlers and filters loading finished, total 15 handlers, 3 inspectors.
+2022-10-29 21:26:19 I/stdout: Pattern = true
+2022-10-29 21:26:19 I/stdout:         ,--,                                                    
+2022-10-29 21:26:19 I/stdout:       ,--.'|,-.----.                                    ___     
+2022-10-29 21:26:19 I/stdout:    ,--,  | :\    /  \             ,---,               ,--.'|_   
+2022-10-29 21:26:19 I/stdout: ,---.'|  : ';   :    \   ,---.  ,---.'|      ,---.    |  | :,'  
+2022-10-29 21:26:19 I/stdout: |   | : _' ||   | .\ :  '   ,'\ |   | :     '   ,'\   :  : ' :  
+2022-10-29 21:26:19 I/stdout: :   : |.'  |.   : |: | /   /   |:   : :    /   /   |.;__,'  /   
+2022-10-29 21:26:19 I/stdout: |   ' '  ; :|   |  \ :.   ; ,. ::     |,-..   ; ,. :|  |   |    
+2022-10-29 21:26:19 I/stdout: '   |  .'. ||   : .  /'   | |: :|   : '  |'   | |: ::__,'| :    
+2022-10-29 21:26:19 I/stdout: |   | :  | ';   | |  \'   | .; :|   |  / :'   | .; :  '  : |__  
+2022-10-29 21:26:19 I/stdout: '   : |  : ;|   | ;\  \   :    |'   : |: ||   :    |  |  | '.'| 
+2022-10-29 21:26:19 I/stdout: |   | '  ,/ :   ' | \.'\   \  / |   | '/ : \   \  /   ;  :    ; 
+2022-10-29 21:26:19 I/stdout: ;   : ;--'  :   : :-'   `----'  |   :    |  `----'    |  ,   /  
+2022-10-29 21:26:19 I/stdout: |   ,/      |   |.'             /    \  /              ---`-'       
+2022-10-29 21:26:19 I/stdout: '---'       `---'               `-'----'                            v3.2.1
+2022-10-29 21:26:19 I/HRobot: cron task running...
+2022-10-29 21:26:20 I/stdout: latestVersion = HRobot v3.3
+2022-10-29 21:26:20 I/HRobot: 检测到新版本: HRobot v3.3, 请前往 https://github.com/happysnaker/mirai-plugin-HRobot/releases/tag/3.3 查看详情
+2022-10-29 21:26:20 I/HRobot: 已取消下载
+2022-10-29 21:26:20 I/iam.xiaoan.RanImage: Plugin loaded!
+2022-10-29 21:26:20 I/iam.xiaoan.RanImage: 你好！我是小安！感谢你使用这款随机二次元图片插件！
+2022-10-29 21:26:21 I/MCL Addon: iTXTech MCL Version: 2.1.1-d66fada
+2022-10-29 21:26:21 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用
+2022-10-29 21:26:21 I/main: 5 plugin(s) enabled.
+2022-10-29 21:26:21 I/main: Auto-login 2118654642
+2022-10-29 21:26:21 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-10-29 21:26:22 I/Bot.2118654642: [SliderCaptcha] 需要滑动验证码, 请按照以下链接的步骤完成滑动验证码, 然后输入获取到的 ticket
+2022-10-29 21:26:22 I/Bot.2118654642: [SliderCaptcha] Slider captcha required. Please solve the captcha with following link. Type ticket here after completion.
+2022-10-29 21:26:22 I/Bot.2118654642: [SliderCaptcha] @see https://github.com/project-mirai/mirai-login-solver-selenium
+2022-10-29 21:26:22 I/Bot.2118654642: [SliderCaptcha] @see https://docs.mirai.mamoe.net/mirai-login-solver-selenium/
+2022-10-29 21:26:22 I/Bot.2118654642: [SliderCaptcha] 或者输入 TxCaptchaHelper 来使用 TxCaptchaHelper 完成滑动验证码
+2022-10-29 21:26:22 I/Bot.2118654642: [SliderCaptcha] Or type `TxCaptchaHelper` to resolve slider captcha with TxCaptchaHelper.apk
+2022-10-29 21:26:22 I/Bot.2118654642: [SliderCaptcha] Captcha link: https://ssl.captcha.qq.com/template/wireless_mqq_captcha.html?style=simple&aid=16&uin=2118654642&sid=7917636160164014590&cap_cd=g5SGX0hHhdg_Wm5SinHj_xWu5L8jRpKhjjdAhKTR8r9vQJCjNfnhUQ**&clientype=1&apptype=2
+2022-10-29 21:26:32 I/Bot.2118654642: [SliderCaptcha] @see https://github.com/mzdluo123/TxCaptchaHelper
+2022-10-29 21:26:32 I/Bot.2118654642: Sending request...
+2022-10-29 21:26:38 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:26:44 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:26:50 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:26:56 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:27:02 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:27:08 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:27:14 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:27:20 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:27:26 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:27:32 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:27:38 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:27:44 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:27:50 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:27:56 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:28:02 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:28:08 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:28:14 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:28:20 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:28:26 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:28:32 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:28:35 I/Bot.2118654642: 请在手机端使用请求码3386完成验证，完成后再次发送请求得到ticket
+2022-10-29 21:34:12 E/main: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:309)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2022-10-29 21:34:12 I/Bot.2118654642: Bot cancelled: Bot closed
+2022-10-29 21:34:12 I/main: mirai-console started successfully.
+2022-10-29 21:56:19 I/HRobot: cron task running...
+2022-10-29 21:59:14 I/Bot.2118654642: [SliderCaptcha] 需要滑动验证码, 请按照以下链接的步骤完成滑动验证码, 然后输入获取到的 ticket
+2022-10-29 21:59:14 I/Bot.2118654642: [SliderCaptcha] Slider captcha required. Please solve the captcha with following link. Type ticket here after completion.
+2022-10-29 21:59:14 I/Bot.2118654642: [SliderCaptcha] @see https://github.com/project-mirai/mirai-login-solver-selenium
+2022-10-29 21:59:14 I/Bot.2118654642: [SliderCaptcha] @see https://docs.mirai.mamoe.net/mirai-login-solver-selenium/
+2022-10-29 21:59:14 I/Bot.2118654642: [SliderCaptcha] 或者输入 TxCaptchaHelper 来使用 TxCaptchaHelper 完成滑动验证码
+2022-10-29 21:59:14 I/Bot.2118654642: [SliderCaptcha] Or type `TxCaptchaHelper` to resolve slider captcha with TxCaptchaHelper.apk
+2022-10-29 21:59:14 I/Bot.2118654642: [SliderCaptcha] Captcha link: https://ssl.captcha.qq.com/template/wireless_mqq_captcha.html?style=simple&aid=16&uin=2118654642&sid=3754092621448688050&cap_cd=vihxPGRhvcnL0MeRintHzyhEgeTXkjg_qUwpR8RyXVLPVDkMPlqbUA**&clientype=1&apptype=2
+2022-10-29 21:59:23 I/Bot.2118654642: [SliderCaptcha] @see https://github.com/mzdluo123/TxCaptchaHelper
+2022-10-29 21:59:23 I/Bot.2118654642: Sending request...
+2022-10-29 21:59:28 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:59:34 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:59:40 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:59:46 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:59:52 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 21:59:58 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 22:00:04 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 22:00:10 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 22:00:16 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 22:00:22 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 22:00:24 I/Bot.2118654642: 请在手机端使用请求码6045完成验证，完成后再次发送请求得到ticket
+2022-10-29 22:01:26 I/Bot.2118654642: Bot cancelled: Bot closed
+2022-10-29 22:01:26 E/console: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:309)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2022-10-29 22:09:13 I/Bot.2118654642: [SliderCaptcha] 需要滑动验证码, 请按照以下链接的步骤完成滑动验证码, 然后输入获取到的 ticket
+2022-10-29 22:09:13 I/Bot.2118654642: [SliderCaptcha] Slider captcha required. Please solve the captcha with following link. Type ticket here after completion.
+2022-10-29 22:09:13 I/Bot.2118654642: [SliderCaptcha] @see https://github.com/project-mirai/mirai-login-solver-selenium
+2022-10-29 22:09:13 I/Bot.2118654642: [SliderCaptcha] @see https://docs.mirai.mamoe.net/mirai-login-solver-selenium/
+2022-10-29 22:09:13 I/Bot.2118654642: [SliderCaptcha] 或者输入 TxCaptchaHelper 来使用 TxCaptchaHelper 完成滑动验证码
+2022-10-29 22:09:13 I/Bot.2118654642: [SliderCaptcha] Or type `TxCaptchaHelper` to resolve slider captcha with TxCaptchaHelper.apk
+2022-10-29 22:09:13 I/Bot.2118654642: [SliderCaptcha] Captcha link: https://ssl.captcha.qq.com/template/wireless_mqq_captcha.html?style=simple&aid=16&uin=2118654642&sid=2269419287323948041&cap_cd=r5TaaScquGFyTfzfn74fiQIc6QDdXG47OEIxac6dJctoZ8GYc7dFHg**&clientype=1&apptype=2
+2022-10-29 22:09:14 I/Bot.2118654642: [SliderCaptcha] @see https://github.com/mzdluo123/TxCaptchaHelper
+2022-10-29 22:09:14 I/Bot.2118654642: Sending request...
+2022-10-29 22:09:20 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 22:09:26 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 22:09:32 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 22:09:38 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 22:09:44 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 22:09:50 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 22:09:56 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 22:10:02 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 22:10:08 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 22:10:14 I/Bot.2118654642: java.net.SocketTimeoutException: Connect timed out
+2022-10-29 22:10:16 I/Bot.2118654642: 请在手机端使用请求码603完成验证，完成后再次发送请求得到ticket
+2022-10-29 22:13:49 E/console: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:309)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2022-10-29 22:13:49 I/Bot.2118654642: Bot cancelled: Bot closed

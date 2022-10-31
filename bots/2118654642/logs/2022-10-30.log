@@ -1,0 +1,1321 @@
+[0m2022-10-30 00:32:35 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 00:32:35 V/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-30 00:32:35 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 00:32:36 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 00:32:36 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 00:32:36 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 00:35:08 V/Net 2118654642: Send: wtlogin.login(2:submit-slider)[0m
+[0m2022-10-30 00:35:08 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 00:36:39 I/Net 2118654642: Server time updated, serverTime: 1667061399, diff: 0ms=0.0s[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 00:36:39 I/Net 2118654642: Syncing friend message history...[0m
+[92m2022-10-30 00:36:39 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 00:36:39 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 00:36:39 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2022-10-30 00:36:39 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 00:36:39 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2022-10-30 00:36:39 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[92m2022-10-30 00:36:39 I/Net 2118654642: Online OtherClients: DESKTOP-5V3RPE7(WINDOWS), V1981A(MOBILE)[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 00:36:39 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 00:36:39 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 00:36:39 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 00:36:39 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 00:36:39 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 00:36:39 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 00:36:42 V/Net 2118654642: Server list: 42.81.194.77:80, 183.47.102.213:8080, 157.148.55.96:80, 120.232.69.226:443, 222.94.109.123:14000, 120.232.31.177:8080, msfwifi.3g.qq.com:8080.[0m
+[0m2022-10-30 00:36:42 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 00:36:42 V/Net 2118654642: Saving server list to cache[0m
+[0m2022-10-30 00:36:42 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 00:36:42 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 00:36:43 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 00:36:43 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 00:36:43 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 00:36:57 V/Net 2118654642: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-10-30 00:38:22 V/Net 2118654642: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2022-10-30 00:38:23 V/Net 2118654642: Recv: MessageSvc.PbSendMsg[0m
+[0m2022-10-30 00:51:30 V/Net 2118654642: Recv: MessageSvc.RequestPushStatus[0m
+[0m2022-10-30 00:55:27 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-10-30 00:55:27 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-10-30 00:55:29 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-10-30 00:55:29 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-10-30 00:55:29 V/Net 2118654642: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-10-30 00:55:34 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 00:56:06 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 00:56:06 V/Net 2118654642: Server list: 42.81.194.77:80, 183.47.102.213:8080, 157.148.55.96:80, 120.232.69.226:443, 222.94.109.123:14000, 120.232.31.177:8080, msfwifi.3g.qq.com:8080.[0m
+[92m2022-10-30 00:56:06 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 00:56:06 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 00:56:06 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 00:56:06 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 00:56:06 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 00:56:06 I/Net 2118654642: Server time updated, serverTime: 1667062566, diff: 0ms=0.0s[0m
+[0m2022-10-30 00:56:06 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 00:56:06 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 00:56:06 I/Net 2118654642: Syncing friend message history...[0m
+[92m2022-10-30 00:56:06 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 00:56:06 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 00:56:06 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 00:56:06 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 00:56:06 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2022-10-30 00:56:06 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 00:56:06 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 00:56:06 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-10-30 00:56:06 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 00:56:06 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 00:56:06 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 00:56:07 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[92m2022-10-30 00:56:07 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 00:56:07 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-10-30 00:56:07 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2022-10-30 00:56:07 I/Net 2118654642: Online OtherClients: V1981A(MOBILE)[0m
+[0m2022-10-30 00:56:07 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 00:56:07 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 00:56:07 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 00:56:07 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 00:56:07 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 00:56:07 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 00:56:07 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 00:56:07 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 00:56:07 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 00:56:07 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 00:56:07 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 00:56:07 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 00:56:07 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 00:56:07 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 00:56:07 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 00:56:07 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 00:56:10 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 00:56:10 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 00:56:10 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 00:56:23 V/Net 2118654642: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-10-30 00:58:41 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 00:59:09 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 00:59:09 V/Net 2118654642: Server list: 42.81.194.77:80, 183.47.102.213:8080, 157.148.55.96:80, 120.232.69.226:443, 222.94.109.123:14000, 120.232.31.177:8080, msfwifi.3g.qq.com:8080.[0m
+[92m2022-10-30 00:59:09 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 00:59:10 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 00:59:10 I/Net 2118654642: Server time updated, serverTime: 1667062750, diff: 0ms=0.0s[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 00:59:10 I/Net 2118654642: Syncing friend message history...[0m
+[92m2022-10-30 00:59:10 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2022-10-30 00:59:10 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[92m2022-10-30 00:59:10 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 00:59:10 I/Net 2118654642: Syncing friend message history: Success.[0m
+[92m2022-10-30 00:59:10 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[92m2022-10-30 00:59:10 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 00:59:10 I/Net 2118654642: No OtherClient online.[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 00:59:10 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 00:59:10 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 00:59:10 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 00:59:11 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 00:59:11 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 00:59:11 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 00:59:11 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 00:59:11 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 00:59:13 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 00:59:13 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 00:59:13 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 01:04:43 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Server list: 42.81.194.77:80, 183.47.102.213:8080, 157.148.55.96:80, 120.232.69.226:443, 222.94.109.123:14000, 120.232.31.177:8080, msfwifi.3g.qq.com:8080.[0m
+[92m2022-10-30 01:04:58 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 01:04:58 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 01:04:58 I/Net 2118654642: Server time updated, serverTime: 1667063098, diff: 0ms=0.0s[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 01:04:58 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 01:04:58 I/Net 2118654642: Syncing friend message history...[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-10-30 01:04:58 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2022-10-30 01:04:58 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 01:04:58 I/Net 2118654642: No OtherClient online.[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 01:04:58 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2022-10-30 01:04:58 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 01:04:58 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 01:04:58 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 01:04:58 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[92m2022-10-30 01:04:58 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 01:04:59 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 01:04:59 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 01:04:59 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 01:04:59 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 01:04:59 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 01:04:59 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 01:04:59 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 01:04:59 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 01:04:59 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-10-30 01:04:59 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-10-30 01:05:01 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 01:05:01 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 01:05:01 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 01:08:13 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 01:08:29 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 01:08:29 V/Net 2118654642: Server list: 42.81.194.77:80, 183.47.102.213:8080, 157.148.55.96:80, 120.232.69.226:443, 222.94.109.123:14000, 120.232.31.177:8080, msfwifi.3g.qq.com:8080.[0m
+[92m2022-10-30 01:08:29 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 01:08:30 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 01:08:30 I/Net 2118654642: Server time updated, serverTime: 1667063310, diff: 0ms=0.0s[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 01:08:30 I/Net 2118654642: Syncing friend message history...[0m
+[92m2022-10-30 01:08:30 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-10-30 01:08:30 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2022-10-30 01:08:30 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 01:08:30 I/Net 2118654642: No OtherClient online.[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[92m2022-10-30 01:08:30 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 01:08:30 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 01:08:30 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 01:08:30 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 01:08:30 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 01:08:31 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 01:08:31 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 01:08:31 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 01:08:31 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 01:08:31 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 01:08:31 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-10-30 01:08:31 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 01:08:34 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 01:08:34 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 01:08:34 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 01:13:01 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 01:13:14 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 01:13:14 V/Net 2118654642: Server list: 42.81.194.77:80, 183.47.102.213:8080, 157.148.55.96:80, 120.232.69.226:443, 222.94.109.123:14000, 120.232.31.177:8080, msfwifi.3g.qq.com:8080.[0m
+[92m2022-10-30 01:13:14 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 01:13:14 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 01:13:14 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 01:13:15 I/Net 2118654642: Server time updated, serverTime: 1667063595, diff: 0ms=0.0s[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 01:13:15 I/Net 2118654642: Syncing friend message history...[0m
+[92m2022-10-30 01:13:15 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-10-30 01:13:15 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 01:13:15 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 01:13:15 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 01:13:15 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2022-10-30 01:13:15 I/Net 2118654642: No OtherClient online.[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 01:13:15 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 01:13:15 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[92m2022-10-30 01:13:15 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 01:13:15 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 01:13:15 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 01:13:15 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 01:13:15 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 01:13:18 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 01:13:18 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 01:13:18 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 01:16:52 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 01:17:06 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 01:17:06 V/Net 2118654642: Server list: 42.81.194.77:80, 183.47.102.213:8080, 157.148.55.96:80, 120.232.69.226:443, 222.94.109.123:14000, 120.232.31.177:8080, msfwifi.3g.qq.com:8080.[0m
+[92m2022-10-30 01:17:06 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 01:17:07 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 01:17:07 I/Net 2118654642: Server time updated, serverTime: 1667063827, diff: 0ms=0.0s[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 01:17:07 I/Net 2118654642: Syncing friend message history...[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-10-30 01:17:07 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 01:17:07 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2022-10-30 01:17:07 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 01:17:07 I/Net 2118654642: No OtherClient online.[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 01:17:07 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[92m2022-10-30 01:17:07 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 01:17:07 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 01:17:07 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[92m2022-10-30 01:17:07 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 01:17:07 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 01:17:08 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 01:17:08 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 01:17:08 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 01:17:08 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 01:17:10 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 01:17:10 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 01:17:10 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 01:27:16 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 01:27:30 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 01:27:30 V/Net 2118654642: Server list: 42.81.194.77:80, 183.47.102.213:8080, 157.148.55.96:80, 120.232.69.226:443, 222.94.109.123:14000, 120.232.31.177:8080, msfwifi.3g.qq.com:8080.[0m
+[92m2022-10-30 01:27:30 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 01:27:30 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 01:27:30 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 01:27:31 I/Net 2118654642: Syncing friend message history...[0m
+[92m2022-10-30 01:27:31 I/Net 2118654642: Server time updated, serverTime: 1667064451, diff: 0ms=0.0s[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Recv: StatSvc.register[0m
+[92m2022-10-30 01:27:31 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-10-30 01:27:31 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 01:27:31 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[92m2022-10-30 01:27:31 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[92m2022-10-30 01:27:31 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2022-10-30 01:27:31 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 01:27:31 I/Net 2118654642: No OtherClient online.[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 01:27:31 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 01:27:31 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 01:27:31 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 01:27:31 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 01:27:31 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 01:27:31 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 01:27:34 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 01:27:34 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 01:27:34 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 10:44:07 V/Net 2118654642: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2022-10-30 10:44:07 V/Net 2118654642: Recv: MessageSvc.PbSendMsg[0m
+[0m2022-10-30 10:44:08 V/Net 2118654642: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2022-10-30 10:44:08 V/Net 2118654642: Recv: MessageSvc.PbSendMsg[0m
+[0m2022-10-30 10:44:12 V/Net 2118654642: Send: LongConn.OffPicUp(LongConn.OffPicUp)[0m
+[0m2022-10-30 10:44:13 V/Net 2118654642: Recv: LongConn.OffPicUp[0m
+[0m2022-10-30 10:44:13 V/Net 2118654642: [Highway] Uploading private image to 42.81.178.226:443, size=840.56 KiB[0m
+[0m2022-10-30 10:44:22 V/Net 2118654642: [Highway] Uploading private image: succeed at 90 KiB/s[0m
+[0m2022-10-30 10:44:22 V/Net 2118654642: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2022-10-30 10:44:22 V/Net 2118654642: Recv: MessageSvc.PbSendMsg[0m
+[0m2022-10-30 10:44:22 V/Net 2118654642: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(friend=1679124358, seq=44895, rand=57318517, time=1667097847))[0m
+[0m2022-10-30 10:44:22 V/Net 2118654642: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2022-10-30 11:07:46 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 11:08:03 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 11:08:03 V/Net 2118654642: Server list: 42.81.194.77:80, 183.47.102.213:8080, 157.148.55.96:80, 120.232.69.226:443, 222.94.109.123:14000, 120.232.31.177:8080, msfwifi.3g.qq.com:8080.[0m
+[92m2022-10-30 11:08:03 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 11:08:04 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 11:08:04 I/Net 2118654642: Server time updated, serverTime: 1667099284, diff: 0ms=0.0s[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 11:08:04 I/Net 2118654642: Syncing friend message history...[0m
+[92m2022-10-30 11:08:04 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 11:08:04 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2022-10-30 11:08:04 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 11:08:04 I/Net 2118654642: Syncing friend message history: Success.[0m
+[92m2022-10-30 11:08:04 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[92m2022-10-30 11:08:04 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 11:08:04 I/Net 2118654642: No OtherClient online.[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 11:08:04 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 11:08:04 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 11:08:04 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 11:08:05 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 11:08:05 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 11:08:05 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 11:08:05 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 11:08:07 V/Net 2118654642: Server list: 117.62.243.229:14000, msfwifi.3g.qq.com:8080, 120.232.130.99:443, 123.151.54.91:80, 120.232.31.250:8080, 163.177.30.225:80, 113.96.18.253:8080.[0m
+[0m2022-10-30 11:08:07 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 11:08:07 V/Net 2118654642: Saving server list to cache[0m
+[0m2022-10-30 11:08:07 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 11:08:07 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 11:08:07 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 11:08:07 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 11:08:07 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 11:14:37 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 11:14:49 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 11:14:49 V/Net 2118654642: Server list: 117.62.243.229:14000, msfwifi.3g.qq.com:8080, 120.232.130.99:443, 123.151.54.91:80, 120.232.31.250:8080, 163.177.30.225:80, 113.96.18.253:8080.[0m
+[92m2022-10-30 11:14:49 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 11:14:50 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 11:14:50 I/Net 2118654642: Server time updated, serverTime: 1667099690, diff: 0ms=0.0s[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 11:14:50 I/Net 2118654642: Syncing friend message history...[0m
+[92m2022-10-30 11:14:50 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 11:14:50 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2022-10-30 11:14:50 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 11:14:50 I/Net 2118654642: Syncing friend message history: Success.[0m
+[92m2022-10-30 11:14:50 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[92m2022-10-30 11:14:50 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 11:14:50 I/Net 2118654642: No OtherClient online.[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 11:14:50 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 11:14:50 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 11:14:50 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 11:14:51 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 11:14:51 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 11:14:51 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 11:14:51 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 11:14:51 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 11:14:51 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 11:14:53 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 11:14:53 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 11:14:53 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 11:16:58 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 11:18:01 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 11:18:01 V/Net 2118654642: Server list: 117.62.243.229:14000, msfwifi.3g.qq.com:8080, 120.232.130.99:443, 123.151.54.91:80, 120.232.31.250:8080, 163.177.30.225:80, 113.96.18.253:8080.[0m
+[92m2022-10-30 11:18:01 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 11:18:01 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 11:18:01 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 11:18:01 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[0m2022-10-30 11:18:01 V/Net 2118654642: Recv: wtlogin.login[0m
+[92m2022-10-30 11:18:02 I/Net 2118654642: Server time updated, serverTime: 1667099882, diff: 0ms=0.0s[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 11:18:02 I/Net 2118654642: Syncing friend message history...[0m
+[92m2022-10-30 11:18:02 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-10-30 11:18:02 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2022-10-30 11:18:02 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[92m2022-10-30 11:18:02 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 11:18:02 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 11:18:02 I/Net 2118654642: No OtherClient online.[0m
+[92m2022-10-30 11:18:02 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 11:18:02 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 11:18:02 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 11:18:02 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 11:18:02 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[92m2022-10-30 11:18:02 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 11:18:02 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 11:18:05 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 11:18:05 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 11:18:05 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 11:25:14 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 11:25:29 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 11:25:29 V/Net 2118654642: Server list: 117.62.243.229:14000, msfwifi.3g.qq.com:8080, 120.232.130.99:443, 123.151.54.91:80, 120.232.31.250:8080, 163.177.30.225:80, 113.96.18.253:8080.[0m
+[92m2022-10-30 11:25:29 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 11:25:30 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 11:25:30 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 11:25:30 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 11:25:30 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[0m2022-10-30 11:25:30 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 11:25:30 I/Net 2118654642: Server time updated, serverTime: 1667100330, diff: 0ms=0.0s[0m
+[0m2022-10-30 11:25:30 V/Net 2118654642: Recv: StatSvc.register[0m
+[92m2022-10-30 11:25:30 I/Net 2118654642: Syncing friend message history...[0m
+[92m2022-10-30 11:25:30 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 11:25:30 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-10-30 11:25:30 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 11:25:30 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 11:25:30 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2022-10-30 11:25:30 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 11:25:30 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 11:25:30 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 11:25:30 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 11:25:30 I/Net 2118654642: No OtherClient online.[0m
+[0m2022-10-30 11:25:30 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[0m2022-10-30 11:25:30 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 11:25:30 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 11:25:30 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2022-10-30 11:25:30 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 11:25:30 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 11:25:30 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 11:25:30 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 11:25:30 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 11:25:30 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 11:25:30 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[92m2022-10-30 11:25:31 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 11:25:31 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 11:25:31 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 11:25:31 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 11:25:31 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 11:25:31 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 11:25:31 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 11:25:31 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 11:25:31 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 11:25:31 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 11:25:31 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 11:25:33 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 11:25:33 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 11:25:33 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 11:27:35 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 11:31:17 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 11:31:17 V/Net 2118654642: Server list: 117.62.243.229:14000, msfwifi.3g.qq.com:8080, 120.232.130.99:443, 123.151.54.91:80, 120.232.31.250:8080, 163.177.30.225:80, 113.96.18.253:8080.[0m
+[92m2022-10-30 11:31:17 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 11:31:18 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 11:31:18 I/Net 2118654642: Server time updated, serverTime: 1667100678, diff: 0ms=0.0s[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 11:31:18 I/Net 2118654642: Syncing friend message history...[0m
+[92m2022-10-30 11:31:18 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 11:31:18 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 11:31:18 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 11:31:18 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 11:31:18 I/Net 2118654642: No OtherClient online.[0m
+[92m2022-10-30 11:31:18 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 11:31:18 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 11:31:18 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[92m2022-10-30 11:31:18 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 11:31:18 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 11:31:19 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 11:31:19 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 11:31:19 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 11:31:19 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 11:31:19 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 11:31:19 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 11:31:22 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 11:31:22 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 11:31:22 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 12:51:12 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 12:51:26 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 12:51:26 V/Net 2118654642: Server list: 117.62.243.229:14000, msfwifi.3g.qq.com:8080, 120.232.130.99:443, 123.151.54.91:80, 120.232.31.250:8080, 163.177.30.225:80, 113.96.18.253:8080.[0m
+[92m2022-10-30 12:51:26 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 12:51:27 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 12:51:27 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 12:51:27 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-30 12:51:27 W/Net 2118654642: Exception in resumeConnection.
+net.mamoe.mirai.internal.network.components.LoginFailedExceptionAsNetworkException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:248)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:309)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	... 9 more
+[0m
+[91m2022-10-30 12:51:27 W/Net 2118654642: Network selector received exception, closing bot. (net.mamoe.mirai.internal.network.components.LoginFailedExceptionAsNetworkException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= ))[0m
+[0m2022-10-30 12:53:16 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 12:53:16 V/Net 2118654642: Server list: 117.62.243.229:14000, msfwifi.3g.qq.com:8080, 120.232.130.99:443, 123.151.54.91:80, 120.232.31.250:8080, 163.177.30.225:80, 113.96.18.253:8080.[0m
+[92m2022-10-30 12:53:16 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 12:53:16 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 12:53:16 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 12:53:16 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 12:53:16 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 12:53:17 I/Net 2118654642: Server time updated, serverTime: 1667105597, diff: 0ms=0.0s[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 12:53:17 I/Net 2118654642: Syncing friend message history...[0m
+[92m2022-10-30 12:53:17 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-10-30 12:53:17 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 12:53:17 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[92m2022-10-30 12:53:17 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 12:53:17 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[92m2022-10-30 12:53:17 I/Net 2118654642: Online OtherClients: V1981A(MOBILE)[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 12:53:17 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 12:53:17 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[92m2022-10-30 12:53:17 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 12:53:17 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 12:53:17 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 12:53:17 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 12:53:17 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 12:53:19 V/Net 2118654642: Server list: 120.232.31.177:443, 42.81.183.253:80, 120.232.69.214:8080, 157.148.54.197:80, msfwifi.3g.qq.com:8080, 183.47.102.254:8080, 117.62.242.81:14000.[0m
+[0m2022-10-30 12:53:19 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 12:53:19 V/Net 2118654642: Saving server list to cache[0m
+[0m2022-10-30 12:53:19 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 12:53:19 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 12:53:20 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 12:53:20 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 12:53:20 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 12:53:30 V/Net 2118654642: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-10-30 20:32:41 V/Net 2118654642: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2022-10-30 20:32:41 V/Net 2118654642: Recv: MessageSvc.PbSendMsg[0m
+[0m2022-10-30 20:32:43 V/Net 2118654642: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2022-10-30 20:32:43 V/Net 2118654642: Recv: MessageSvc.PbSendMsg[0m
+[0m2022-10-30 20:32:45 V/Net 2118654642: Send: LongConn.OffPicUp(LongConn.OffPicUp)[0m
+[0m2022-10-30 20:32:45 V/Net 2118654642: Recv: LongConn.OffPicUp[0m
+[0m2022-10-30 20:32:45 V/Net 2118654642: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2022-10-30 20:32:45 V/Net 2118654642: Recv: MessageSvc.PbSendMsg[0m
+[0m2022-10-30 20:32:45 V/Net 2118654642: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(friend=1679124358, seq=12333, rand=1889814657, time=1667133161))[0m
+[0m2022-10-30 20:32:45 V/Net 2118654642: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2022-10-30 21:52:15 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 21:53:27 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 21:53:27 V/Net 2118654642: Server list: 120.232.31.177:443, 42.81.183.253:80, 120.232.69.214:8080, 157.148.54.197:80, msfwifi.3g.qq.com:8080, 183.47.102.254:8080, 117.62.242.81:14000.[0m
+[92m2022-10-30 21:53:27 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 21:53:27 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 21:53:27 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 21:53:27 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 21:53:27 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 21:53:27 I/Net 2118654642: Server time updated, serverTime: 1667138007, diff: 0ms=0.0s[0m
+[0m2022-10-30 21:53:27 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 21:53:27 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 21:53:27 I/Net 2118654642: Syncing friend message history...[0m
+[92m2022-10-30 21:53:27 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 21:53:27 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-10-30 21:53:27 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 21:53:27 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 21:53:27 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2022-10-30 21:53:27 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 21:53:27 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 21:53:27 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 21:53:28 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 21:53:28 I/Net 2118654642: No OtherClient online.[0m
+[0m2022-10-30 21:53:28 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[92m2022-10-30 21:53:28 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 21:53:28 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-10-30 21:53:28 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 21:53:28 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 21:53:28 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 21:53:28 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 21:53:28 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 21:53:28 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 21:53:28 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 21:53:28 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[92m2022-10-30 21:53:28 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 21:53:28 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 21:53:28 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 21:53:28 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 21:53:28 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 21:53:28 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 21:53:28 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 21:53:28 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[0m2022-10-30 21:53:28 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 21:53:28 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 21:53:28 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 21:53:30 V/Net 2118654642: Server list: 157.148.41.102:80, 120.232.27.24:8080, 183.47.102.193:8080, 120.232.31.164:443, msfwifi.3g.qq.com:8080, 58.212.179.115:14000, 42.81.176.211:80.[0m
+[0m2022-10-30 21:53:30 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 21:53:30 V/Net 2118654642: Saving server list to cache[0m
+[0m2022-10-30 21:53:30 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 21:53:30 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 21:53:31 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 21:53:31 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 21:53:31 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 21:54:24 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 21:55:04 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 21:55:04 V/Net 2118654642: Server list: 157.148.41.102:80, 120.232.27.24:8080, 183.47.102.193:8080, 120.232.31.164:443, msfwifi.3g.qq.com:8080, 58.212.179.115:14000, 42.81.176.211:80.[0m
+[92m2022-10-30 21:55:04 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 21:55:04 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 21:55:04 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 21:55:04 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 21:55:04 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 21:55:04 I/Net 2118654642: Server time updated, serverTime: 1667138104, diff: 0ms=0.0s[0m
+[0m2022-10-30 21:55:04 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 21:55:05 I/Net 2118654642: Syncing friend message history...[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-10-30 21:55:05 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 21:55:05 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 21:55:05 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[92m2022-10-30 21:55:05 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 21:55:05 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 21:55:05 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 21:55:05 I/Net 2118654642: No OtherClient online.[0m
+[92m2022-10-30 21:55:05 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 21:55:05 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 21:55:05 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 21:55:05 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 21:55:05 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 21:55:05 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 21:55:08 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 21:55:08 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 21:55:08 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 21:57:23 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 21:57:39 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 21:57:39 V/Net 2118654642: Server list: 157.148.41.102:80, 120.232.27.24:8080, 183.47.102.193:8080, 120.232.31.164:443, msfwifi.3g.qq.com:8080, 58.212.179.115:14000, 42.81.176.211:80.[0m
+[92m2022-10-30 21:57:39 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 21:57:40 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 21:57:40 I/Net 2118654642: Server time updated, serverTime: 1667138260, diff: 0ms=0.0s[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 21:57:40 I/Net 2118654642: Syncing friend message history...[0m
+[92m2022-10-30 21:57:40 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-10-30 21:57:40 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 21:57:40 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 21:57:40 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 21:57:40 I/Net 2118654642: No OtherClient online.[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[92m2022-10-30 21:57:40 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 21:57:40 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 21:57:40 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[92m2022-10-30 21:57:40 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 21:57:40 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 21:57:41 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 21:57:41 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 21:57:41 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 21:57:41 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 21:57:43 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 21:57:43 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 21:57:43 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 22:39:30 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 22:39:46 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 22:39:46 V/Net 2118654642: Server list: 157.148.41.102:80, 120.232.27.24:8080, 183.47.102.193:8080, 120.232.31.164:443, msfwifi.3g.qq.com:8080, 58.212.179.115:14000, 42.81.176.211:80.[0m
+[92m2022-10-30 22:39:46 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 22:39:46 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 22:39:46 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 22:39:46 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 22:39:47 I/Net 2118654642: Server time updated, serverTime: 1667140787, diff: 0ms=0.0s[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 22:39:47 I/Net 2118654642: Syncing friend message history...[0m
+[92m2022-10-30 22:39:47 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 22:39:47 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2022-10-30 22:39:47 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[92m2022-10-30 22:39:47 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 22:39:47 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 22:39:47 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2022-10-30 22:39:47 I/Net 2118654642: No OtherClient online.[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 22:39:47 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 22:39:47 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 22:39:47 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 22:39:47 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 22:39:47 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 22:39:47 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 22:39:50 V/Net 2118654642: Server list: 114.222.113.185:14000, 120.232.31.221:443, 183.47.102.62:8080, msfwifi.3g.qq.com:8080, 157.148.54.140:80, 120.232.196.151:8080, 42.81.194.38:80.[0m
+[0m2022-10-30 22:39:50 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 22:39:50 V/Net 2118654642: Saving server list to cache[0m
+[0m2022-10-30 22:39:50 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 22:39:50 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 22:39:50 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 22:39:50 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 22:39:50 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 22:40:55 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 22:41:28 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 22:41:28 V/Net 2118654642: Server list: 114.222.113.185:14000, 120.232.31.221:443, 183.47.102.62:8080, msfwifi.3g.qq.com:8080, 157.148.54.140:80, 120.232.196.151:8080, 42.81.194.38:80.[0m
+[92m2022-10-30 22:41:28 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 22:41:28 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 22:41:28 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 22:41:29 I/Net 2118654642: Server time updated, serverTime: 1667140889, diff: 0ms=0.0s[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 22:41:29 I/Net 2118654642: Syncing friend message history...[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-10-30 22:41:29 I/Net 2118654642: Start loading friend list...[0m
+[92m2022-10-30 22:41:29 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2022-10-30 22:41:29 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 22:41:29 I/Net 2118654642: No OtherClient online.[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 22:41:29 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[92m2022-10-30 22:41:29 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[92m2022-10-30 22:41:29 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 22:41:29 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 22:41:29 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 22:41:29 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 22:41:29 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 22:41:29 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 22:41:29 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 22:41:32 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 22:41:32 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 22:41:32 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 22:42:03 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 22:42:19 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 22:42:19 V/Net 2118654642: Server list: 114.222.113.185:14000, 120.232.31.221:443, 183.47.102.62:8080, msfwifi.3g.qq.com:8080, 157.148.54.140:80, 120.232.196.151:8080, 42.81.194.38:80.[0m
+[92m2022-10-30 22:42:19 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 22:42:19 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 22:42:19 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 22:42:20 I/Net 2118654642: Server time updated, serverTime: 1667140940, diff: 0ms=0.0s[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 22:42:20 I/Net 2118654642: Syncing friend message history...[0m
+[92m2022-10-30 22:42:20 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 22:42:20 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 22:42:20 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[92m2022-10-30 22:42:20 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 22:42:20 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[92m2022-10-30 22:42:20 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 22:42:20 I/Net 2118654642: No OtherClient online.[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 22:42:20 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 22:42:20 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 22:42:20 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 22:42:20 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 22:42:20 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 22:42:20 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 22:42:23 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 22:42:23 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 22:42:23 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 22:44:29 V/Net 2118654642: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2022-10-30 22:44:29 V/Net 2118654642: Recv: MessageSvc.PbSendMsg[0m
+[0m2022-10-30 22:45:00 V/Net 2118654642: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2022-10-30 22:45:00 V/Net 2118654642: Recv: MessageSvc.PbSendMsg[0m
+[96m2022-10-30 22:45:01 D/Net 2118654642: Unknown Transformers528 0x14 template
+templId=10177
+PermList=[][0m
+[0m2022-10-30 22:50:18 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Server list: 114.222.113.185:14000, 120.232.31.221:443, 183.47.102.62:8080, msfwifi.3g.qq.com:8080, 157.148.54.140:80, 120.232.196.151:8080, 42.81.194.38:80.[0m
+[92m2022-10-30 22:50:34 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 22:50:34 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Recv: wtlogin.login[0m
+[92m2022-10-30 22:50:34 I/Net 2118654642: Server time updated, serverTime: 1667141434, diff: 0ms=0.0s[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 22:50:34 I/Net 2118654642: Syncing friend message history...[0m
+[92m2022-10-30 22:50:34 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-10-30 22:50:34 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2022-10-30 22:50:34 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[92m2022-10-30 22:50:34 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 22:50:34 I/Net 2118654642: No OtherClient online.[0m
+[92m2022-10-30 22:50:34 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 22:50:34 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 22:50:34 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 22:50:34 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[92m2022-10-30 22:50:34 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 22:50:35 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 22:50:35 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 22:50:35 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 22:50:35 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 22:50:35 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 22:50:35 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 22:50:35 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 22:50:35 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 22:50:35 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 22:50:35 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 22:50:37 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 22:50:37 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 22:50:37 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 23:17:24 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Server list: 114.222.113.185:14000, 120.232.31.221:443, 183.47.102.62:8080, msfwifi.3g.qq.com:8080, 157.148.54.140:80, 120.232.196.151:8080, 42.81.194.38:80.[0m
+[92m2022-10-30 23:21:35 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 23:21:35 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 23:21:35 I/Net 2118654642: Server time updated, serverTime: 1667143295, diff: 0ms=0.0s[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 23:21:35 I/Net 2118654642: Syncing friend message history...[0m
+[92m2022-10-30 23:21:35 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-10-30 23:21:35 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2022-10-30 23:21:35 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 23:21:35 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 23:21:35 I/Net 2118654642: No OtherClient online.[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 23:21:35 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[92m2022-10-30 23:21:35 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 23:21:35 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 23:21:35 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 23:21:35 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 23:21:36 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 23:21:36 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 23:21:36 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 23:21:36 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 23:21:36 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 23:21:36 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 23:21:36 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 23:21:36 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 23:21:36 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 23:21:38 V/Net 2118654642: Server list: 120.232.22.229:8080, msfwifi.3g.qq.com:8080, 157.148.54.249:80, 120.232.31.177:443, 183.47.101.173:8080, 42.81.194.77:80, 180.109.52.200:14000.[0m
+[0m2022-10-30 23:21:38 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 23:21:38 V/Net 2118654642: Saving server list to cache[0m
+[0m2022-10-30 23:21:38 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 23:21:38 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 23:21:38 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 23:21:38 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 23:21:38 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 23:22:25 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 23:22:44 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 23:22:44 V/Net 2118654642: Server list: 120.232.22.229:8080, msfwifi.3g.qq.com:8080, 157.148.54.249:80, 120.232.31.177:443, 183.47.101.173:8080, 42.81.194.77:80, 180.109.52.200:14000.[0m
+[92m2022-10-30 23:22:44 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 23:22:45 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 23:22:45 I/Net 2118654642: Server time updated, serverTime: 1667143365, diff: 0ms=0.0s[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 23:22:45 I/Net 2118654642: Syncing friend message history...[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-10-30 23:22:45 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2022-10-30 23:22:45 I/Net 2118654642: Start loading stranger list...[0m
+[92m2022-10-30 23:22:45 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 23:22:45 I/Net 2118654642: Syncing friend message history: Success.[0m
+[92m2022-10-30 23:22:45 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[92m2022-10-30 23:22:45 I/Net 2118654642: No OtherClient online.[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[92m2022-10-30 23:22:45 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 23:22:45 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 23:22:45 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 23:22:45 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 23:22:45 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 23:22:45 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 23:22:45 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 23:22:48 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 23:22:48 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 23:22:48 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 23:24:16 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Server list: 120.232.22.229:8080, msfwifi.3g.qq.com:8080, 157.148.54.249:80, 120.232.31.177:443, 183.47.101.173:8080, 42.81.194.77:80, 180.109.52.200:14000.[0m
+[92m2022-10-30 23:26:14 I/Net 2118654642: ECDH key is valid.[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Recv: wtlogin.exchange_emp[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 23:26:14 I/Net 2118654642: Server time updated, serverTime: 1667143574, diff: 0ms=0.0s[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 23:26:14 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2022-10-30 23:26:14 I/Net 2118654642: Syncing friend message history...[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-10-30 23:26:14 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2022-10-30 23:26:14 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 23:26:14 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[92m2022-10-30 23:26:14 I/Net 2118654642: No OtherClient online.[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[92m2022-10-30 23:26:14 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 23:26:14 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 23:26:14 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[92m2022-10-30 23:26:14 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 23:26:14 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 23:26:14 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 23:26:14 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 23:26:14 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 23:26:17 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 23:26:17 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 23:26:17 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 23:28:56 V/Net 2118654642: Send: StatSvc.register(offline)[0m
+[0m2022-10-30 23:29:09 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 23:29:09 V/Net 2118654642: Server list: 120.232.22.229:8080, msfwifi.3g.qq.com:8080, 157.148.54.249:80, 120.232.31.177:443, 183.47.101.173:8080, 42.81.194.77:80, 180.109.52.200:14000.[0m
+[92m2022-10-30 23:29:09 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 23:29:09 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 23:29:09 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 23:29:09 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-30 23:29:09 W/Net 2118654642: Exception in resumeConnection.
+net.mamoe.mirai.internal.network.components.LoginFailedExceptionAsNetworkException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:248)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:309)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	... 9 more
+[0m
+[91m2022-10-30 23:29:09 W/Net 2118654642: Network selector received exception, closing bot. (net.mamoe.mirai.internal.network.components.LoginFailedExceptionAsNetworkException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= ))[0m
+[0m2022-10-30 23:29:47 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 23:29:47 V/Net 2118654642: Server list: 120.232.22.229:8080, msfwifi.3g.qq.com:8080, 157.148.54.249:80, 120.232.31.177:443, 183.47.101.173:8080, 42.81.194.77:80, 180.109.52.200:14000.[0m
+[92m2022-10-30 23:29:47 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 23:29:47 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 23:29:47 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 23:29:47 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-30 23:29:47 W/Net 2118654642: Exception in resumeConnection.
+net.mamoe.mirai.internal.network.components.LoginFailedExceptionAsNetworkException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:248)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:309)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	... 9 more
+[0m
+[91m2022-10-30 23:29:47 W/Net 2118654642: Network selector received exception, closing bot. (net.mamoe.mirai.internal.network.components.LoginFailedExceptionAsNetworkException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= ))[0m
+[0m2022-10-30 23:30:46 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-30 23:30:46 V/Net 2118654642: Server list: 120.232.22.229:8080, msfwifi.3g.qq.com:8080, 157.148.54.249:80, 120.232.31.177:443, 183.47.101.173:8080, 42.81.194.77:80, 180.109.52.200:14000.[0m
+[92m2022-10-30 23:30:46 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-30 23:30:47 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Send: StatSvc.register(online)[0m
+[92m2022-10-30 23:30:47 I/Net 2118654642: Server time updated, serverTime: 1667143847, diff: 0ms=0.0s[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Recv: StatSvc.register[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Loading BdhSession from cache file[0m
+[92m2022-10-30 23:30:47 I/Net 2118654642: Syncing friend message history...[0m
+[92m2022-10-30 23:30:47 I/Net 2118654642: Start loading friendGroup list...[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-10-30 23:30:47 I/Net 2118654642: Start loading friend list...[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2022-10-30 23:30:47 I/Net 2118654642: Start loading stranger list...[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Recv: OidbSvc.0x496[0m
+[92m2022-10-30 23:30:47 I/Net 2118654642: Start loading group list...[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-10-30 23:30:47 I/Net 2118654642: Successfully loaded stranger list: 0 in total[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-10-30 23:30:47 I/Net 2118654642: Online OtherClients: V1981A(MOBILE)[0m
+[92m2022-10-30 23:30:47 I/Net 2118654642: Syncing friend message history: Success.[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Loading friend list: 5/5[0m
+[92m2022-10-30 23:30:47 I/Net 2118654642: Successfully loaded friend list: 5 in total[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Recv: friendlist.getFriendGroupList[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Loading friendGroup list: 4/4[0m
+[92m2022-10-30 23:30:47 I/Net 2118654642: Successfully loaded friendGroup list: 4 in total[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-10-30 23:30:47 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 23:30:48 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-10-30 23:30:48 V/Net 2118654642: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-10-30 23:30:48 I/Net 2118654642: Successfully loaded group list: 3 in total.[0m
+[92m2022-10-30 23:30:48 I/Net 2118654642: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-10-30 23:30:48 I/Net 2118654642: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-10-30 23:30:50 V/Net 2118654642: Saving bdh session to cache[0m
+[0m2022-10-30 23:30:50 V/Net 2118654642: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-10-30 23:30:50 V/Net 2118654642: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-10-30 23:31:44 V/Net 2118654642: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-10-30 23:31:47 V/Net 2118654642: Recv: OnlinePush.PbC2CMsgSync[0m

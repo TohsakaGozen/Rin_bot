@@ -1,0 +1,419 @@
+[0m2022-10-29 18:52:36 V/Net 2118654642: Loading server list from cache.[0m
+[92m2022-10-29 18:52:36 I/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 18:52:37 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 18:52:37 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 18:52:37 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 18:52:37 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 18:53:29 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 18:53:29 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-29 18:53:29 W/Net 2118654642: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:284)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2022-10-29 18:56:34 V/Net 2118654642: Loading server list from cache.[0m
+[92m2022-10-29 18:56:34 I/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 18:56:36 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 18:56:36 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 18:56:36 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 18:56:36 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 18:56:53 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 18:56:53 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-29 18:56:53 W/Net 2118654642: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:284)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2022-10-29 19:02:43 V/Net 2118654642: Loading server list from cache.[0m
+[92m2022-10-29 19:02:43 I/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 19:02:44 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 19:02:44 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 19:02:45 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 19:02:45 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 19:03:05 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 19:03:05 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-29 19:03:05 W/Net 2118654642: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:284)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2022-10-29 19:14:17 V/Net 2118654642: Loading server list from cache.[0m
+[92m2022-10-29 19:14:17 I/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 19:14:19 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 19:14:19 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 19:14:19 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 19:14:19 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 19:15:02 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 19:15:02 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-29 19:15:02 W/Net 2118654642: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:284)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2022-10-29 19:15:57 V/Net 2118654642: Loading server list from cache.[0m
+[92m2022-10-29 19:15:57 I/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 19:15:57 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 19:15:57 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 19:15:57 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 19:15:57 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 19:16:23 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 19:16:23 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-29 19:16:23 W/Net 2118654642: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:284)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2022-10-29 19:16:47 V/Net 2118654642: Loading server list from cache.[0m
+[92m2022-10-29 19:16:47 I/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 19:16:47 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 19:16:47 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 19:16:47 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 19:16:47 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 19:17:30 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 19:17:30 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-29 19:17:30 W/Net 2118654642: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:284)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2022-10-29 19:17:39 V/Net 2118654642: Loading server list from cache.[0m
+[92m2022-10-29 19:17:39 I/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 19:17:39 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 19:17:39 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 19:17:39 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 19:17:39 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 19:17:57 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 19:17:57 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-29 19:17:57 W/Net 2118654642: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:284)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2022-10-29 20:03:54 V/Net 2118654642: Loading server list from cache.[0m
+[92m2022-10-29 20:03:54 I/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 20:03:55 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 20:03:56 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 20:03:56 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 20:03:56 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 20:04:20 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 20:04:20 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-29 20:04:20 W/Net 2118654642: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:284)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2022-10-29 20:04:55 V/Net 2118654642: Loading server list from cache.[0m
+[92m2022-10-29 20:04:55 I/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 20:04:55 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 20:04:55 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 20:04:55 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 20:04:55 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 20:04:58 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 20:04:58 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 20:05:16 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 20:05:16 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-29 20:05:16 W/Net 2118654642: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:284)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2022-10-29 20:26:26 V/Net 2118654642: Loading server list from cache.[0m
+[92m2022-10-29 20:26:26 I/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 20:26:27 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 20:26:27 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 20:26:27 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 20:26:28 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 20:32:49 V/Net 2118654642: Loading server list from cache.[0m
+[92m2022-10-29 20:32:49 I/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 20:32:50 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 20:32:50 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 20:32:50 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 20:32:51 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 20:32:53 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 20:32:54 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 20:32:59 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 20:32:59 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-29 20:32:59 W/Net 2118654642: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:284)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2022-10-29 20:34:16 V/Net 2118654642: Loading server list from cache.[0m
+[92m2022-10-29 20:34:16 I/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 20:34:17 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 20:34:17 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 20:34:17 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 20:34:18 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 20:37:03 V/Net 2118654642: Loading server list from cache.[0m
+[92m2022-10-29 20:37:03 I/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 20:37:04 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 20:37:04 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 20:37:04 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 20:37:05 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 20:41:14 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 20:41:14 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-29 20:41:14 W/Net 2118654642: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:284)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2022-10-29 20:42:19 V/Net 2118654642: Loading server list from cache.[0m
+[92m2022-10-29 20:42:19 I/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 20:42:20 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 20:42:20 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 20:42:20 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 20:42:20 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 20:48:49 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 20:48:49 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-29 20:48:49 W/Net 2118654642: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=155, title=登录失败, message=你太久没有操作，请重新登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=155, title=登录失败, message=你太久没有操作，请重新登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:284)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2022-10-29 20:49:15 V/Net 2118654642: Loading server list from cache.[0m
+[92m2022-10-29 20:49:15 I/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 20:49:16 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 20:49:16 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 20:49:16 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 20:49:16 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 20:50:00 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 20:50:00 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-29 20:50:00 W/Net 2118654642: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:284)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: org.jline.reader.UserInterruptException
+		at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:702)
+		at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:454)
+		at net.mamoe.mirai.console.terminal.ConsoleInputImpl$requestInput$2$1$1.run(ConsoleInputImpl.kt:45)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[0m2022-10-29 21:03:53 V/Net 2118654642: Loading server list from cache.[0m
+[92m2022-10-29 21:03:53 I/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 21:03:54 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 21:03:54 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 21:03:54 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 21:03:55 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 21:05:08 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 21:05:08 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 21:05:09 V/Net 2118654642: Send: wtlogin.login[0m
+[0m2022-10-29 21:05:09 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-29 21:05:09 W/Net 2118654642: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:284)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2022-10-29 21:09:31 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-29 21:09:31 V/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 21:09:31 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 21:09:31 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 21:09:32 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-29 21:09:32 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 21:26:21 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-29 21:26:21 V/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 21:26:21 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 21:26:21 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 21:26:21 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-29 21:26:22 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 21:34:12 V/Net 2118654642: Send: wtlogin.login(2:submit-slider)[0m
+[0m2022-10-29 21:34:12 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-29 21:34:12 W/Net 2118654642: Exception in resumeConnection.
+net.mamoe.mirai.internal.network.components.LoginFailedExceptionAsNetworkException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:248)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:309)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	... 9 more
+[0m
+[91m2022-10-29 21:34:12 W/Net 2118654642: Network selector received exception, closing bot. (net.mamoe.mirai.internal.network.components.LoginFailedExceptionAsNetworkException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= ))[0m
+[0m2022-10-29 21:59:14 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-29 21:59:14 V/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 21:59:14 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 21:59:14 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 21:59:14 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-29 21:59:14 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 22:01:26 V/Net 2118654642: Send: wtlogin.login(2:submit-slider)[0m
+[0m2022-10-29 22:01:26 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-29 22:01:26 W/Net 2118654642: Exception in resumeConnection.
+net.mamoe.mirai.internal.network.components.LoginFailedExceptionAsNetworkException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:248)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:309)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	... 9 more
+[0m
+[91m2022-10-29 22:01:26 W/Net 2118654642: Network selector received exception, closing bot. (net.mamoe.mirai.internal.network.components.LoginFailedExceptionAsNetworkException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= ))[0m
+[0m2022-10-29 22:09:13 V/Net 2118654642: Loading server list from cache.[0m
+[0m2022-10-29 22:09:13 V/Net 2118654642: Server list: 180.101.246.26:8080, msfwifi.3g.qq.com:8080, 183.47.117.157:14000, 183.47.98.25:8080, 42.81.192.185:443, 114.222.112.90:80, 123.151.54.180:80, 42.81.194.38:8080, 221.238.41.89:443, 183.47.106.14:14000.[0m
+[92m2022-10-29 22:09:13 I/Net 2118654642: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-10-29 22:09:13 I/Net 2118654642: Successfully fetched ecdh public key from server.[0m
+[0m2022-10-29 22:09:13 V/Net 2118654642: Send: wtlogin.login(9:password-login)[0m
+[0m2022-10-29 22:09:13 V/Net 2118654642: Recv: wtlogin.login[0m
+[0m2022-10-29 22:13:49 V/Net 2118654642: Send: wtlogin.login(2:submit-slider)[0m
+[0m2022-10-29 22:13:49 V/Net 2118654642: Recv: wtlogin.login[0m
+[91m2022-10-29 22:13:49 W/Net 2118654642: Exception in resumeConnection.
+net.mamoe.mirai.internal.network.components.LoginFailedExceptionAsNetworkException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:248)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:309)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	... 9 more
+[0m
+[91m2022-10-29 22:13:49 W/Net 2118654642: Network selector received exception, closing bot. (net.mamoe.mirai.internal.network.components.LoginFailedExceptionAsNetworkException: Error(bot=Bot(2118654642), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= ))[0m
